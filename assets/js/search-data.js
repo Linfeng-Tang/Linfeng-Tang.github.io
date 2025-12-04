@@ -429,7 +429,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-paper-accepted-by-neurips-2025-oral",
+          section: "News",},{id: "news-paper-accepted-by-ieee-tpami",
+          title: 'Paper accepted by IEEE TPAMI!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-09-10-tpami/";
+            },},{id: "news-paper-accepted-by-neurips-2025-oral",
           title: 'Paper accepted by NeurIPS 2025 (Oral)!',
           description: "",
           section: "News",handler: () => {
