@@ -430,7 +430,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-18-neurips/";
-            },},{id: "news-best-paper-award-from-journal-of-image-and-graphics",
+            },},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报-2020-2024-优秀论文",
+          title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报 2020-2024 优秀论文！',
+          description: "",
+          section: "News",},{id: "news-best-paper-award-from-journal-of-image-and-graphics",
           title: 'Best Paper Award from Journal of Image and Graphics!',
           description: "",
           section: "News",handler: () => {
