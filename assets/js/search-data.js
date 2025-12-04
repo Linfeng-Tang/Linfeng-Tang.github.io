@@ -429,7 +429,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-paper-accepted-by-ieee-tpami",
+          section: "News",},{id: "news-information-fusion-best-paper-award-2024",
+          title: 'Information Fusion Best Paper Award 2024!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-11-28-best-paper/";
+            },},{id: "news-paper-accepted-by-ieee-tpami",
           title: 'Paper accepted by IEEE TPAMI!',
           description: "",
           section: "News",handler: () => {
