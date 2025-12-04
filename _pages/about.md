@@ -46,4 +46,4 @@ My research interests primarily focus on **Computer Vision** and **Deep Learning
 
 I have published 15+ papers in top-tier conferences and journals, including **NeurIPS, IEEE TPAMI, IJCV, ACM MM**, and **Information Fusion**. My work has been recognized with the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**. I was also listed in the **World's Top 2% Scientists** by Stanford University (2025).
 
-I also serve as a Reviewer for prestigious journals and conferences such as **TPAMI, IJCV, CVPR, AAAI, and ACM MM**. (See full list in [Academic Services](/services/)).
+I also serve as a Reviewer for prestigious journals and conferences such as **IEEE TPAMI/TIP/**TCSVT**/TNNLS/TMM/TII/**JSAC**/JAS, IJCV, InfFus, CVPR, AAAI, and ACM MM. (See full list in [Academic Services](/services/)).**
