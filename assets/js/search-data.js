@@ -404,15 +404,28 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-information-fusion-best-paper-award-2024",
-          title: 'Information Fusion Best Paper Award 2024!',
+            },},{id: "news-our-paper-swinfusion-has-won-the-hsue-shen-tsien-paper-award-2023-ieee-caa-jas-best-paper-award-paper-code",
+          title: 'Our paper “SwinFusion” has won the Hsue-shen Tsien Paper Award 2023 (IEEE/CAA JAS...',
+          description: "",
+          section: "News",},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
+          title: 'Our paper “DRMF” has been accepted by ACM MM 2024! [Paper] [Code]',
+          description: "",
+          section: "News",},{id: "news-high-impact",
+          title: 'High Impact',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-09-01-high-impact/";
+            },},{id: "news-best-paper",
+          title: 'Best Paper',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-11-28-best-paper/";
-            },},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报2024年度优秀论文",
-          title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报2024年度优秀论文！',
+            },},{id: "news-jig-2024",
+          title: 'Jig 2024',
           description: "",
-          section: "News",},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-12-26-jig-2024/";
+            },},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd",
           title: 'We released a large-scale dataset for infrared and visible video fusion: M3SVD.',
           description: "",
           section: "News",},{id: "news-our-paper-c2rf-bridging-multi-modal-image-registration-and-fusion-via-commonality-mining-and-contrastive-learning-has-been-accepted-by-ijcv-paper-code",
@@ -423,8 +436,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-10-tpami/";
-            },},{id: "news-paper-accepted-by-neurips-2025-oral",
-          title: 'Paper accepted by NeurIPS 2025 (Oral)!',
+            },},{id: "news-neurips",
+          title: 'Neurips',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-18-neurips/";
