@@ -1,11 +1,20 @@
 ---
-layout: cv
+layout: page
+title: CV
 permalink: /cv/
-title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+description: # 留空即可，保持简洁
 ---
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <a href="/assets/pdf/cv.pdf" target="_blank" class="btn btn-primary z-depth-1" style="font-size: 1.2rem; padding: 10px 25px;">
+    <i class="fas fa-file-pdf"></i> Download CV (PDF)
+  </a>
+</div>
+
+<div style="width: 100%; height: 1000px;">
+  <embed src="/assets/pdf/cv.pdf" type="application/pdf" width="100%" height="100%">
+    <p>Unable to display PDF file. <a href="/assets/pdf/cv.pdf">Download</a> instead.</p>
+  </embed>
+</div>
