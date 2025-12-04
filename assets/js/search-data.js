@@ -396,12 +396,10 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
           title: 'Our paper “DRMF” has been accepted by ACM MM 2024! [Paper] [Code]',
           description: "",
-          section: "News",},{id: "news-high-impact",
-          title: 'High Impact',
+          section: "News",},{id: "news-我们的综述-基于深度学习的图像融合方法综述-入选-空天信息科技期刊高影响力论文-全国共14篇",
+          title: '我们的综述《基于深度学习的图像融合方法综述》入选 空天信息科技期刊高影响力论文 (全国共14篇)！',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-09-01-high-impact/";
-            },},{id: "news-our-paper-seafusion-won-the-information-fusion-best-paper-award-2024-paper",
+          section: "News",},{id: "news-our-paper-seafusion-won-the-information-fusion-best-paper-award-2024-paper",
           title: 'Our paper “SeAFusion” won the Information Fusion Best Paper Award 2024! [Paper]',
           description: "",
           section: "News",},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报2024年度优秀论文-官方报道",
