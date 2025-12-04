@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # false: rectangular, true: crop to circle
   more_info: >
-    <p>School of Robotics</p>
+    <p><a href='https://robotics.whu.edu.cn/'>School of Robotics</a> </p>
     <p>Wuhan University</p>
     <p>Wuhan, 430072, China</p>
 
