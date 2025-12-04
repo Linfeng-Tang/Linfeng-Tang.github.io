@@ -411,12 +411,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-tsien-award",
-          title: 'Tsien Award',
+            },},{id: "news-our-paper-swinfusion-won-the-hsue-shen-tsien-paper-award-2023-paper",
+          title: 'Our paper “SwinFusion” won the Hsue-shen Tsien Paper Award 2023! [Paper]',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2023-11-01-tsien-award/";
-            },},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
+          section: "News",},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
           title: 'Our paper “DRMF” has been accepted by ACM MM 2024! [Paper] [Code]',
           description: "",
           section: "News",},{id: "news-high-impact",
@@ -439,12 +437,10 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-mask-difuser-accepted-by-ieee-tpami-paper",
           title: 'Our paper “Mask-DiFuser” accepted by IEEE TPAMI! [Paper]',
           description: "",
-          section: "News",},{id: "news-neurips",
-          title: 'Neurips',
+          section: "News",},{id: "news-our-paper-controlfusion-accepted-by-neurips-2025-oral-paper",
+          title: 'Our paper “ControlFusion” accepted by NeurIPS 2025 (Oral)! [Paper]',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-09-18-neurips/";
-            },},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报-2020-2024-优秀论文",
+          section: "News",},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报-2020-2024-优秀论文",
           title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报 2020-2024 优秀论文！',
           description: "",
           section: "News",},{id: "projects-project-1",
