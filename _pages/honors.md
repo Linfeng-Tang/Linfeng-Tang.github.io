@@ -23,7 +23,7 @@ nav_order: 2
 * **Outstanding Reviewer**, *Image and Vision Computing*, 2025.
 * **Outstanding Reviewer**, *Information Fusion*, 2024.
 * **Excellent Paper Award (2020-2024)**, *Journal of Image and Graphics*, 2023.
-* **Excellent Outcome Report**, Academic Forum of China Image and Graphics Journal, 2023.
+* **Excellent Outcome Report**, Academic Forum of Journal of Image and Graphics, 2023.
 
 ### University Honors
 
