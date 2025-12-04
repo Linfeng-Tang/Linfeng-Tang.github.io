@@ -2,31 +2,63 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Student</a>. Wuhan University.
+subtitle: <a href='#'>Postdoctoral Researcher</a> at Wuhan University.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # 如果想要圆头像，改成 true
-  address: >
-    School of Electronic Information<br>
-    Wuhan University<br>
-    Wuhan, China
+  image_circular: false # false: rectangular, true: crop to circle
+  more_info: >
+    <p>School of Robotics</p>
+    <p>Wuhan University</p>
+    <p>Wuhan, 430072, China</p>
 
-news: true  # 开启新闻版块（会自动读取 _news 文件夹下的内容）
-selected_papers: true # 开启精选论文版块（会自动读取 papers.bib 里标记为 selected=true 的论文）
-social: true  # 开启社交图标（读取 _config.yml 里的设置）
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Hi, I am **Linfeng Tang** (唐霖峰)!
+Hi, I am **Linfeng Tang** (唐霖峰).
 
-I am currently a PhD student at the School of Electronic Information, **Wuhan University**.
+I am currently a **Postdoctoral Researcher** at the **School of Robotics**, **Wuhan University**, working with Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). 
 
-My research interests primarily focus on Computer Vision and Deep Learning, specifically:
-- **Information Fusion** (Multi-modal Image Fusion, Video Fusion)
-- **Image Enhancement** (Low-light Enhancement, Restoration)
-- **Visual-Semantic Understanding**
+I received my Ph.D. degree from the School of Electronic Information, Wuhan University in **December 2025**, advised by Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). Prior to that, I obtained my B.E. degree from Central South University in 2020.
 
-I have published several papers in top-tier conferences and journals such as **NeurIPS, TPAMI, IJCV, ACM MM, and Information Fusion**.
+My research interests primarily focus on **Computer Vision** and **Deep Learning**, with a specific emphasis on:
+* **Information Fusion** (Multi-modal Image Fusion, Video Fusion)
+* **Image Enhancement** (Low-light Enhancement, Restoration)
+* **Visual-Semantic Understanding**
 
-If you are interested in collaboration or have any questions about my research, please feel free to contact me via email.
+I have published 15+ papers in top-tier conferences and journals, including **NeurIPS, IEEE TPAMI, IJCV, ACM MM**, and **Information Fusion**. My work has been recognized with the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**. I was also listed in the **World's Top 2% Scientists** by Stanford University (2025).
+
+### Academic Services
+
+I have served as a Reviewer for the following prestigious journals and conferences:
+
+* **Journals:**
+    * IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)
+    * International Journal of Computer Vision (**IJCV**)
+    * IEEE Transactions on Image Processing (**TIP**)
+    * IEEE Transactions on Multimedia (**TMM**)
+    * IEEE Transactions on Neural Networks and Learning Systems (**TNNLS**)
+    * IEEE Transactions on Industrial Informatics (**TII**)
+    * IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)
+    * Information Fusion (**Outstanding Reviewer**)
+    * Image and Vision Computing (**Outstanding Reviewer**)
+    * IEEE/CAA Journal of Automatica Sinica (**JAS**)
+    * IEEE Journal on Selected Areas in Communications (**JSAC**)
+
+* **Conferences:**
+    * IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
+    * IEEE/CVF International Conference on Computer Vision (**ICCV**)
+    * Advances in Neural Information Processing Systems (**NeurIPS**)
+    * ACM International Conference on Multimedia (**ACM MM**)
