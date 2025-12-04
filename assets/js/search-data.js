@@ -404,23 +404,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-information-fusion-best-paper-award-2024",
+            },},{id: "news-information-fusion-best-paper-award-2024",
           title: 'Information Fusion Best Paper Award 2024!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-11-28-best-paper/";
-            },},{id: "news-paper-accepted-by-ieee-tpami",
+            },},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报2024年度优秀论文",
+          title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报2024年度优秀论文！',
+          description: "",
+          section: "News",},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd",
+          title: 'We released a large-scale dataset for infrared and visible video fusion: M3SVD.',
+          description: "",
+          section: "News",},{id: "news-our-paper-c2rf-bridging-multi-modal-image-registration-and-fusion-via-commonality-mining-and-contrastive-learning-has-been-accepted-by-ijcv-paper-code",
+          title: 'Our paper “C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and...',
+          description: "",
+          section: "News",},{id: "news-paper-accepted-by-ieee-tpami",
           title: 'Paper accepted by IEEE TPAMI!',
           description: "",
           section: "News",handler: () => {
@@ -433,12 +431,7 @@ ninja.data = [{
             },},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报-2020-2024-优秀论文",
           title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报 2020-2024 优秀论文！',
           description: "",
-          section: "News",},{id: "news-best-paper-award-from-journal-of-image-and-graphics",
-          title: 'Best Paper Award from Journal of Image and Graphics!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-12-26-review-award/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
