@@ -6,20 +6,21 @@ title: Linfeng Tang # 你的名字
 first_name: Linfeng
 middle_name:
 last_name: Tang
+email: linfeng0419@gmail.com # 【新增】根据简历添加，方便联系
 contact_note: >
-  I am open to academic collaborations and discussions on Computer Vision and Image Fusion.
+  I am a PhD student at Wuhan University. I am open to academic collaborations and discussions on <b>Image Fusion, Image Enhancement, and Visual-Semantic Understanding</b>.
 description: >
-  PhD Student at Wuhan University | Research: Information Fusion, Image Enhancement, Deep Learning.
+  PhD Student at Wuhan University | Research: Multi-modal Image Fusion, Low-light Enhancement, Deep Learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: computer-vision, image-fusion, deep-learning, artificial-intelligence, wuhan-university # 你的关键词
+keywords: computer-vision, image-fusion, deep-learning, image-enhancement, multi-modal-learning, wuhan-university # 优化关键词
 lang: en
 icon: ⚛️
 
 url: https://Linfeng-Tang.github.io # 【关键】你的主页地址
 baseurl: "" # 【关键】必须留空，因为你是根域名仓库
-last_updated: true # 开启这个，显示最后更新时间，显得你很活跃
+last_updated: true # 开启这个，显示最后更新时间
 impressum_path:
 back_to_top: true
 
@@ -56,7 +57,6 @@ og_image:
 # -----------------------------------------------------------------------------
 # Analytics
 # -----------------------------------------------------------------------------
-# 如果你之后申请了 Google Analytics ID，填在这里，否则留空
 google_analytics:
 cronitor_analytics:
 pirsch_analytics:
@@ -82,12 +82,11 @@ related_blog_posts:
 # -----------------------------------------------------------------------------
 # Comments (Giscus)
 # -----------------------------------------------------------------------------
-# 如果你想开启评论功能，需要去 giscus.app 配置并安装 app，然后把生成的 repo_id 填入下面
 giscus:
-  repo: Linfeng-Tang/Linfeng-Tang.github.io
-  repo_id: # 留空，直到你获取到 ID
+  repo: Linfeng-Tang/Linfeng-Tang.github.io # 【关键】设置你的评论仓库
+  repo_id: # 首次运行评论区时会自动生成，暂时留空即可，或者填入你获取到的ID
   category: Comments
-  category_id: # 留空，直到你获取到 ID
+  category_id: # 同上
   mapping: title
   strict: 1
   reactions_enabled: 1
@@ -208,8 +207,8 @@ display_categories: ["research"]
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Tang] # 【关键】这里设置你的姓，用于自动加粗
-  first_name: [Linfeng, L.] # 【关键】这里设置你的名
+  last_name: [Tang] # 【关键】你的姓
+  first_name: [Linfeng, L.] # 【关键】你的名，用于列表自动加粗
 
   style: apa
   locale: en
@@ -232,7 +231,7 @@ scholar:
 enable_publication_badges:
   altmetric: true
   dimensions: true
-  google_scholar: true
+  google_scholar: true # 开启谷歌学术徽章
   inspirehep: true
 
 filtered_bibtex_keywords:
@@ -286,17 +285,17 @@ enable_openpanel_analytics: false
 enable_google_verification: false
 enable_bing_verification: false
 enable_masonry: true
-enable_math: true # 开启数学公式支持
+enable_math: true
 enable_tooltips: false
 enable_darkmode: true
 enable_navbar_social: false
 enable_project_categories: true
 enable_medium_zoom: true
 enable_progressbar: true
-enable_video_embedding: true # 开启视频嵌入，方便你展示Demo
+enable_video_embedding: true
 
 # -----------------------------------------------------------------------------
-# Library versions (保持默认即可)
+# Library versions (保持默认)
 # -----------------------------------------------------------------------------
 third_party_libraries:
   download: false
