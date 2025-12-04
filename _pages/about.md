@@ -13,7 +13,7 @@ profile:
     <p><a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a></p>
     <p>Wuhan, 430072, China</p>
 
-selected_papers: false # 保持为 false，以便在下方手动调整位置
+selected_papers: true # 【恢复】改回 true，论文会自动在页面最底部漂亮的显示
 social: true
 
 announcements:
@@ -29,7 +29,7 @@ latest_posts:
 
 <style>
 .profile {
-    max-width: 20% !important;
+    max-width: 18% !important;
 }
 </style>
 
@@ -46,30 +46,4 @@ My research interests primarily focus on **Computer Vision** and **Deep Learning
 
 I have published 15+ papers in top-tier conferences and journals, including **NeurIPS, IEEE TPAMI, IJCV, ACM MM**, and **Information Fusion**. My work has been recognized with the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**. I was also listed in the **World's Top 2% Scientists** by Stanford University (2025).
 
-### Selected Publications
-
-{% bibliography --group_by none --query @*[selected=true] %}
-
----
-
-### Academic Services
-
-I have served as a Reviewer for the following prestigious journals and conferences:
-
-* **Journals:**
-    * IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**)
-    * International Journal of Computer Vision (**IJCV**)
-    * IEEE Transactions on Image Processing (**IEEE TIP**)
-    * IEEE Transactions on Multimedia (**IEEE TMM**)
-    * IEEE Transactions on Neural Networks and Learning Systems (**IEEE TNNLS**)
-    * IEEE Transactions on Industrial Informatics (**IEEE TII**)
-    * IEEE Transactions on Circuits and Systems for Video Technology (**IEEE TCSVT**)
-    * Information Fusion (**Outstanding Reviewer**)
-    * Image and Vision Computing (**Outstanding Reviewer**)
-    * IEEE/CAA Journal of Automatica Sinica (**IEEE/CAA JAS**)
-    * IEEE Journal on Selected Areas in Communications (**IEEE JSAC**)
-
-* **Conferences:**
-    * IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
-    * Association for the Advancement of Artificial Intelligence (**AAAI**)
-    * ACM International Conference on Multimedia (**ACM MM**)
+I also serve as a Reviewer for prestigious journals and conferences such as **TPAMI, IJCV, CVPR, AAAI, and NeurIPS**. (See full list in [Academic Services](/services/)).
