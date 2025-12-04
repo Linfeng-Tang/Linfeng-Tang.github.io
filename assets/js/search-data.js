@@ -390,8 +390,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-swinfusion-won-the-hsue-shen-tsien-paper-award-2023-paper",
-          title: 'Our paper “SwinFusion” won the Hsue-shen Tsien Paper Award 2023! [Paper]',
+            },},{id: "news-our-paper-swinfusion-won-the-hsue-shen-tsien-paper-award-2023-paper-code",
+          title: 'Our paper “SwinFusion” won the Hsue-shen Tsien Paper Award 2023! [Paper][Code]',
           description: "",
           section: "News",},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
           title: 'Our paper “DRMF” has been accepted by ACM MM 2024! [Paper] [Code]',
