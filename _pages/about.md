@@ -45,20 +45,19 @@ I have published 15+ papers in top-tier conferences and journals, including **Ne
 I have served as a Reviewer for the following prestigious journals and conferences:
 
 * **Journals:**
-    * IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)
+    * IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**)
     * International Journal of Computer Vision (**IJCV**)
-    * IEEE Transactions on Image Processing (**TIP**)
-    * IEEE Transactions on Multimedia (**TMM**)
-    * IEEE Transactions on Neural Networks and Learning Systems (**TNNLS**)
-    * IEEE Transactions on Industrial Informatics (**TII**)
-    * IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)
+    * IEEE Transactions on Image Processing (**IEEE TIP**)
+    * IEEE Transactions on Multimedia (**IEEE TMM**)
+    * IEEE Transactions on Neural Networks and Learning Systems (**IEEE TNNLS**)
+    * IEEE Transactions on Industrial Informatics (**IEEE TII**)
+    * IEEE Transactions on Circuits and Systems for Video Technology (**IEEE TCSVT**)
     * Information Fusion (**Outstanding Reviewer**)
     * Image and Vision Computing (**Outstanding Reviewer**)
-    * IEEE/CAA Journal of Automatica Sinica (**JAS**)
-    * IEEE Journal on Selected Areas in Communications (**JSAC**)
+    * IEEE/CAA Journal of Automatica Sinica (**IEEE/CAA JAS**)
+    * IEEE Journal on Selected Areas in Communications (**IEEE JSAC**)
 
 * **Conferences:**
     * IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
-    * IEEE/CVF International Conference on Computer Vision (**ICCV**)
-    * Advances in Neural Information Processing Systems (**NeurIPS**)
+    * Association for the Advancement of Artificial Intelligence (**AAAI**)
     * ACM International Conference on Multimedia (**ACM MM**)
