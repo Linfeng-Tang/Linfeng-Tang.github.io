@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Postdoctoral Researcher</a> at Wuhan University.
 
@@ -26,7 +26,6 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-
 <style>
 .profile {
     max-width: 18% !important;
@@ -35,11 +34,12 @@ latest_posts:
 
 Hi, I am [**Linfeng Tang**](https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN) (唐霖峰).
 
-I am currently a **Postdoctoral Researcher** at the **School of Robotics**, **Wuhan University**, working with Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). 
+I am currently a **Postdoctoral Researcher** at the **School of Robotics**, **Wuhan University**, working with Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN).
 
 I received my Ph.D. degree from the School of Electronic Information, Wuhan University in **December 2025**, advised by Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). Prior to that, I obtained my B.E. degree from Central South University in 2020.
 
 My research interests primarily focus on **Computer Vision** and **Deep Learning**, with a specific emphasis on:
+
 * **Information Fusion** (Multi-modal Image Fusion, Video Fusion)
 * **Image Enhancement** (Low-light Enhancement, Restoration)
 * **Visual-Semantic Understanding**
