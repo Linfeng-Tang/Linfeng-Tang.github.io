@@ -424,28 +424,22 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-09-01-high-impact/";
-            },},{id: "news-best-paper",
-          title: 'Best Paper',
+            },},{id: "news-our-paper-seafusion-won-the-information-fusion-best-paper-award-2024-paper",
+          title: 'Our paper “SeAFusion” won the Information Fusion Best Paper Award 2024! [Paper]',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-11-28-best-paper/";
-            },},{id: "news-jig-2024",
-          title: 'Jig 2024',
+          section: "News",},{id: "news-我们的综述-基于深度学习的图像融合方法综述-荣获-中国图象图形学报2024年度优秀论文-官方报道",
+          title: '我们的综述《基于深度学习的图像融合方法综述》荣获 中国图象图形学报2024年度优秀论文！ [官方报道]',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-12-26-jig-2024/";
-            },},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd-multi-modal-multi-scene-video-dataset-dataset",
+          section: "News",},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd-multi-modal-multi-scene-video-dataset-dataset",
           title: 'We released a large-scale dataset for infrared and visible video fusion: M3SVD (Multi-Modal...',
           description: "",
           section: "News",},{id: "news-our-paper-c2rf-bridging-multi-modal-image-registration-and-fusion-via-commonality-mining-and-contrastive-learning-has-been-accepted-by-ijcv-paper-code",
           title: 'Our paper “C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and...',
           description: "",
-          section: "News",},{id: "news-tpami",
-          title: 'Tpami',
+          section: "News",},{id: "news-our-paper-mask-difuser-accepted-by-ieee-tpami-paper",
+          title: 'Our paper “Mask-DiFuser” accepted by IEEE TPAMI! [Paper]',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-09-10-tpami/";
-            },},{id: "news-neurips",
+          section: "News",},{id: "news-neurips",
           title: 'Neurips',
           description: "",
           section: "News",handler: () => {
