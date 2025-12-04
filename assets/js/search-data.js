@@ -404,10 +404,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-swinfusion-has-won-the-hsue-shen-tsien-paper-award-2023-ieee-caa-jas-best-paper-award-paper-code",
-          title: 'Our paper “SwinFusion” has won the Hsue-shen Tsien Paper Award 2023 (IEEE/CAA JAS...',
+            },},{id: "news-tsien-award",
+          title: 'Tsien Award',
           description: "",
-          section: "News",},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-11-01-tsien-award/";
+            },},{id: "news-our-paper-drmf-has-been-accepted-by-acm-mm-2024-paper-code",
           title: 'Our paper “DRMF” has been accepted by ACM MM 2024! [Paper] [Code]',
           description: "",
           section: "News",},{id: "news-high-impact",
@@ -431,8 +433,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-c2rf-bridging-multi-modal-image-registration-and-fusion-via-commonality-mining-and-contrastive-learning-has-been-accepted-by-ijcv-paper-code",
           title: 'Our paper “C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and...',
           description: "",
-          section: "News",},{id: "news-paper-accepted-by-ieee-tpami",
-          title: 'Paper accepted by IEEE TPAMI!',
+          section: "News",},{id: "news-tpami",
+          title: 'Tpami',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-10-tpami/";
