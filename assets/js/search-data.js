@@ -427,8 +427,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-12-26-jig-2024/";
-            },},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd",
-          title: 'We released a large-scale dataset for infrared and visible video fusion: M3SVD.',
+            },},{id: "news-we-released-a-large-scale-dataset-for-infrared-and-visible-video-fusion-m3svd-multi-modal-multi-scene-video-dataset-dataset",
+          title: 'We released a large-scale dataset for infrared and visible video fusion: M3SVD (Multi-Modal...',
           description: "",
           section: "News",},{id: "news-our-paper-c2rf-bridging-multi-modal-image-registration-and-fusion-via-commonality-mining-and-contrastive-learning-has-been-accepted-by-ijcv-paper-code",
           title: 'Our paper “C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and...',
