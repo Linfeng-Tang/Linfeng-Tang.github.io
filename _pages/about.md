@@ -7,19 +7,19 @@ subtitle: <a href='#'>Postdoctoral Researcher</a> at Wuhan University.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # false: rectangular, true: crop to circle
+  image_circular: false
   more_info: >
-    <p><a href='https://robotics.whu.edu.cn/'>School of Robotics</a> </p>
-    <p>Wuhan University</p>
+    <p><a href="https://robotics.whu.edu.cn/" target="_blank">School of Robotics</a></p>
+    <p><a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a></p>
     <p>Wuhan, 430072, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # 保持为 false，以便在下方手动调整位置
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
@@ -27,7 +27,13 @@ latest_posts:
   limit: 3
 ---
 
-Hi, I am **Linfeng Tang** (唐霖峰).
+<style>
+.profile {
+    max-width: 25% !important;
+}
+</style>
+
+Hi, I am [**Linfeng Tang**](https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN) (唐霖峰).
 
 I am currently a **Postdoctoral Researcher** at the **School of Robotics**, **Wuhan University**, working with Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). 
 
@@ -39,6 +45,12 @@ My research interests primarily focus on **Computer Vision** and **Deep Learning
 * **Visual-Semantic Understanding**
 
 I have published 15+ papers in top-tier conferences and journals, including **NeurIPS, IEEE TPAMI, IJCV, ACM MM**, and **Information Fusion**. My work has been recognized with the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**. I was also listed in the **World's Top 2% Scientists** by Stanford University (2025).
+
+### Selected Publications
+
+{% bibliography --group_by none --query @*[selected=true] %}
+
+---
 
 ### Academic Services
 
