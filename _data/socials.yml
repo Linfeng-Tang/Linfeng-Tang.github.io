@@ -1,58 +1,51 @@
-# this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
+# -----------------------------------------------------------------------------
+# Social Icons Data
+# -----------------------------------------------------------------------------
 
-# academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
-#  username:  AlbertEinstein # your username
-# acm_id: # your dl.acm.org/profile/id
-# arxiv_id: # your arXiv author ID
-# blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-# dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: you@example.com # your email address
-# facebook_id: # your facebook id
-# flickr_id: # your flickr id
-# github_username: # your GitHub user name
-# gitlab_username: # your GitLab user name
-# hal_id: # your HAL id (https://hal.science/)
-# ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
-# instagram_id: # your instagram id
-# kaggle_id: # your kaggle id
-# keybase_username: # your keybase user name
-# lastfm_id: # your lastfm id
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-# leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# medium_username: # your Medium username
-# orcid_id: # your ORCID ID
-# osf_id: # your OSF ID
-# pinterest_id: # your pinterest id
-# publons_id: # your ID on Publons
-# quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
-# spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
-# strava_userid: # your strava user id
-# telegram_username: # your Telegram user name
-# unsplash_id: # your unsplash id
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-# zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# 您的 Email
+email: linfeng0419@gmail.com
+
+# 您的 GitHub
+github_username: Linfeng-Tang
+
+# 您的 Google Scholar (已替换为您 config 中的正确 ID)
+scholar_userid: PyRqpAsAAAAJ
+
+# 您的 ResearchGate
+research_gate_profile: Tang-Linfeng-2
+
+# 您的微信二维码
+# 注意：这里只填文件名，不要填 "assets/img/..."
+# 请确保您已上传图片到 assets/img/wechat_qr.png
+wechat_qr: wechat_qr.png
+
+# -----------------------------------------------------------------------------
+# 下面是被隐藏或注释掉的选项（需要时去掉前面的 # 即可启用）
+# -----------------------------------------------------------------------------
+
+# CV 简历 (您删除了 example_pdf，所以这里注释掉，图标就不会显示了)
+cv_pdf: /assets/pdf/cv_pdf.pdf
+
+# RSS 订阅图标 (注释掉以隐藏)
+# rss_icon: true
+
+# 其他未使用的平台 (保持注释)
+# academia_edu:
+# acm_id:
+# arxiv_id:
+# dblp_url:
+# linkedin_username: 
+# orcid_id: 
+# twitter_username: 
+
+# -----------------------------------------------------------------------------
+# 自定义链接 (用于添加 知乎 等模板里没有的平台)
+# -----------------------------------------------------------------------------
+
+# 知乎 (Zhihu)
+# 注意：由于 al-folio 默认没有知乎图标，这里使用通用方式添加。
+# 如果显示不出图标，您可能需要找一个 zhihu.svg 上传到 assets/img/ 并在下方 logo 处引用
+custom_social_zhihu:
+  logo: https://unpkg.com/simple-icons@v13/icons/zhihu.svg # 使用在线图标，或者填 assets/img/zhihu.svg
+  title: Zhihu
+  url: https://www.zhihu.com/people/timer-69
