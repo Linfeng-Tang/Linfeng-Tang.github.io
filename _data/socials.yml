@@ -24,7 +24,7 @@ wechat_qr: wechat_qr.png
 # -----------------------------------------------------------------------------
 
 # CV 简历 (您删除了 example_pdf，所以这里注释掉，图标就不会显示了)
-cv_pdf: /assets/pdf/cv.pdf
+cv_pdf: cv.pdf
 
 # RSS 订阅图标 (注释掉以隐藏)
 # rss_icon: true
