@@ -6,7 +6,7 @@ title: Linfeng Tang # 你的名字
 first_name: Linfeng
 middle_name:
 last_name: Tang
-email: linfeng0419@gmail.com
+# email: linfeng0419@gmail.com
 contact_note: >
   I am a PhD student at Wuhan University. I am open to academic collaborations and discussions on <b>Image Fusion, Image Enhancement, and Visual-Semantic Understanding</b>.
 description: >
@@ -16,7 +16,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: computer-vision, image-fusion, deep-learning, image-enhancement, multi-modal-learning, wuhan-university
 lang: en
-icon: ⚛️
+icon: 🎓
 
 url: https://Linfeng-Tang.github.io # 【关键】你的主页地址
 baseurl: "" # 【关键】必须留空，因为你是根域名仓库
