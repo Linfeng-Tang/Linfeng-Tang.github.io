@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Linfeng Tang # 你的名字
+title: Linfeng Tang
 first_name: Linfeng
 middle_name:
 last_name: Tang
 email: linfeng0419@gmail.com
 contact_note: >
-  I am a PhD student at Wuhan University. I am open to academic collaborations and discussions on <b>Image Fusion, Image Enhancement, and Visual-Semantic Understanding</b>.
+  I am a Postdoctoral Researcher at Wuhan University. I am open to academic collaborations and discussions on <b>Image Fusion, Image Enhancement, and Visual-Semantic Understanding</b>.
 description: >
   Postdoctoral Researcher at Wuhan University | Research: Multi-modal Image Fusion, Low-light Enhancement, Deep Learning.
 footer_text: >
@@ -16,11 +16,11 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: computer-vision, image-fusion, deep-learning, image-enhancement, multi-modal-learning, wuhan-university
 lang: en
-icon: ⚛️
+icon: 🎓
 
-url: https://Linfeng-Tang.github.io # 【关键】你的主页地址
-baseurl: "" # 【关键】必须留空，因为你是根域名仓库
-last_updated: true # 开启这个，显示最后更新时间
+url: https://Linfeng-Tang.github.io
+baseurl: ""
+last_updated: true
 impressum_path:
 back_to_top: true
 
@@ -96,7 +96,7 @@ giscus:
   emit_metadata: 0
   lang: en
 
-disqus_shortname: # Deprecated, keep empty
+disqus_shortname:
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -104,15 +104,16 @@ disqus_shortname: # Deprecated, keep empty
 # If you want to list your social media, add the link to the list below.
 # The icons are FontAwesome icons.
 
-email: linfeng0419@gmail.com
+# email: (已在文件开头定义，此处注释以防冲突)
+
 google_scholar: https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN
 github: https://github.com/Linfeng-Tang
 research_gate: https://www.researchgate.net/profile/Tang-Linfeng-2
 zhihu: https://www.zhihu.com/people/timer-69
-# 注意：al-folio 默认可能没有 CSDN 图标，填入后如果没有显示，是因为模板缺少该图标的定义
+# 注意：al-folio 默认可能没有 CSDN 图标，填入后链接有效但可能不显示图标
 csdn: https://blog.csdn.net/fovever_
 
-# ORCID (已帮你填好)
+# ORCID
 orcid: https://orcid.org/0000-0002-8566-5743
 
 # 微信二维码 (请确保你已上传图片 assets/img/wechat_qr.png)
@@ -223,12 +224,12 @@ display_tags: ["computer-vision", "image-fusion", "deep-learning", "code"]
 display_categories: ["research"]
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar (论文列表配置)
+# Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Tang] # 【关键】你的姓
-  first_name: [Linfeng, L.] # 【关键】你的名，用于列表自动加粗
+  last_name: [Tang]
+  first_name: [Linfeng, L.]
 
   style: apa
   locale: en
@@ -251,7 +252,7 @@ scholar:
 enable_publication_badges:
   altmetric: true
   dimensions: true
-  google_scholar: true # 开启谷歌学术徽章
+  google_scholar: true
   inspirehep: true
 
 filtered_bibtex_keywords:
@@ -315,7 +316,7 @@ enable_progressbar: true
 enable_video_embedding: true
 
 # -----------------------------------------------------------------------------
-# Library versions (保持默认)
+# Library versions
 # -----------------------------------------------------------------------------
 third_party_libraries:
   download: false
@@ -538,6 +539,10 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
+
+# -----------------------------------------------------------------------------
+# Get external JSON data
+# -----------------------------------------------------------------------------
 
 jekyll_get_json:
   - data: resume
