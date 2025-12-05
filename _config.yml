@@ -6,7 +6,7 @@ title: Linfeng Tang # 你的名字
 first_name: Linfeng
 middle_name:
 last_name: Tang
-# email: linfeng0419@gmail.com
+email: linfeng0419@gmail.com
 contact_note: >
   I am a PhD student at Wuhan University. I am open to academic collaborations and discussions on <b>Image Fusion, Image Enhancement, and Visual-Semantic Understanding</b>.
 description: >
@@ -104,7 +104,7 @@ disqus_shortname: # Deprecated, keep empty
 # If you want to list your social media, add the link to the list below.
 # The icons are FontAwesome icons.
 
-email: linfeng0419@gmail.com
+# email: linfeng0419@gmail.com
 google_scholar: https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN
 github: https://github.com/Linfeng-Tang
 research_gate: https://www.researchgate.net/profile/Tang-Linfeng-2
