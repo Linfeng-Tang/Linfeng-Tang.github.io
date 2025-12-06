@@ -14,7 +14,7 @@ nav_order: 2
 * [**Best Paper Award**](https://www.sciencedirect.com/journal/information-fusion/about/awards/2024-inffus-best-paper-best-survey-and-best-editor-award), *Information Fusion* (Elsevier), 2024. (**First-author**, **1/1194**, The only one in 2024)
 * [**Hsue-shen Tsien Paper Award**](https://www.ieee-jas.net/news/news_en/5e720d40-3647-459c-acd8-df750fa9f74f_en.htm), *IEEE/CAA Journal of Automatica Sinica*, 2023. (IEEE/CAA JAS Best Paper Award, Student first author, **1/362**, The only one in 2023)
 * [**中国图象图形学报2024年度优秀论文**](https://mp.weixin.qq.com/s/pITDiENN9OOVixlfvp6neg), *中国图象图形学报*, 2024.
-* **空天信息科技期刊高影响力论文**, *空天信息技术大会*, 2024.
+* **空天信息科技期刊高影响力论文**, *第一届空天信息技术大会*, 2024.
 * **博士研究生国家奖学金**, 教育部 2024.
 * **本科生国家奖学金**, 教育部, 2018.
 * **Meritorious Winner (First Prize)**, Mathematical Contest in Modeling (MCM/ICM), 2019.
