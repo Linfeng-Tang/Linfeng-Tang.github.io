@@ -13,7 +13,7 @@ profile:
     <p><a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a></p>
     <p>Wuhan, 430072, China</p>
 
-selected_papers: true # 【恢复】改回 true，论文会自动在页面最底部漂亮的显示
+selected_papers: true 
 social: true
 
 announcements:
@@ -48,6 +48,7 @@ I have published 15+ papers in top-tier conferences and journals, including **IE
 
 I also serve as a Reviewer for prestigious journals and conferences such as **IEEE TPAMI / TIP / TNNLS / TMM / TCSVT / TII / TGRS / TITS / TSMC / TASE / JSAC / JAS / IoTJ, IJCV, InfFus, Energy, Neural Networks, PR, CVPR, AAAI, and ACM MM**. (See full list in [Academic Services](/services/)).
 
-<div style="text-align: center;">
-  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=YvZskw_pWX9uvxaQVwub4qlbD6dDmygb7Za-W1zTy48"></script>
+<br>
+<div style="text-align: center; width: 100%; overflow: hidden;">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=1YPRxqRR6AE2AiH7ECnhw9Lk6h0TzXDM9MPytTX0eV0&cl=ffffff&w=a"></script>
 </div>
