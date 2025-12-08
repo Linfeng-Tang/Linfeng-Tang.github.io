@@ -48,7 +48,6 @@ I have published 15+ papers in top-tier conferences and journals, including **IE
 
 I also serve as a Reviewer for prestigious journals and conferences such as **IEEE TPAMI / TIP / TNNLS / TMM / TCSVT / TII / TGRS / TITS / TSMC / TASE / JSAC / JAS / IoTJ, IJCV, InfFus, Energy, Neural Networks, PR, CVPR, AAAI, and ACM MM**. (See full list in [Academic Services](/services/)).
 
-<br>
 <div style="text-align: center;">
   <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=YvZskw_pWX9uvxaQVwub4qlbD6dDmygb7Za-W1zTy48"></script>
 </div>
