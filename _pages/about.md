@@ -50,8 +50,5 @@ I also serve as a Reviewer for prestigious journals and conferences such as **IE
 
 <br>
 <div style="text-align: center;">
-  <p style="font-size: 14px; color: #666;">
-    <br>Visitor Count<br>
-    <img src="https://profile-counter.glitch.me/Linfeng-Tang/count.svg" alt="Visitors" style="height: 20px; margin-top: 5px;">
-  </p>
+  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=YvZskw_pWX9uvxaQVwub4qlbD6dDmygb7Za-W1zTy48"></script>
 </div>
