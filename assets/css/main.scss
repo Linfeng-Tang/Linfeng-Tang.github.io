@@ -23,3 +23,32 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ==========================================================================
+   Custom CSDN Icon Support (Added manually)
+   ========================================================================== */
+.fa-csdn::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    /* 使用 CSDN Logo 的 SVG 数据 */
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23555' d='M224 512a288 288 0 1 0 576 0 288 288 0 1 0-576 0zm-64 0a352 352 0 1 1 704 0 352 352 0 1 1-704 0z'/%3E%3Cpath fill='%23555' d='M352 512a160 160 0 0 1 160-160v-64a224 224 0 0 0-224 224 224 224 0 0 0 224 224v-64a160 160 0 0 1-160-160z'/%3E%3C/svg%3E") no-repeat center center;
+    background-size: contain;
+    vertical-align: -0.125em; /* 微调对齐 */
+}
+
+/* 适配暗色模式 (Dark Mode) */
+/* 1. 针对系统级暗色模式 */
+@media (prefers-color-scheme: dark) {
+    .fa-csdn::before {
+        filter: invert(1); /* 反转颜色，使深色图标变白 */
+    }
+}
+
+/* 2. 针对 al-folio 主题切换按钮控制的暗色模式 */
+/* 注意：al-folio 新版通常在 html 或 body 上添加 data-theme='dark' */
+:root[data-theme='dark'] .fa-csdn::before,
+body.dark .fa-csdn::before {
+    filter: invert(1);
+}
