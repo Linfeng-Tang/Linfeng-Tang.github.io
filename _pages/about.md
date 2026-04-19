@@ -27,17 +27,28 @@ latest_posts:
   limit: 3
 ---
 
-<div class="home-intro">
-  <p class="home-lead">
-    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>Linfeng Tang</strong></a> (唐林峰), a Postdoctoral Researcher at the School of Robotics, Wuhan University, working with Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">Jiayi Ma</a>.
-  </p>
-
-  <p>
-    I received my Ph.D. from the Electronic Information School, Wuhan University, in <strong>December 2025</strong>, and my B.E. from Central South University in 2020. My research sits at the intersection of <strong>computer vision</strong>, <strong>deep learning</strong>, and <strong>multi-modal perception</strong>, with a focus on robust fusion and enhancement models that support downstream vision systems in real-world environments.
-  </p>
+<div class="lang-switch">
+  <span class="lang-pill active">English</span>
+  <a class="lang-pill" href="/zh/">中文</a>
 </div>
 
-<div class="home-metrics">
+<div class="home-hero">
+  <p class="hero-kicker">Computer Vision | Image Fusion | Image Enhancement</p>
+  <p class="hero-lead">
+    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">Jiayi Ma</a>.
+  </p>
+  <p class="hero-summary">
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception.
+  </p>
+  <div class="quick-links">
+    <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a>
+    <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
+    <a class="quick-link" href="/publications/">Publications</a>
+    <a class="quick-link" href="/services/">Services</a>
+  </div>
+</div>
+
+<div class="home-metrics refined">
   <div class="metric-item">
     <span class="metric-value">15+</span>
     <span class="metric-label">papers in leading venues</span>
@@ -47,35 +58,103 @@ latest_posts:
     <span class="metric-label">major paper awards</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">3</span>
-    <span class="metric-label">core research directions</span>
+    <span class="metric-value">10+</span>
+    <span class="metric-label">top journals and conferences</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">2025</span>
-    <span class="metric-label">Stanford Top 2% Scientist list</span>
+    <span class="metric-value">20+</span>
+    <span class="metric-label">reviewer roles</span>
   </div>
 </div>
 
-## Research
+## Research Focus
 
-<div class="research-grid">
+<div class="research-grid refined">
   <div class="research-item">
-    <h3>Information Fusion</h3>
-    <p>Multi-modal image fusion, video fusion, registration-and-fusion joint learning, and controllable fusion systems.</p>
+    <h3>Multi-modal Fusion</h3>
+    <p>Infrared-visible image fusion, video fusion, controllable fusion, and registration-fusion joint modeling.</p>
   </div>
   <div class="research-item">
-    <h3>Image Enhancement</h3>
-    <p>Low-light enhancement, restoration under degradations, and diffusion-based enhancement models.</p>
+    <h3>Enhancement and Restoration</h3>
+    <p>Low-light enhancement, degradation-aware restoration, and diffusion-based image recovery.</p>
   </div>
   <div class="research-item">
-    <h3>Visual-Semantic Understanding</h3>
-    <p>Language-guided perception, high-level vision-oriented fusion, and semantically aware representation learning.</p>
+    <h3>Task-driven Perception</h3>
+    <p>Semantic guidance, language-vision priors, and fusion models designed for downstream high-level vision tasks.</p>
   </div>
 </div>
 
-## Highlights
+## Representative Works
 
-- Published in **IEEE TPAMI, TMM, TNNLS, TIM, IEEE/CAA JAS, IJCV, Information Fusion, NeurIPS, CVPR, and ACM MM**.
-- Recipient of the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**.
-- Serving as reviewer for **TPAMI, TIP, TNNLS, TMM, TCSVT, TII, TGRS, TITS, TSMC, TASE, JSAC, JAS, IoTJ, IJCV, Information Fusion, PR, CVPR, NeurIPS, ECCV, AAAI, IJCAI, and ACM MM**.
-- Full publication details and the most up-to-date citation counts are maintained on [Google Scholar](https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN) and mirrored on the [publications page](/publications/).
+<div class="featured-publications">
+  <div class="featured-item">
+    <div>
+      <h3>SwinFusion</h3>
+      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Google Scholar 926</span>
+      <span class="pub-chip subtle">Award paper</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SeAFusion</h3>
+      <p>Information Fusion, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Scopus 791</span>
+      <span class="pub-chip subtle">Best Paper Award</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>PIAFusion</h3>
+      <p>Information Fusion, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Scopus 844</span>
+      <span class="pub-chip subtle">ESI Hot Paper</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SuperFusion</h3>
+      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Google Scholar 323</span>
+      <span class="pub-chip subtle">Semantic-aware fusion</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>DIVFusion</h3>
+      <p>Information Fusion, 2023</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Scopus 359</span>
+      <span class="pub-chip subtle">Low-light fusion</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>PSFusion</h3>
+      <p>Information Fusion, 2023</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Google Scholar 206</span>
+      <span class="pub-chip subtle">Task-driven fusion</span>
+    </div>
+  </div>
+</div>
+
+<p class="publication-note">
+  Citation labels on this page are source-tagged and refreshed with the latest publicly accessible records on April 19, 2026. Live profile totals remain available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a>.
+</p>
+
+## Academic Service
+
+<p>
+  I serve as a reviewer for TPAMI, TIP, TNNLS, TMM, TCSVT, TII, TGRS, TITS, TSMC, TASE, JSAC, JAS, IoTJ, IJCV, Information Fusion, PR, CVPR, NeurIPS, ECCV, AAAI, IJCAI, and ACM MM. A fuller list is available on the <a href="/services/">Services</a> page.
+</p>
