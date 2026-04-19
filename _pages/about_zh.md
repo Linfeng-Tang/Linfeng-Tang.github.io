@@ -37,7 +37,7 @@ latest_posts:
 <div class="home-hero">
   <p class="hero-kicker">计算机视觉 | 图像融合 | 图像增强</p>
   <p class="hero-lead">
-    我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">马佳艺教授</a>。
+    我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">马佳义教授</a>。
   </p>
   <p class="hero-summary">
     我于 2025 年 12 月在武汉大学电子信息学院获得博士学位，于 2020 年在中南大学获得学士学位。研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及面向高层视觉任务的语义感知建模。
@@ -95,8 +95,8 @@ latest_posts:
       <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 926</span>
-      <span class="pub-chip subtle">获奖论文</span>
+      <span class="pub-chip">Google Scholar 1403</span>
+      <span class="pub-chip subtle">Best Paper Award</span>
     </div>
   </div>
   <div class="featured-item">
@@ -105,7 +105,7 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 791</span>
+      <span class="pub-chip">Scopus 1063</span>
       <span class="pub-chip subtle">Best Paper Award</span>
     </div>
   </div>
@@ -115,7 +115,7 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 844</span>
+      <span class="pub-chip">Scopus 1099</span>
       <span class="pub-chip subtle">ESI Hot Paper</span>
     </div>
   </div>
@@ -125,7 +125,7 @@ latest_posts:
       <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 323</span>
+      <span class="pub-chip">Google Scholar 451</span>
       <span class="pub-chip subtle">语义感知融合</span>
     </div>
   </div>
@@ -135,7 +135,7 @@ latest_posts:
       <p>Information Fusion, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 359</span>
+      <span class="pub-chip">Scopus 484</span>
       <span class="pub-chip subtle">夜间融合</span>
     </div>
   </div>
@@ -145,7 +145,7 @@ latest_posts:
       <p>Information Fusion, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 206</span>
+      <span class="pub-chip">Google Scholar 350</span>
       <span class="pub-chip subtle">任务驱动融合</span>
     </div>
   </div>
