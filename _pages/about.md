@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Postdoctoral Researcher</a> at Wuhan University.
+subtitle: <a href="https://robotics.whu.edu.cn/" target="_blank">Postdoctoral Researcher</a> at Wuhan University.
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p><a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a></p>
     <p>Wuhan, 430072, China</p>
 
-selected_papers: true # 【恢复】改回 true，论文会自动在页面最底部漂亮的显示
+selected_papers: true
 social: true
 
 announcements:
@@ -26,28 +26,56 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-<style>
-.profile {
-    max-width: 18% !important;
-}
-</style>
 
-Hi, I am [**Linfeng Tang**](https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN) (唐霖峰).
+<div class="home-intro">
+  <p class="home-lead">
+    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>Linfeng Tang</strong></a> (唐林峰), a Postdoctoral Researcher at the School of Robotics, Wuhan University, working with Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">Jiayi Ma</a>.
+  </p>
 
-I am currently a **Postdoctoral Researcher** at the **School of Robotics**, **Wuhan University**, working with Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN).
+  <p>
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in <strong>December 2025</strong>, and my B.E. from Central South University in 2020. My research sits at the intersection of <strong>computer vision</strong>, <strong>deep learning</strong>, and <strong>multi-modal perception</strong>, with a focus on robust fusion and enhancement models that support downstream vision systems in real-world environments.
+  </p>
+</div>
 
-I received my Ph.D. degree from Electronic Information School, Wuhan University in **December 2025**, advised by Prof. [Jiayi Ma](https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN). Prior to that, I obtained my B.E. degree from Central South University in 2020.
+<div class="home-metrics">
+  <div class="metric-item">
+    <span class="metric-value">15+</span>
+    <span class="metric-label">papers in leading venues</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">2</span>
+    <span class="metric-label">major paper awards</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">3</span>
+    <span class="metric-label">core research directions</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">2025</span>
+    <span class="metric-label">Stanford Top 2% Scientist list</span>
+  </div>
+</div>
 
-My research interests primarily focus on **Computer Vision** and **Deep Learning**, with a specific emphasis on:
+## Research
 
-* **Information Fusion** (Multi-modal Image Fusion, Video Fusion)
-* **Image Enhancement** (Low-light Enhancement, Restoration)
-* **Visual-Semantic Understanding**
+<div class="research-grid">
+  <div class="research-item">
+    <h3>Information Fusion</h3>
+    <p>Multi-modal image fusion, video fusion, registration-and-fusion joint learning, and controllable fusion systems.</p>
+  </div>
+  <div class="research-item">
+    <h3>Image Enhancement</h3>
+    <p>Low-light enhancement, restoration under degradations, and diffusion-based enhancement models.</p>
+  </div>
+  <div class="research-item">
+    <h3>Visual-Semantic Understanding</h3>
+    <p>Language-guided perception, high-level vision-oriented fusion, and semantically aware representation learning.</p>
+  </div>
+</div>
 
-I have published 15+ papers in top-tier conferences and journals, including **IEEE TPAMI /TMM /TNNLS /TIM /JAS, IJCV, InfFus, NeurIPS, CVPR, and ACM MM**. My work has been recognized with the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**. I was also listed in the **World's Top 2% Scientists** by Stanford University (2025).
+## Highlights
 
-I also serve as a Reviewer for prestigious journals and conferences such as **IEEE TPAMI / TIP / TNNLS / TMM / TCSVT / TII / TGRS / TITS / TSMC / TASE / JSAC / JAS / IoTJ, IJCV, InfFus, Energy, Neural Networks, PR, CVPR, NeurIPS, ECCV, AAAI, IJCAI, and ACM MM**. (See full list in [Academic Services](/services/)).
-
-<!-- <div style="text-align: center;">
-  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=YvZskw_pWX9uvxaQVwub4qlbD6dDmygb7Za-W1zTy48"></script>
-</div> -->
+- Published in **IEEE TPAMI, TMM, TNNLS, TIM, IEEE/CAA JAS, IJCV, Information Fusion, NeurIPS, CVPR, and ACM MM**.
+- Recipient of the **Information Fusion Best Paper Award (2024)** and the **Hsue-shen Tsien Paper Award (2023)**.
+- Serving as reviewer for **TPAMI, TIP, TNNLS, TMM, TCSVT, TII, TGRS, TITS, TSMC, TASE, JSAC, JAS, IoTJ, IJCV, Information Fusion, PR, CVPR, NeurIPS, ECCV, AAAI, IJCAI, and ACM MM**.
+- Full publication details and the most up-to-date citation counts are maintained on [Google Scholar](https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN) and mirrored on the [publications page](/publications/).

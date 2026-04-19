@@ -32,5 +32,8 @@ nav_order: 5
 ### Conference Reviewer
 
 * IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
+* Advances in Neural Information Processing Systems (**NeurIPS**)
+* European Conference on Computer Vision (**ECCV**)
 * Association for the Advancement of Artificial Intelligence (**AAAI**)
+* International Joint Conference on Artificial Intelligence (**IJCAI**)
 * ACM International Conference on Multimedia (**ACM MM**)
