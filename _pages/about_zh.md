@@ -61,7 +61,7 @@ latest_posts:
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
-    <span class="metric-label">主要论文奖项</span>
+    <span class="metric-label">最佳论文奖</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">6 / 7</span>
@@ -73,7 +73,7 @@ latest_posts:
 
 <div class="research-grid refined">
   <div class="research-item">
-    <h3>多模态融合</h3>
+    <h3>多模图像融合</h3>
     <p>红外-可见光图像融合、视频融合、可控融合，以及配准与融合联合建模。</p>
   </div>
   <div class="research-item">
@@ -82,7 +82,7 @@ latest_posts:
   </div>
   <div class="research-item">
     <h3>任务驱动感知</h3>
-    <p>语义引导、语言-视觉先验，以及面向检测、分割等高层视觉任务的融合模型。</p>
+    <p>语义引导、语言-视觉先验，以及面向检测、分割等高层视觉任务的图像融合模型。</p>
   </div>
 </div>
 
@@ -143,7 +143,7 @@ latest_posts:
     </div>
     <div class="pub-meta">
       <span class="pub-chip">引用 1,064</span>
-      <span class="pub-chip subtle">2024 最佳论文奖</span>
+      <span class="pub-chip subtle">2024 Inf. Fusion 最佳论文奖</span>
       <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
     </div>
   </div>
@@ -163,7 +163,9 @@ latest_posts:
       <p>《中国图象图形学报》，2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip subtle">多项期刊奖项</span>
+      <span class="pub-chip subtle">中国图象图形学报 2024 优秀论文</span>
+      <span class="pub-chip subtle">中国图象图形学报 2020–2024 优秀论文</span>
+      <span class="pub-chip subtle">2024 空天信息科技期刊高影响力论文</span>
     </div>
   </div>
 </div>
