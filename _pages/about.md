@@ -29,7 +29,7 @@ latest_posts:
 
 <div class="lang-switch">
   <span class="lang-pill active">English</span>
-  <a class="lang-pill" href="/zh/">Chinese</a>
+  <a class="lang-pill" href="/zh/">中文</a>
 </div>
 
 <div class="home-hero">
@@ -59,7 +59,7 @@ latest_posts:
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
-    <span class="metric-label">major paper awards</span>
+    <span class="metric-label">best paper awards</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">6 / 7</span>
@@ -80,7 +80,7 @@ latest_posts:
   </div>
   <div class="research-item">
     <h3>Task-driven Perception</h3>
-    <p>Semantic guidance, language-vision priors, and fusion models designed for downstream high-level vision tasks.</p>
+    <p>Semantic guidance, language-vision priors, and image fusion models designed for downstream high-level vision tasks.</p>
   </div>
 </div>
 
@@ -130,7 +130,7 @@ latest_posts:
     </div>
     <div class="pub-meta">
       <span class="pub-chip">Citations 1,404</span>
-      <span class="pub-chip subtle">2023 Hsue-shen Tsien Paper Award</span>
+      <span class="pub-chip subtle"> Hsue-shen Tsien Paper Award 2023</span>
       <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
   </div>
@@ -141,7 +141,7 @@ latest_posts:
     </div>
     <div class="pub-meta">
       <span class="pub-chip">Citations 1,064</span>
-      <span class="pub-chip subtle">2024 Best Paper Award</span>
+      <span class="pub-chip subtle">Inf. Fusion Best Paper Award 2024</span>
       <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
   </div>
@@ -161,7 +161,9 @@ latest_posts:
       <p>Journal of Image and Graphics, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip subtle">Multiple Journal Awards</span>
+      <span class="pub-chip subtle">CJIG 2024 Excellent Paper</span>
+      <span class="pub-chip subtle">CJIG 2020–2024 Excellent Paper</span>
+      <span class="pub-chip subtle">2024 High-Impact Paper in Aerospace Information Journals</span>
     </div>
   </div>
 </div>
