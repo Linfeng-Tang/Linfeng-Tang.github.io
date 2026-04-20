@@ -163,7 +163,7 @@ latest_posts:
     <div class="pub-meta">
       <span class="pub-chip subtle">CJIG 2024 Excellent Paper</span>
       <span class="pub-chip subtle">CJIG 2020–2024 Excellent Paper</span>
-      <span class="pub-chip subtle">2024 High-Impact Paper in Aerospace Information Journals</span>
+      <span class="pub-chip subtle">High-Impact Paper in Aerospace Information</span>
     </div>
   </div>
 </div>
