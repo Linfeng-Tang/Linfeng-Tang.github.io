@@ -11,7 +11,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><a href="https://robotics.whu.edu.cn/" target="_blank">武汉大学 机器人学院</a></p>
+    <p><a href="https://robotics.whu.edu.cn/" target="_blank">武汉大学机器人学院</a></p>
     <p><a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a></p>
     <p>武汉，中国</p>
 
@@ -56,16 +56,16 @@ latest_posts:
     <span class="metric-label">高水平论文</span>
   </div>
   <div class="metric-item">
+    <span class="metric-value">6,878</span>
+    <span class="metric-label">谷歌学术总引用</span>
+  </div>
+  <div class="metric-item">
     <span class="metric-value">2</span>
     <span class="metric-label">主要论文奖励</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">10+</span>
-    <span class="metric-label">顶级期刊与会议发表</span>
-  </div>
-  <div class="metric-item">
-    <span class="metric-value">20+</span>
-    <span class="metric-label">审稿与学术服务</span>
+    <span class="metric-value">6 / 7</span>
+    <span class="metric-label">ESI 热点 / 高被引论文</span>
   </div>
 </div>
 
@@ -91,12 +91,52 @@ latest_posts:
 <div class="featured-publications">
   <div class="featured-item">
     <div>
-      <h3>SwinFusion</h3>
-      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+      <h3>Mask-DiFuser</h3>
+      <p>IEEE TPAMI, 2026</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 926</span>
-      <span class="pub-chip subtle">获奖论文</span>
+      <span class="pub-chip">GS 24</span>
+      <span class="pub-chip subtle">PAMI</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>C2RF</h3>
+      <p>IJCV, 2025</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 37</span>
+      <span class="pub-chip subtle">IJCV</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>ControlFusion</h3>
+      <p>NeurIPS 2025</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 16</span>
+      <span class="pub-chip subtle">Oral</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>VideoFusion</h3>
+      <p>CVPR 2026</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 10</span>
+      <span class="pub-chip subtle">CVPR</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SwinFusion</h3>
+      <p>IEEE/CAA JAS, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 1404</span>
+      <span class="pub-chip subtle">2023 年度唯一最佳论文奖</span>
     </div>
   </div>
   <div class="featured-item">
@@ -105,8 +145,8 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 791</span>
-      <span class="pub-chip subtle">Best Paper Award</span>
+      <span class="pub-chip">GS 1064</span>
+      <span class="pub-chip subtle">2024 最佳论文奖</span>
     </div>
   </div>
   <div class="featured-item">
@@ -115,44 +155,24 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 844</span>
-      <span class="pub-chip subtle">ESI Hot Paper</span>
+      <span class="pub-chip">GS 1100</span>
+      <span class="pub-chip subtle">ESI 热点 / 高被引</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
-      <h3>SuperFusion</h3>
-      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+      <h3>基于深度学习的图像融合方法综述</h3>
+      <p>中国图象图形学报, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 323</span>
-      <span class="pub-chip subtle">语义感知融合</span>
-    </div>
-  </div>
-  <div class="featured-item">
-    <div>
-      <h3>DIVFusion</h3>
-      <p>Information Fusion, 2023</p>
-    </div>
-    <div class="pub-meta">
-      <span class="pub-chip">Scopus 359</span>
-      <span class="pub-chip subtle">夜间融合</span>
-    </div>
-  </div>
-  <div class="featured-item">
-    <div>
-      <h3>PSFusion</h3>
-      <p>Information Fusion, 2023</p>
-    </div>
-    <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 206</span>
-      <span class="pub-chip subtle">任务驱动融合</span>
+      <span class="pub-chip">GS 30</span>
+      <span class="pub-chip subtle">多项奖励</span>
     </div>
   </div>
 </div>
 
 <p class="publication-note">
-  本页展示的引用数按来源标注，并根据截至 2026 年 4 月 19 日能够公开获取的最新记录更新。实时总引用仍以 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a> 为准。
+  本页展示的所有引用数均于 2026 年 4 月 20 日从我的个人 Google Scholar 主页更新。实时主页见 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a>。
 </p>
 
 ## 学术服务

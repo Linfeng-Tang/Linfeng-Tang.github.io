@@ -35,13 +35,13 @@ latest_posts:
 <div class="home-hero">
   <p class="hero-kicker">Computer Vision | Image Fusion | Image Enhancement</p>
   <p class="hero-lead">
-    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">Jiayi Ma</a>.
+    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception.
   </p>
   <div class="quick-links">
-    <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a>
+    <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
     <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
     <a class="quick-link" href="/publications/">Publications</a>
     <a class="quick-link" href="/services/">Services</a>
@@ -51,19 +51,19 @@ latest_posts:
 <div class="home-metrics refined">
   <div class="metric-item">
     <span class="metric-value">15+</span>
-    <span class="metric-label">papers in leading venues</span>
+    <span class="metric-label">high-impact papers</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">6,878</span>
+    <span class="metric-label">Google Scholar citations</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
     <span class="metric-label">major paper awards</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">10+</span>
-    <span class="metric-label">top journals and conferences</span>
-  </div>
-  <div class="metric-item">
-    <span class="metric-value">20+</span>
-    <span class="metric-label">reviewer roles</span>
+    <span class="metric-value">6 / 7</span>
+    <span class="metric-label">ESI Hot / Highly Cited papers</span>
   </div>
 </div>
 
@@ -89,12 +89,52 @@ latest_posts:
 <div class="featured-publications">
   <div class="featured-item">
     <div>
-      <h3>SwinFusion</h3>
-      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+      <h3>Mask-DiFuser</h3>
+      <p>IEEE TPAMI, 2026</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 926</span>
-      <span class="pub-chip subtle">Award paper</span>
+      <span class="pub-chip">GS 24</span>
+      <span class="pub-chip subtle">TPAMI</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>C2RF</h3>
+      <p>IJCV, 2025</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 37</span>
+      <span class="pub-chip subtle">TPAMI</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>ControlFusion</h3>
+      <p>NeurIPS 2025</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 16</span>
+      <span class="pub-chip subtle">Oral</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>VideoFusion</h3>
+      <p>CVPR 2026</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 10</span>
+      <span class="pub-chip subtle">CVPR</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SwinFusion</h3>
+      <p>IEEE/CAA JAS, 2022</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">GS 1404</span>
+      <span class="pub-chip subtle">2023 Sole Best Paper Award</span>
     </div>
   </div>
   <div class="featured-item">
@@ -103,8 +143,8 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 791</span>
-      <span class="pub-chip subtle">Best Paper Award</span>
+      <span class="pub-chip">GS 1064</span>
+      <span class="pub-chip subtle">2024 Best Paper Award</span>
     </div>
   </div>
   <div class="featured-item">
@@ -113,44 +153,24 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Scopus 844</span>
-      <span class="pub-chip subtle">ESI Hot Paper</span>
+      <span class="pub-chip">GS 1100</span>
+      <span class="pub-chip subtle">ESI Hot / Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
-      <h3>SuperFusion</h3>
-      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
+      <h3>Deep Learning-based Image Fusion: A Survey</h3>
+      <p>Journal of Image and Graphics, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 323</span>
-      <span class="pub-chip subtle">Semantic-aware fusion</span>
-    </div>
-  </div>
-  <div class="featured-item">
-    <div>
-      <h3>DIVFusion</h3>
-      <p>Information Fusion, 2023</p>
-    </div>
-    <div class="pub-meta">
-      <span class="pub-chip">Scopus 359</span>
-      <span class="pub-chip subtle">Low-light fusion</span>
-    </div>
-  </div>
-  <div class="featured-item">
-    <div>
-      <h3>PSFusion</h3>
-      <p>Information Fusion, 2023</p>
-    </div>
-    <div class="pub-meta">
-      <span class="pub-chip">Google Scholar 206</span>
-      <span class="pub-chip subtle">Task-driven fusion</span>
+      <span class="pub-chip">GS 30</span>
+      <span class="pub-chip subtle">Multiple awards</span>
     </div>
   </div>
 </div>
 
 <p class="publication-note">
-  Citation labels on this page are source-tagged and refreshed with the latest publicly accessible records on April 19, 2026. Live profile totals remain available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a>.
+  All citation counts shown on this page were refreshed from my personal Google Scholar profile on April 20, 2026. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 ## Academic Service
