@@ -29,7 +29,7 @@ latest_posts:
 
 <div class="lang-switch">
   <span class="lang-pill active">English</span>
-  <a class="lang-pill" href="/zh/">中文</a>
+  <a class="lang-pill" href="/zh/">Chinese</a>
 </div>
 
 <div class="home-hero">
@@ -93,7 +93,6 @@ latest_posts:
       <p>IEEE TPAMI, 2026</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 24</span>
       <span class="pub-chip subtle">TPAMI</span>
     </div>
   </div>
@@ -103,8 +102,7 @@ latest_posts:
       <p>IJCV, 2025</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 37</span>
-      <span class="pub-chip subtle">TPAMI</span>
+      <span class="pub-chip subtle">IJCV</span>
     </div>
   </div>
   <div class="featured-item">
@@ -113,8 +111,7 @@ latest_posts:
       <p>NeurIPS 2025</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 16</span>
-      <span class="pub-chip subtle">Oral</span>
+      <span class="pub-chip subtle">NeurIPS Oral</span>
     </div>
   </div>
   <div class="featured-item">
@@ -123,7 +120,6 @@ latest_posts:
       <p>CVPR 2026</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 10</span>
       <span class="pub-chip subtle">CVPR</span>
     </div>
   </div>
@@ -133,8 +129,9 @@ latest_posts:
       <p>IEEE/CAA JAS, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 1404</span>
-      <span class="pub-chip subtle">2023 Sole Best Paper Award</span>
+      <span class="pub-chip">Citations 1,404</span>
+      <span class="pub-chip subtle">2023 Hsue-shen Tsien Paper Award</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
@@ -143,8 +140,9 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 1064</span>
+      <span class="pub-chip">Citations 1,064</span>
       <span class="pub-chip subtle">2024 Best Paper Award</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
@@ -153,8 +151,8 @@ latest_posts:
       <p>Information Fusion, 2022</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 1100</span>
-      <span class="pub-chip subtle">ESI Hot / Highly Cited</span>
+      <span class="pub-chip">Citations 1,100</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
@@ -163,8 +161,7 @@ latest_posts:
       <p>Journal of Image and Graphics, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">GS 30</span>
-      <span class="pub-chip subtle">Multiple awards</span>
+      <span class="pub-chip subtle">Multiple Journal Awards</span>
     </div>
   </div>
 </div>
