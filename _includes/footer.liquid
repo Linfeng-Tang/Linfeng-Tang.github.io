@@ -1,14 +1,23 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <div class="footer-shell">
+    <div class="footer-copy">
+      <span class="footer-mark">LT</span>
+      <div>
+        <p class="footer-title">{{ site.first_name }} {{ site.last_name }}</p>
+        <p class="footer-subtitle">Academic homepage focused on image fusion, restoration, and visual perception.</p>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>
+      {% if site.last_updated %}
+        <span>Updated {{ 'now' | date: '%B %d, %Y' }}</span>
+      {% endif %}
+      <span>{{ site.footer_text }}</span>
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>
+      {% endif %}
+    </div>
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}

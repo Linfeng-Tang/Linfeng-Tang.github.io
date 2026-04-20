@@ -8,13 +8,13 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
+<div class="post{% if page.page_class %} {{ page.page_class }}{% endif %}">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>
+  <article{% if page.page_class %} class="{{ page.page_class }}-article"{% endif %}>
     {{ content }}
   </article>
 
