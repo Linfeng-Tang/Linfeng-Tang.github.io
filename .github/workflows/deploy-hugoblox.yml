@@ -21,14 +21,14 @@ concurrency:
 defaults:
   run:
     shell: bash
-    working-directory: hugoblox-site
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GO_VERSION: 1.26.1
-      HUGO_VERSION: 0.160.0
+      DART_SASS_VERSION: 1.99.0
+      GO_VERSION: 1.22.0
+      HUGO_VERSION: 0.156.0
       NODE_VERSION: 24.14.1
       TZ: Asia/Shanghai
     steps:
@@ -53,6 +53,16 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
 
+      - name: Create directory for user-specific executable files
+        run: mkdir -p "${HOME}/.local"
+
+      - name: Install Dart Sass
+        run: |
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
+
       - name: Install Hugo
         run: |
           curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
@@ -61,37 +71,51 @@ jobs:
           rm "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
           echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
 
+      - name: Verify installations
+        run: |
+          echo "Dart Sass: $(sass --version)"
+          echo "Go: $(go version)"
+          echo "Hugo: $(hugo version)"
+          echo "Node.js: $(node --version)"
+
+      - name: Install Node.js dependencies
+        working-directory: ./hugoblox-site
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+
+      - name: Configure Git
+        run: git config core.quotepath false
+
       - name: Cache Hugo modules
         uses: actions/cache/restore@v5
         id: cache-restore
         with:
-          path: |
-            ${{ runner.temp }}/hugo_cache
-            ~/go/pkg/mod
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('hugoblox-site/go.mod') }}
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-
+            hugo-
 
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+        working-directory: ./hugoblox-site
         run: |
-          hugo mod tidy
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo build \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Cache save
         uses: actions/cache/save@v5
         with:
-          path: |
-            ${{ runner.temp }}/hugo_cache
-            ~/go/pkg/mod
+          path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: hugoblox-site/public
+          path: ./hugoblox-site/public
 
   deploy:
     if: github.ref == 'refs/heads/hugoblox' || github.event_name == 'workflow_dispatch'
