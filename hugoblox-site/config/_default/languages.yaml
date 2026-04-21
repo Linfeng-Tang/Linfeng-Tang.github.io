@@ -1,0 +1,12 @@
+﻿en:
+  languageCode: en-us
+  languageName: English
+  title: Linfeng Tang
+  weight: 1
+
+zh:
+  languageCode: zh-cn
+  languageName: 中文
+  title: 唐霖峰
+  weight: 2
+  contentDir: content/zh

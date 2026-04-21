@@ -1,0 +1,16 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Papers
+    url: /#papers
+    weight: 20
+  - name: News
+    url: /#news
+    weight: 30
+  - name: Projects
+    url: /projects/
+    weight: 40
+  - name: Services
+    url: /services/
+    weight: 50

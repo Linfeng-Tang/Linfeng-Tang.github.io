@@ -1,0 +1,40 @@
+.hb-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.hb-highlight-card {
+  padding: 1.25rem;
+  border: 1px solid rgba(198, 93, 67, 0.16);
+  border-radius: 1.5rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.88), rgba(255,248,242,0.96));
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.hb-highlight-card h3 {
+  margin: 0.25rem 0 0.4rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+.hb-highlight-card p {
+  margin: 0;
+  color: #5b6472;
+  line-height: 1.8;
+}
+
+.hb-kicker {
+  display: inline-flex;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c65d43;
+}
+
+@media (max-width: 768px) {
+  .hb-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
