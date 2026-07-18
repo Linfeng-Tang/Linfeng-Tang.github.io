@@ -42,6 +42,9 @@ latest_posts:
   <p class="hero-summary">
     我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。
   </p>
+  <p class="hero-summary esi-summary">
+    目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）：Mask-DiFuser、SeAFusion、PIAFusion、SwinFusion、SuperFusion、PSFusion、DIVFusion 和 STDFusionNet。
+  </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
     <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
@@ -56,7 +59,7 @@ latest_posts:
     <span class="metric-label">高水平论文</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">6,878</span>
+    <span class="metric-value">7,964</span>
     <span class="metric-label">Google Scholar 引用</span>
   </div>
   <div class="metric-item">
@@ -64,7 +67,7 @@ latest_posts:
     <span class="metric-label">最佳论文奖</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">6 / 7</span>
+    <span class="metric-value">6 / 8</span>
     <span class="metric-label">ESI 热点 / 高被引论文</span>
   </div>
 </div>
@@ -93,9 +96,12 @@ latest_posts:
     <div>
       <h3>Mask-DiFuser</h3>
       <p>IEEE TPAMI，2026</p>
+      <p class="featured-summary">以掩码扩散模型统一建模多种无监督图像融合任务。</p>
     </div>
     <div class="pub-meta">
+      <span class="pub-chip">引用 51</span>
       <span class="pub-chip subtle">TPAMI</span>
+      <span class="pub-chip subtle">ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -129,9 +135,10 @@ latest_posts:
     <div>
       <h3>SwinFusion</h3>
       <p>IEEE/CAA JAS，2022</p>
+      <p class="featured-summary">利用 Swin Transformer 建模跨域长程依赖，实现通用图像融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,404</span>
+      <span class="pub-chip">引用 1,582</span>
       <span class="pub-chip subtle">2023 钱学森论文奖</span>
       <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
     </div>
@@ -140,9 +147,10 @@ latest_posts:
     <div>
       <h3>SeAFusion</h3>
       <p>Information Fusion，2022</p>
+      <p class="featured-summary">将语义感知与高层视觉任务反馈引入实时红外-可见光融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,064</span>
+      <span class="pub-chip">引用 1,183</span>
       <span class="pub-chip subtle">2024 Inf. Fusion 最佳论文奖</span>
       <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
     </div>
@@ -151,10 +159,55 @@ latest_posts:
     <div>
       <h3>PIAFusion</h3>
       <p>Information Fusion，2022</p>
+      <p class="featured-summary">依据光照条件渐进融合红外与可见光信息。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,100</span>
+      <span class="pub-chip">引用 1,265</span>
       <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SuperFusion</h3>
+      <p>IEEE/CAA JAS，2022</p>
+      <p class="featured-summary">联合图像配准与语义感知融合，面向空间未对齐的多模态输入。</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">引用 504</span>
+      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>DIVFusion</h3>
+      <p>Information Fusion，2023</p>
+      <p class="featured-summary">面向低照度场景抑制暗区并增强融合细节可见性。</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">引用 546</span>
+      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>PSFusion</h3>
+      <p>Information Fusion，2023</p>
+      <p class="featured-summary">通过语义注入与场景保真协同优化低层融合质量和高层任务。</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">引用 410</span>
+      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>STDFusionNet</h3>
+      <p>IEEE TIM，2021</p>
+      <p class="featured-summary">利用显著目标检测保留关键热目标与结构信息。</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">引用 686</span>
+      <span class="pub-chip subtle">ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -171,7 +224,7 @@ latest_posts:
 </div>
 
 <p class="publication-note">
-  本页展示的引用数据已根据本人 Google Scholar 主页于 2026 年 4 月 20 日更新，实时数据请以 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a> 为准。
+  本页展示的引用数据已根据本人 Google Scholar 主页于 2026 年 7 月 18 日更新，实时数据请以 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">Google Scholar</a> 为准。
 </p>
 
 ## 学术服务

@@ -201,6 +201,12 @@ body.sticky-bottom-footer {
     color: var(--global-text-color-light);
     line-height: 1.6;
   }
+
+  p.featured-summary {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
 }
 
 .pub-meta {

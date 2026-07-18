@@ -40,6 +40,9 @@ latest_posts:
   <p class="hero-summary">
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception.
   </p>
+  <p class="hero-summary esi-summary">
+    My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%): Mask-DiFuser, SeAFusion, PIAFusion, SwinFusion, SuperFusion, PSFusion, DIVFusion, and STDFusionNet.
+  </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
     <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
@@ -54,7 +57,7 @@ latest_posts:
     <span class="metric-label">high-impact papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">6,878</span>
+    <span class="metric-value">7,964</span>
     <span class="metric-label">Google Scholar citations</span>
   </div>
   <div class="metric-item">
@@ -62,7 +65,7 @@ latest_posts:
     <span class="metric-label">best paper awards</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">6 / 7</span>
+    <span class="metric-value">6 / 8</span>
     <span class="metric-label">ESI Hot / Highly Cited papers</span>
   </div>
 </div>
@@ -91,9 +94,12 @@ latest_posts:
     <div>
       <h3>Mask-DiFuser</h3>
       <p>IEEE TPAMI, 2026</p>
+      <p class="featured-summary">Unifies multiple unsupervised image-fusion tasks through masked diffusion modeling.</p>
     </div>
     <div class="pub-meta">
+      <span class="pub-chip">Citations 51</span>
       <span class="pub-chip subtle">TPAMI</span>
+      <span class="pub-chip subtle">ESI Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
@@ -127,9 +133,10 @@ latest_posts:
     <div>
       <h3>SwinFusion</h3>
       <p>IEEE/CAA JAS, 2022</p>
+      <p class="featured-summary">Models cross-domain long-range dependencies with a Swin Transformer for general image fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,404</span>
+      <span class="pub-chip">Citations 1,582</span>
       <span class="pub-chip subtle"> Hsue-shen Tsien Paper Award 2023</span>
       <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
@@ -138,9 +145,10 @@ latest_posts:
     <div>
       <h3>SeAFusion</h3>
       <p>Information Fusion, 2022</p>
+      <p class="featured-summary">Introduces semantic awareness and high-level task feedback into real-time infrared-visible fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,064</span>
+      <span class="pub-chip">Citations 1,183</span>
       <span class="pub-chip subtle">Inf. Fusion Best Paper Award 2024</span>
       <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
     </div>
@@ -149,10 +157,55 @@ latest_posts:
     <div>
       <h3>PIAFusion</h3>
       <p>Information Fusion, 2022</p>
+      <p class="featured-summary">Progressively fuses infrared and visible information according to illumination conditions.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,100</span>
+      <span class="pub-chip">Citations 1,265</span>
       <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>SuperFusion</h3>
+      <p>IEEE/CAA JAS, 2022</p>
+      <p class="featured-summary">Jointly addresses image registration and semantics-aware fusion for spatially misaligned inputs.</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Citations 504</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>DIVFusion</h3>
+      <p>Information Fusion, 2023</p>
+      <p class="featured-summary">Suppresses dark regions and improves detail visibility in low-light infrared-visible fusion.</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Citations 546</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>PSFusion</h3>
+      <p>Information Fusion, 2023</p>
+      <p class="featured-summary">Connects low-level fusion quality with high-level tasks through semantic injection and scene fidelity.</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Citations 410</span>
+      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+    </div>
+  </div>
+  <div class="featured-item">
+    <div>
+      <h3>STDFusionNet</h3>
+      <p>IEEE TIM, 2021</p>
+      <p class="featured-summary">Uses salient-target detection to preserve critical thermal targets and structural information.</p>
+    </div>
+    <div class="pub-meta">
+      <span class="pub-chip">Citations 686</span>
+      <span class="pub-chip subtle">ESI Highly Cited</span>
     </div>
   </div>
   <div class="featured-item">
@@ -169,7 +222,7 @@ latest_posts:
 </div>
 
 <p class="publication-note">
-  All citation counts shown on this page were refreshed from my personal Google Scholar profile on April 20, 2026. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
+  All citation counts shown on this page were refreshed from my personal Google Scholar profile on July 18, 2026. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 ## Academic Service
