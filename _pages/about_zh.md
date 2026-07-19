@@ -95,19 +95,18 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>Mask-DiFuser</h3>
-      <p>IEEE TPAMI，2026</p>
+      <p>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)，2026</p>
       <p class="featured-summary">以掩码扩散模型统一建模多种无监督图像融合任务。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 51</span>
-      <span class="pub-chip subtle">TPAMI</span>
-      <span class="pub-chip subtle">ESI 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 51 引用</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>C2RF</h3>
-      <p>IJCV，2025</p>
+      <p>International Journal of Computer Vision (IJCV)，2025</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">IJCV</span>
@@ -116,7 +115,7 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>ControlFusion</h3>
-      <p>NeurIPS 2025</p>
+      <p>Advances in Neural Information Processing Systems (NeurIPS)，2025</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">NeurIPS Oral</span>
@@ -125,7 +124,7 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>VideoFusion</h3>
-      <p>CVPR 2026</p>
+      <p>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)，2026</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">CVPR</span>
@@ -134,13 +133,14 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>SwinFusion</h3>
-      <p>IEEE/CAA JAS，2022</p>
+      <p>IEEE/CAA Journal of Automatica Sinica，2022</p>
       <p class="featured-summary">利用 Swin Transformer 建模跨域长程依赖，实现通用图像融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,582</span>
-      <span class="pub-chip subtle">2023 钱学森论文奖</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 1,582 引用</span>
+      <span class="pub-chip subtle">🏅 2023 钱学森论文奖</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -150,9 +150,10 @@ latest_posts:
       <p class="featured-summary">将语义感知与高层视觉任务反馈引入实时红外-可见光融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,183</span>
-      <span class="pub-chip subtle">2024 Inf. Fusion 最佳论文奖</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 1,183 引用</span>
+      <span class="pub-chip subtle">🏅 Information Fusion 2024 最佳论文奖</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -162,19 +163,21 @@ latest_posts:
       <p class="featured-summary">依据光照条件渐进融合红外与可见光信息。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 1,265</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 1,265 引用</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>SuperFusion</h3>
-      <p>IEEE/CAA JAS，2022</p>
+      <p>IEEE/CAA Journal of Automatica Sinica，2022</p>
       <p class="featured-summary">联合图像配准与语义感知融合，面向空间未对齐的多模态输入。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 504</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 504 引用</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -184,8 +187,9 @@ latest_posts:
       <p class="featured-summary">面向低照度场景抑制暗区并增强融合细节可见性。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 546</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 546 引用</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -195,19 +199,20 @@ latest_posts:
       <p class="featured-summary">通过语义注入与场景保真协同优化低层融合质量和高层任务。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 410</span>
-      <span class="pub-chip subtle">ESI 热点 / 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 410 引用</span>
+      <span class="pub-chip subtle">🔥 ESI 热点论文</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>STDFusionNet</h3>
-      <p>IEEE TIM，2021</p>
+      <p>IEEE Transactions on Instrumentation and Measurement，2021</p>
       <p class="featured-summary">利用显著目标检测保留关键热目标与结构信息。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">引用 686</span>
-      <span class="pub-chip subtle">ESI 高被引论文</span>
+      <span class="pub-chip">Google Scholar &middot; 686 引用</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
@@ -216,9 +221,9 @@ latest_posts:
       <p>《中国图象图形学报》，2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip subtle">中国图象图形学报 2024 优秀论文</span>
-      <span class="pub-chip subtle">中国图象图形学报 2020–2024 优秀论文</span>
-      <span class="pub-chip subtle">2024 空天信息科技期刊高影响力论文</span>
+      <span class="pub-chip subtle">🏅 中国图象图形学报 2024 优秀论文</span>
+      <span class="pub-chip subtle">🏅 中国图象图形学报 2020–2024 优秀论文</span>
+      <span class="pub-chip subtle">🏅 2024 空天信息科技期刊高影响力论文</span>
     </div>
   </div>
 </div>

@@ -93,19 +93,18 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>Mask-DiFuser</h3>
-      <p>IEEE TPAMI, 2026</p>
+      <p>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</p>
       <p class="featured-summary">Unifies multiple unsupervised image-fusion tasks through masked diffusion modeling.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 51</span>
-      <span class="pub-chip subtle">TPAMI</span>
-      <span class="pub-chip subtle">ESI Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 51 citations</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>C2RF</h3>
-      <p>IJCV, 2025</p>
+      <p>International Journal of Computer Vision (IJCV), 2025</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">IJCV</span>
@@ -114,7 +113,7 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>ControlFusion</h3>
-      <p>NeurIPS 2025</p>
+      <p>Advances in Neural Information Processing Systems (NeurIPS), 2025</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">NeurIPS Oral</span>
@@ -123,7 +122,7 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>VideoFusion</h3>
-      <p>CVPR 2026</p>
+      <p>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
     </div>
     <div class="pub-meta">
       <span class="pub-chip subtle">CVPR</span>
@@ -132,13 +131,14 @@ latest_posts:
   <div class="featured-item">
     <div>
       <h3>SwinFusion</h3>
-      <p>IEEE/CAA JAS, 2022</p>
+      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
       <p class="featured-summary">Models cross-domain long-range dependencies with a Swin Transformer for general image fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,582</span>
-      <span class="pub-chip subtle"> Hsue-shen Tsien Paper Award 2023</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 1,582 citations</span>
+      <span class="pub-chip subtle">🏅 Hsue-shen Tsien Paper Award 2023</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
@@ -148,9 +148,10 @@ latest_posts:
       <p class="featured-summary">Introduces semantic awareness and high-level task feedback into real-time infrared-visible fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,183</span>
-      <span class="pub-chip subtle">Inf. Fusion Best Paper Award 2024</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 1,183 citations</span>
+      <span class="pub-chip subtle">🏅 Information Fusion Best Paper Award 2024</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
@@ -160,19 +161,21 @@ latest_posts:
       <p class="featured-summary">Progressively fuses infrared and visible information according to illumination conditions.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 1,265</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 1,265 citations</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>SuperFusion</h3>
-      <p>IEEE/CAA JAS, 2022</p>
+      <p>IEEE/CAA Journal of Automatica Sinica, 2022</p>
       <p class="featured-summary">Jointly addresses image registration and semantics-aware fusion for spatially misaligned inputs.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 504</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 504 citations</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
@@ -182,8 +185,9 @@ latest_posts:
       <p class="featured-summary">Suppresses dark regions and improves detail visibility in low-light infrared-visible fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 546</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 546 citations</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
@@ -193,19 +197,20 @@ latest_posts:
       <p class="featured-summary">Connects low-level fusion quality with high-level tasks through semantic injection and scene fidelity.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 410</span>
-      <span class="pub-chip subtle">ESI Hot &amp; Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 410 citations</span>
+      <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
     <div>
       <h3>STDFusionNet</h3>
-      <p>IEEE TIM, 2021</p>
+      <p>IEEE Transactions on Instrumentation and Measurement, 2021</p>
       <p class="featured-summary">Uses salient-target detection to preserve critical thermal targets and structural information.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Citations 686</span>
-      <span class="pub-chip subtle">ESI Highly Cited</span>
+      <span class="pub-chip">Google Scholar &middot; 686 citations</span>
+      <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
   <div class="featured-item">
@@ -214,9 +219,9 @@ latest_posts:
       <p>Journal of Image and Graphics, 2023</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip subtle">CJIG 2024 Excellent Paper</span>
-      <span class="pub-chip subtle">CJIG 2020–2024 Excellent Paper</span>
-      <span class="pub-chip subtle">High-Impact Paper in Aerospace Information</span>
+      <span class="pub-chip subtle">🏅 CJIG 2024 Excellent Paper</span>
+      <span class="pub-chip subtle">🏅 CJIG 2020–2024 Excellent Paper</span>
+      <span class="pub-chip subtle">🏅 High-Impact Paper in Aerospace Information</span>
     </div>
   </div>
 </div>
