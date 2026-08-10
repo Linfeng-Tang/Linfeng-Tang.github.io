@@ -20,6 +20,7 @@ jobs:
         run: |
           python scripts/sync_publications.py --out work/publications.json
           python scripts/enrich_publications.py --file work/publications.json
+          python scripts/resolve_paper_links.py --file work/publications.json --limit 12
           python scripts/discover_github_links.py --file work/publications.json --limit 25
           python scripts/sync_scholar.py --file work/publications.json
       - name: Update the static subsite source
