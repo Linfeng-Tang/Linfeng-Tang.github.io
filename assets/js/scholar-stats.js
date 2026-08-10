@@ -9,7 +9,7 @@
       var profile = data.profile;
       var format = function (value) { return Number(value).toLocaleString("en-US"); };
       document.querySelectorAll("[data-scholar-citations]").forEach(function (element) { element.textContent = format(profile.citations); });
-      document.querySelectorAll("[data-scholar-summary]").forEach(function (element) { element.textContent = "Google Scholar citations · h-index " + profile.hindex + " · i10-index " + profile.i10index; });
+      document.querySelectorAll("[data-scholar-summary]").forEach(function (element) { element.textContent = "Google Scholar citations · h-index " + profile.hindex; });
     })
     .catch(function () { /* Keep the server-rendered fallback when unavailable. */ });
 })();

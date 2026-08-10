@@ -60,7 +60,7 @@ latest_posts:
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22 · i10-index 27</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
