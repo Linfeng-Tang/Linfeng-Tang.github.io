@@ -57,8 +57,8 @@ latest_posts:
     <span class="metric-label">high-impact papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">7,964</span>
-    <span class="metric-label">Google Scholar citations</span>
+    <span class="metric-value" data-scholar-citations>8,311</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22 · i10-index 27</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
@@ -69,6 +69,8 @@ latest_posts:
     <span class="metric-label">ESI Hot / Highly Cited papers</span>
   </div>
 </div>
+
+<script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
 
 ## Research Focus
 

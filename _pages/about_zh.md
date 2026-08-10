@@ -59,8 +59,8 @@ latest_posts:
     <span class="metric-label">高水平论文</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">7,964</span>
-    <span class="metric-label">Google Scholar 引用</span>
+    <span class="metric-value" data-scholar-citations>8,311</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22 · i10-index 27</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
@@ -73,6 +73,8 @@ latest_posts:
 </div>
 
 ## 研究方向
+
+<script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
 
 <div class="research-grid refined">
   <div class="research-item">

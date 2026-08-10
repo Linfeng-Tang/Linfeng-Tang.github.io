@@ -2,10 +2,11 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+    - cron: "0 2 * * *" # Daily, 10:00 China Standard Time
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-citations:
@@ -29,12 +30,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Save current citations.yml hash
+      - name: Save current Scholar data hash
         id: before
         run: |
           echo "📦 Checking existing citations.yml hash..."
-          if [ -f _data/citations.yml ]; then
-            sha_before=$(sha256sum _data/citations.yml | awk '{print $1}')
+          if [ -f _data/citations.yml ] && [ -f assets/json/scholar.json ]; then
+            sha_before=$(sha256sum _data/citations.yml assets/json/scholar.json | sha256sum | awk '{print $1}')
             echo "sha_before=$sha_before" >> $GITHUB_OUTPUT
             echo "📝 SHA before: $sha_before"
           else
@@ -61,12 +62,12 @@ jobs:
           fi
           set -e
 
-      - name: Save new citations.yml hash
+      - name: Save new Scholar data hash
         id: after
         run: |
           echo "🔍 Checking updated citations.yml hash..."
-          if [ -f _data/citations.yml ]; then
-            sha_after=$(sha256sum _data/citations.yml | awk '{print $1}')
+          if [ -f _data/citations.yml ] && [ -f assets/json/scholar.json ]; then
+            sha_after=$(sha256sum _data/citations.yml assets/json/scholar.json | sha256sum | awk '{print $1}')
             echo "sha_after=$sha_after" >> $GITHUB_OUTPUT
             echo "📝 SHA after: $sha_after"
           else
@@ -93,7 +94,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add _data/citations.yml
+          git add _data/citations.yml assets/json/scholar.json
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
