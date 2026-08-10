@@ -44,27 +44,27 @@ h2 { margin-bottom:22px; color:#18293a; font-size:clamp(31px,4.1vw,52px); font-w
 .activities ul { margin:0; padding:0; list-style:none; max-width:800px; }
 .activities li { padding:0 0 18px 25px; margin-bottom:18px; border-bottom:1px solid var(--line); position:relative; color:#3b4955; font-size:17px; }
 .activities li::before { content:""; position:absolute; left:0; top:.68em; width:8px; height:8px; border-radius:50%; background:var(--accent); }
-.publications { background:var(--wash); border-top:1px solid #e3eaed; }
-.pub-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:42px; padding-bottom:34px; }
+.publications { background:#fff; border-top:1px solid #d8e0e5; }
+.pub-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:42px; padding-bottom:25px; }
 .pub-heading h2 { margin-bottom:10px; }
 .pub-subtitle { max-width:720px; margin:0; color:var(--muted); font-size:15px; }
 .pub-status { flex:0 0 auto; display:flex; align-items:center; gap:8px; padding-bottom:5px; color:#61707c; font:12px/1.3 Arial,sans-serif; }
 .status-dot { width:8px; height:8px; border-radius:50%; background:#6f977f; box-shadow:0 0 0 3px #dcebe1; }
-.pub-controls { display:grid; grid-template-columns:auto minmax(160px, 1fr) auto; gap:11px; align-items:center; padding:14px; margin-bottom:30px; background:#fff; border:1px solid var(--line); }
+.pub-controls { display:grid; grid-template-columns:auto minmax(160px, 1fr) auto; gap:11px; align-items:center; padding:12px 0 19px; margin-bottom:5px; border-bottom:1px solid var(--line); }
 .pub-controls label,.pub-controls button { font:700 12px/1 Arial,sans-serif; }
-.pub-controls input { width:100%; padding:10px; border:0; outline:0; color:var(--ink); background:#f7f9fa; font:14px Arial,sans-serif; }
+.pub-controls input { width:100%; padding:10px; border:1px solid #d2dde3; outline:0; color:var(--ink); background:#fff; font:14px Arial,sans-serif; }
 .pub-controls input:focus { box-shadow:0 0 0 2px #9ac1d8; }
 .pub-controls button { padding:10px; border:0; color:var(--blue); background:transparent; cursor:pointer; }
-.year-group { margin-bottom:14px; border:1px solid var(--line); background:#fff; }
-.year-group summary { display:flex; align-items:center; justify-content:space-between; padding:18px 20px; color:var(--blue); font:700 20px/1 Arial,sans-serif; cursor:pointer; }
-.year-group summary::marker { color:var(--accent); }
+.year-group { margin:0; padding:25px 0 7px; border:0; background:#fff; }
+.year-heading { display:flex; align-items:center; justify-content:space-between; margin:0 0 14px; padding:0 0 7px; color:#16305c; font:700 15px/1.3 Arial,sans-serif; letter-spacing:.03em; border-bottom:1px solid #e5e9f0; }
 .year-count { color:#74818b; font-size:12px; font-weight:500; }
-.paper-list { margin:0; padding:0; list-style:none; }
-.paper { padding:20px; border-top:1px solid #e4ebee; }
-.paper-citation { margin:0; color:#263641; font-size:16px; line-height:1.58; }
-.paper-links { display:flex; flex-wrap:wrap; gap:7px; margin-top:11px; }
-.badge { display:inline-flex; align-items:center; min-height:23px; padding:4px 8px; border:1px solid #c8d8e1; color:#305c78; background:#f5fafc; font:700 11px/1 Arial,sans-serif; text-decoration:none; letter-spacing:.01em; }
-.badge:hover { color:#fff; background:var(--blue-mid); border-color:var(--blue-mid); }
+.paper-list { margin:0; padding:0 0 0 29px; }
+.paper { padding:14px 0 17px 3px; border-bottom:1px solid #edf1f3; }
+.paper::marker { color:#365d76; font:600 14px/1.6 Arial,sans-serif; }
+.paper-citation { margin:0; color:#182f42; font-size:18px; line-height:1.57; }
+.paper-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+.badge { display:inline-flex; align-items:center; min-height:31px; padding:7px 12px; border:1px solid #c5d8e4; color:#245678; background:#f8fcfe; font:700 13px/1 Arial,sans-serif; text-decoration:none; letter-spacing:.01em; }
+.badge:hover { color:#fff; background:#245678; border-color:#245678; }
 .badge.citations { border-color:#e9c99a; color:#966020; background:#fff8eb; }
 .empty-state { padding:35px 0; text-align:center; color:var(--muted); }
 footer { padding:27px 0; color:#c9d5dc; background:#12283d; font:12px Arial,sans-serif; }
