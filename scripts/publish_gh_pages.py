@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Commit a static directory into a subdirectory of a GitHub Pages branch.
+"""Publish a static directory into a subdirectory of a GitHub Pages branch.
 
-Used for the first deployment and later by GitHub Actions. The Git Data API
-creates one atomic commit, so the published subsite is never half-updated.
+Files are written through GitHub's Contents API. The entry HTML file is always
+written last so an initial deployment never exposes a partly uploaded page.
 """
 
 from __future__ import annotations
@@ -52,40 +52,28 @@ def main() -> int:
     if not files:
         raise RuntimeError(f"No files found in {source}")
 
-    ref = api("GET", f"/repos/{args.repository}/git/ref/heads/{args.branch}", token)
-    parent_sha = ref["object"]["sha"]
-    parent = api("GET", f"/repos/{args.repository}/git/commits/{parent_sha}", token)
-    entries = []
+    # Upload index.html last: it is the only page entry point, so visitors do
+    # not encounter an incomplete initial release while companion assets arrive.
+    files.sort(key=lambda path: path.name == "index.html")
+    commits = []
     for file_path in files:
-        blob = api(
-            "POST",
-            f"/repos/{args.repository}/git/blobs",
-            token,
-            {"content": base64.b64encode(file_path.read_bytes()).decode("ascii"), "encoding": "base64"},
-        )
         relative_path = file_path.relative_to(source).as_posix()
         prefix = "" if args.prefix in {"", "."} else args.prefix.rstrip("/")
         target_path = f"{prefix}/{relative_path}" if prefix else relative_path
-        entries.append({"path": target_path, "mode": "100644", "type": "blob", "sha": blob["sha"]})
-    tree = api(
-        "POST",
-        f"/repos/{args.repository}/git/trees",
-        token,
-        {"base_tree": parent["tree"]["sha"], "tree": entries},
-    )
-    commit = api(
-        "POST",
-        f"/repos/{args.repository}/git/commits",
-        token,
-        {"message": args.message, "tree": tree["sha"], "parents": [parent_sha]},
-    )
-    try:
-        api("PATCH", f"/repos/{args.repository}/git/refs/heads/{args.branch}", token, {"sha": commit["sha"], "force": False})
-    except HTTPError as error:
-        if error.code == 422:
-            raise RuntimeError("The Pages branch changed during deployment; retry safely.") from error
-        raise
-    print(commit["sha"])
+        payload = {
+            "message": args.message,
+            "branch": args.branch,
+            "content": base64.b64encode(file_path.read_bytes()).decode("ascii"),
+        }
+        try:
+            existing = api("GET", f"/repos/{args.repository}/contents/{target_path}?ref={args.branch}", token)
+            payload["sha"] = existing["sha"]
+        except HTTPError as error:
+            if error.code != 404:
+                raise
+        result = api("PUT", f"/repos/{args.repository}/contents/{target_path}", token, payload)
+        commits.append(result["commit"]["sha"])
+    print(commits[-1])
     return 0
 
 
