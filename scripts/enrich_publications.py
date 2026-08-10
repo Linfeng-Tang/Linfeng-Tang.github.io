@@ -10,6 +10,9 @@ from pathlib import Path
 
 
 CURATED_LINKS = {
+    "HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration": {
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11443336/",
+    },
     "Nonrigid Point Set Registration with Robust Transformation Learning under Manifold Regularization": {
         "code": "https://github.com/jiayi-ma/MR-RPM",
     },

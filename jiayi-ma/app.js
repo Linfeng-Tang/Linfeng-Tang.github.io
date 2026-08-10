@@ -15,10 +15,6 @@ function cleanCitation(citation) {
   return citation.replace(/\s*\(Code\)/gi, "").replace(/\s+\./g, ".").trim();
 }
 
-function scholarSearch(title) {
-  return `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}"`)}`;
-}
-
 function formatTime(iso) {
   if (!iso) return "Source connected";
   return `Updated ${new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(new Date(iso))}`;
@@ -27,7 +23,7 @@ function formatTime(iso) {
 function linksFor(paper) {
   const sourceLinks = (paper.links || []).map((link) => ({ label: link.label, url: link.url }));
   const links = [
-    { label: "Paper", url: paper.paper || scholarSearch(paperTitle(paper.citation)) },
+    paper.paper && { label: "Paper", url: paper.paper },
     paper.code && { label: "Code", url: paper.code },
     ...sourceLinks,
   ].filter(Boolean);
