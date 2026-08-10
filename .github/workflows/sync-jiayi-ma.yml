@@ -22,10 +22,17 @@ jobs:
           python scripts/enrich_publications.py --file work/publications.json
           python scripts/discover_github_links.py --file work/publications.json --limit 25
           python scripts/sync_scholar.py --file work/publications.json
-      - name: Publish refreshed data to the Pages subsite
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update the static subsite source
         run: |
-          mkdir -p work/site/data
-          cp work/publications.json work/site/data/publications.json
-          python scripts/publish_gh_pages.py --source work/site --message "Update Jiayi Ma publications and citations"
+          mkdir -p jiayi-ma-source/data
+          cp work/publications.json jiayi-ma-source/data/publications.json
+      - name: Commit refreshed publication data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jiayi-ma-source/data/publications.json
+          git diff --cached --quiet || git commit -m "Update Jiayi Ma publications and citations"
+          git push
+          gh workflow run deploy.yml --ref main
