@@ -11,6 +11,14 @@ function paperTitle(citation) {
   return match ? match[1] : citation;
 }
 
+function cleanCitation(citation) {
+  return citation.replace(/\s*\(Code\)/gi, "").replace(/\s+\./g, ".").trim();
+}
+
+function scholarSearch(title) {
+  return `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}"`)}`;
+}
+
 function formatTime(iso) {
   if (!iso) return "Source connected";
   return `Updated ${new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(new Date(iso))}`;
@@ -19,13 +27,13 @@ function formatTime(iso) {
 function linksFor(paper) {
   const sourceLinks = (paper.links || []).map((link) => ({ label: link.label, url: link.url }));
   const links = [
-    paper.paper && { label: "Paper", url: paper.paper },
+    { label: "Paper", url: paper.paper || scholarSearch(paperTitle(paper.citation)) },
     paper.code && { label: "Code", url: paper.code },
     ...sourceLinks,
   ].filter(Boolean);
   const unique = links.filter((link, index, all) => link.url && all.findIndex((item) => item.url === link.url) === index);
   if (paper.citations > 100) unique.push({ label: `${paper.citations.toLocaleString()} citations`, url: "https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en", citation: true });
-  return unique.map((link) => `<a class="badge${link.citation ? " citations" : ""}" href="${escapeHTML(link.url)}" target="_blank" rel="noreferrer">${escapeHTML(link.label)}${link.citation ? " ↗" : ""}</a>`).join("");
+  return unique.map((link) => `<a class="badge${link.citation ? " citations" : ""}" href="${escapeHTML(link.url)}" target="_blank" rel="noreferrer">${escapeHTML(link.label)}</a>`).join("");
 }
 
 function render(publications, query = "") {
@@ -35,13 +43,14 @@ function render(publications, query = "") {
     (result[paper.year] ||= []).push(paper);
     return result;
   }, {});
-  list.innerHTML = Object.entries(groups).sort(([a], [b]) => Number(b) - Number(a)).map(([year, papers], index) => `
-    <details class="year-group" ${needle || index === 0 ? "open" : ""}>
-      <summary>${year}<span class="year-count">${papers.length} publication${papers.length === 1 ? "" : "s"}</span></summary>
+  let serial = 0;
+  list.innerHTML = Object.entries(groups).sort(([a], [b]) => Number(b) - Number(a)).map(([year, papers]) => `
+    <section class="year-group" aria-label="Publications in ${year}">
+      <h3 class="year-heading">Year ${year}<span class="year-count">${papers.length} publication${papers.length === 1 ? "" : "s"}</span></h3>
       <ol class="paper-list">
-        ${papers.map((paper) => `<li class="paper"><p class="paper-citation">${escapeHTML(paper.citation)}</p><div class="paper-links">${linksFor(paper)}</div></li>`).join("")}
+        ${papers.map((paper) => `<li class="paper" value="${++serial}"><p class="paper-citation">${escapeHTML(cleanCitation(paper.citation))}</p><div class="paper-links">${linksFor(paper)}</div></li>`).join("")}
       </ol>
-    </details>`).join("");
+    </section>`).join("");
   empty.hidden = filtered.length > 0;
 }
 
