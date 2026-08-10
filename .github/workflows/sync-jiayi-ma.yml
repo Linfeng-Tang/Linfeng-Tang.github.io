@@ -1,0 +1,30 @@
+name: Sync Jiayi Ma publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "18 1 * * *" # 09:18 China Standard Time (UTC+8)
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Synchronise publications
+        run: |
+          python scripts/sync_publications.py --out work/publications.json
+          python scripts/enrich_publications.py --file work/publications.json
+          python scripts/sync_scholar.py --file work/publications.json
+      - name: Publish refreshed data to the Pages subsite
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p work/site/data
+          cp work/publications.json work/site/data/publications.json
+          python scripts/publish_gh_pages.py --source work/site --message "Update Jiayi Ma publications and citations"
