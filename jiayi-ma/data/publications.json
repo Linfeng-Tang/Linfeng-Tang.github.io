@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-10T15:48:57Z",
+  "syncedAt": "2026-08-10T16:48:19Z",
   "publications": [
     {
       "year": "2026",
@@ -1215,8 +1215,7 @@
     {
       "year": "2023",
       "citation": "Jiayi Ma, Kaining Zhang, and Junjun Jiang. \"Loop Closure Detection via Locality Preserving Matching with Global Consensus\", IEEE/CAA Journal of Automatica Sinica, 10(2), pp. 411-426, Feb. 2023.",
-      "links": [],
-      "code": "https://github.com/Jiawyang/LocalityPreservingMatching"
+      "links": []
     },
     {
       "year": "2023",
@@ -2331,8 +2330,7 @@
           "label": "Code",
           "url": "https://github.com/jiayi-ma?tab=repositories"
         }
-      ],
-      "code": "https://github.com/Jiawyang/LocalityPreservingMatching"
+      ]
     },
     {
       "year": "2018",
@@ -2905,5 +2903,5 @@
       "links": []
     }
   ],
-  "citationSyncedAt": "2026-08-10T15:49:14Z"
+  "citationSyncedAt": "2026-08-10T16:48:19Z"
 }
