@@ -67,7 +67,7 @@ def crossref_link(title: str) -> str | None:
 
 
 def needs_resolution(paper: dict) -> bool:
-    return paper.get("paperSource") not in {"curated-publisher", "crossref", "google-scholar"}
+    return not paper.get("paperChecked") and paper.get("paperSource") not in {"curated-publisher", "crossref", "google-scholar"}
 
 
 def resolve_one(title: str, scholar_fallback: bool) -> tuple[str | None, str | None]:
@@ -118,6 +118,7 @@ def main() -> None:
             ))
     for paper, title, result in zip(queue, titles, results):
         url, source = result
+        paper["paperChecked"] = True
         if url:
             paper["paper"] = url
             paper["paperSource"] = source
