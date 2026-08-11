@@ -39,8 +39,9 @@ latest_posts:
   <p class="hero-summary">
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception.
   </p>
+  <p class="hero-achievement">🏅 <strong>Stanford World's Top 2% Scientists</strong> &middot; Career-long impact list (2021–2024)</p>
   <p class="hero-summary esi-summary">
-    My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%): Mask-DiFuser, SeAFusion, PIAFusion, SwinFusion, SuperFusion, PSFusion, DIVFusion, and STDFusionNet.
+    My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>

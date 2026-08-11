@@ -41,8 +41,9 @@ latest_posts:
   <p class="hero-summary">
     我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。
   </p>
+  <p class="hero-achievement">🏅 入选 <strong>斯坦福大学全球前 2% 顶尖科学家</strong> &middot; 终身影响力榜单（2021–2024）</p>
   <p class="hero-summary esi-summary">
-    目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）：Mask-DiFuser、SeAFusion、PIAFusion、SwinFusion、SuperFusion、PSFusion、DIVFusion 和 STDFusionNet。
+    目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
