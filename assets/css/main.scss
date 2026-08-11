@@ -303,6 +303,19 @@ body {
 }
 .pub-chip { border: 1px solid color-mix(in srgb, var(--global-theme-color) 22%, transparent); }
 
+.scholar-publication-citation {
+  display: flex;
+  width: fit-content;
+  margin-top: 0.45rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 28%, transparent);
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
 .post .social { margin-top: 24px; padding: 20px 24px; }
 
 @media (max-width: 768px) {

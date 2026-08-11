@@ -229,7 +229,7 @@ latest_posts:
 </div>
 
 <p class="publication-note">
-  All citation counts shown on this page were refreshed from my personal Google Scholar profile on July 18, 2026. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
+  Citation counts on this page are synchronized daily from my personal Google Scholar profile. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 ## Academic Service
