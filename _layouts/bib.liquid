@@ -183,6 +183,9 @@
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
+      {% if entry.scholar_citation %}
+        <span class="scholar-publication-citation" data-scholar-paper="{{ entry.title | escape }}" data-scholar-unit="citations">Google Scholar citations</span>
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->

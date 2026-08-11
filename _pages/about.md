@@ -37,7 +37,7 @@ latest_posts:
     I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
-    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025.
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
   </p>
   <p class="hero-summary esi-summary">
     My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
@@ -52,8 +52,8 @@ latest_posts:
 
 <div class="home-metrics refined">
   <div class="metric-item">
-    <span class="metric-value">15+</span>
-    <span class="metric-label">high-impact papers</span>
+    <span class="metric-value">17</span>
+    <span class="metric-label">first-author papers</span>
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,311</span>
@@ -229,7 +229,7 @@ latest_posts:
 </div>
 
 <p class="publication-note">
-  All citation counts shown on this page were refreshed from my personal Google Scholar profile on July 18, 2026. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
+  Citation counts on this page are synchronized daily from my personal Google Scholar profile. The live profile remains available on <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 ## Academic Service
