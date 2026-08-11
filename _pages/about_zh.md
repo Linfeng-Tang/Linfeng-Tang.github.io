@@ -30,6 +30,10 @@ latest_posts:
 ---
 
 <div class="home-hero">
+  <div class="home-identity">
+    <h1>唐霖峰</h1>
+    <p><a href="https://robotics.whu.edu.cn/" target="_blank">武汉大学博士后</a></p>
+  </div>
   <p class="hero-kicker">计算机视觉 | 图像融合 | 图像增强</p>
   <p class="hero-lead">
     我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">马佳义教授</a>。
