@@ -109,6 +109,7 @@ latest_posts:
       <p>International Journal of Computer Vision (IJCV), 2025</p>
     </div>
     <div class="pub-meta">
+      <span class="pub-chip" data-scholar-paper="C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning">Google Scholar &middot; 68 citations</span>
       <span class="pub-chip subtle">IJCV</span>
     </div>
   </div>
