@@ -37,9 +37,8 @@ latest_posts:
     I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
-    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception.
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025.
   </p>
-  <p class="hero-achievement">🏅 <strong>Stanford World's Top 2% Scientists</strong> &middot; Career-long impact list (2021–2024)</p>
   <p class="hero-summary esi-summary">
     My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
   </p>
