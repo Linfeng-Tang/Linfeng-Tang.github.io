@@ -110,6 +110,31 @@ body {
 #navbar .navbar-brand.title { color: var(--global-theme-color) !important; }
 #navbar #light-toggle { color: var(--global-text-color-light); }
 
+#navbar .language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.16rem;
+  margin: 0 0.25rem 0 0.45rem;
+  padding: 0.2rem 0.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.74rem;
+  line-height: 1;
+}
+
+#navbar .language-link {
+  padding: 0.24rem 0.33rem;
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+#navbar .language-link:hover { color: var(--global-theme-color); }
+#navbar .language-link.active { background: var(--global-theme-color); color: var(--global-card-bg-color); }
+#navbar .language-separator { color: var(--global-text-color-light); opacity: 0.65; }
+
 .post {
   max-width: 920px;
   margin: 24px auto 48px;
@@ -243,4 +268,5 @@ body {
   .post .post-title { font-size: 1.6rem; }
   .post > article > .profile { float: none !important; width: min(100%, 260px); margin: 0 auto 18px; }
   .home-hero { padding: 20px; }
+  #navbar .language-toggle { width: fit-content; margin: 0.35rem 0.72rem; }
 }

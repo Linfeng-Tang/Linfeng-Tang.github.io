@@ -75,31 +75,6 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light);
 }
 
-.lang-switch {
-  display: flex;
-  gap: 0.6rem;
-  margin-bottom: 1.25rem;
-}
-
-.lang-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 84px;
-  padding: 0.45rem 0.9rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  color: var(--global-text-color);
-  text-decoration: none;
-  font-size: 0.92rem;
-}
-
-.lang-pill.active {
-  border-color: var(--global-theme-color);
-  color: var(--global-theme-color);
-  background: color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color));
-}
-
 .home-hero {
   padding: 0.25rem 0 0.5rem;
 }
