@@ -29,11 +29,6 @@ latest_posts:
   limit: 3
 ---
 
-<div class="lang-switch">
-  <a class="lang-pill" href="/">英文</a>
-  <span class="lang-pill active">中文</span>
-</div>
-
 <div class="home-hero">
   <p class="hero-kicker">计算机视觉 | 图像融合 | 图像增强</p>
   <p class="hero-lead">
@@ -101,7 +96,7 @@ latest_posts:
       <p class="featured-summary">以掩码扩散模型统一建模多种无监督图像融合任务。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 51 引用</span>
+      <span class="pub-chip" data-scholar-paper="Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion" data-scholar-unit="引用">Google Scholar &middot; 63 引用</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
@@ -139,7 +134,7 @@ latest_posts:
       <p class="featured-summary">利用 Swin Transformer 建模跨域长程依赖，实现通用图像融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 1,582 引用</span>
+      <span class="pub-chip" data-scholar-paper="SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer" data-scholar-unit="引用">Google Scholar &middot; 1,650 引用</span>
       <span class="pub-chip subtle">🏅 2023 钱学森论文奖</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
@@ -152,7 +147,7 @@ latest_posts:
       <p class="featured-summary">将语义感知与高层视觉任务反馈引入实时红外-可见光融合。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 1,183 引用</span>
+      <span class="pub-chip" data-scholar-paper="Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network" data-scholar-unit="引用">Google Scholar &middot; 1,214 引用</span>
       <span class="pub-chip subtle">🏅 Information Fusion 2024 最佳论文奖</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
@@ -165,7 +160,7 @@ latest_posts:
       <p class="featured-summary">依据光照条件渐进融合红外与可见光信息。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 1,265 引用</span>
+      <span class="pub-chip" data-scholar-paper="PIAFusion: A progressive infrared and visible image fusion network based on illumination aware" data-scholar-unit="引用">Google Scholar &middot; 1,321 引用</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
@@ -177,7 +172,7 @@ latest_posts:
       <p class="featured-summary">联合图像配准与语义感知融合，面向空间未对齐的多模态输入。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 504 引用</span>
+      <span class="pub-chip" data-scholar-paper="SuperFusion: A versatile image registration and fusion network with semantic awareness" data-scholar-unit="引用">Google Scholar &middot; 520 引用</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
@@ -189,7 +184,7 @@ latest_posts:
       <p class="featured-summary">面向低照度场景抑制暗区并增强融合细节可见性。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 546 引用</span>
+      <span class="pub-chip" data-scholar-paper="DIVFusion: Darkness-free infrared and visible image fusion" data-scholar-unit="引用">Google Scholar &middot; 574 引用</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
@@ -201,7 +196,7 @@ latest_posts:
       <p class="featured-summary">通过语义注入与场景保真协同优化低层融合质量和高层任务。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 410 引用</span>
+      <span class="pub-chip" data-scholar-paper="Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity" data-scholar-unit="引用">Google Scholar &middot; 429 引用</span>
       <span class="pub-chip subtle">🔥 ESI 热点论文</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
@@ -213,7 +208,7 @@ latest_posts:
       <p class="featured-summary">利用显著目标检测保留关键热目标与结构信息。</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip">Google Scholar &middot; 686 引用</span>
+      <span class="pub-chip" data-scholar-paper="STDFusionNet: An infrared and visible image fusion network based on salient target detection" data-scholar-unit="引用">Google Scholar &middot; 699 引用</span>
       <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>

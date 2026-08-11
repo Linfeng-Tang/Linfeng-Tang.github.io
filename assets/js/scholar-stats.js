@@ -8,8 +8,22 @@
       if (!data || !data.profile) return;
       var profile = data.profile;
       var format = function (value) { return Number(value).toLocaleString("en-US"); };
+      var normalizeTitle = function (value) {
+        return String(value || "").toLowerCase().replace(/\s+/g, " ").replace(/[\u2010-\u2015]/g, "-").trim();
+      };
+      var papersByTitle = {};
+      Object.keys(data.papers || {}).forEach(function (key) {
+        var paper = data.papers[key] || {};
+        papersByTitle[normalizeTitle(paper.title)] = paper.citations;
+      });
       document.querySelectorAll("[data-scholar-citations]").forEach(function (element) { element.textContent = format(profile.citations); });
       document.querySelectorAll("[data-scholar-summary]").forEach(function (element) { element.textContent = "Google Scholar citations · h-index " + profile.hindex; });
+      document.querySelectorAll("[data-scholar-paper]").forEach(function (element) {
+        var citations = papersByTitle[normalizeTitle(element.dataset.scholarPaper)];
+        if (Number.isFinite(Number(citations))) {
+          element.textContent = "Google Scholar · " + format(citations) + " " + (element.dataset.scholarUnit || "citations");
+        }
+      });
     })
     .catch(function () { /* Keep the server-rendered fallback when unavailable. */ });
 })();

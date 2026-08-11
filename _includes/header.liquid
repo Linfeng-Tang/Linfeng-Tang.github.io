@@ -125,6 +125,11 @@
               </button>
             </li>
           {% endif %}
+          <li class="nav-item language-toggle" aria-label="Language selector">
+            <a class="language-link {% unless page.permalink == '/zh/' %}active{% endunless %}" href="{{ '/' | relative_url }}" lang="en">EN</a>
+            <span class="language-separator" aria-hidden="true">/</span>
+            <a class="language-link {% if page.permalink == '/zh/' %}active{% endif %}" href="{{ '/zh/' | relative_url }}" lang="zh-CN">中</a>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

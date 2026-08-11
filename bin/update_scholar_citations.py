@@ -2,7 +2,7 @@
 """Refresh the public Google Scholar snapshot used by the website."""
 
 import json
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -38,7 +38,7 @@ def main() -> None:
     author = scholarly.fill(scholarly.search_author_id(user_id))
     if not author:
         raise RuntimeError("Google Scholar returned no author profile")
-    fetched_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    fetched_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     profile = {"citations": int(author.get("citedby", 0)), "hindex": int(author.get("hindex", 0)), "i10index": int(author.get("i10index", 0)), "updated": fetched_at}
     papers = {}
     for publication in author.get("publications", []):

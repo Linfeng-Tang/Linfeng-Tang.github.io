@@ -3,7 +3,48 @@
     "citations": 8311,
     "hindex": 22,
     "i10index": 27,
-    "updated": "2026-08-10T00:00:00Z"
+    "updated": "2026-08-11T06:50:00Z"
   },
-  "papers": {}
+  "papers": {
+    "PyRqpAsAAAAJ:5Ul4iDaHHb8C": {
+      "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
+      "year": "2022",
+      "citations": 1214
+    },
+    "PyRqpAsAAAAJ:J-pR_7NvFogC": {
+      "title": "DIVFusion: Darkness-free infrared and visible image fusion",
+      "year": "2022",
+      "citations": 574
+    },
+    "PyRqpAsAAAAJ:VOx2b1Wkg3QC": {
+      "title": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
+      "year": "2022",
+      "citations": 1321
+    },
+    "PyRqpAsAAAAJ:XiVPGOgt02cC": {
+      "title": "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity",
+      "year": "2023",
+      "citations": 429
+    },
+    "PyRqpAsAAAAJ:eJXPG6dFmWUC": {
+      "title": "SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer",
+      "year": "2022",
+      "citations": 1650
+    },
+    "PyRqpAsAAAAJ:geHnlv5EZngC": {
+      "title": "STDFusionNet: An infrared and visible image fusion network based on salient target detection",
+      "year": "2021",
+      "citations": 699
+    },
+    "PyRqpAsAAAAJ:uLbwQdceFCQC": {
+      "title": "Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion",
+      "year": "2026",
+      "citations": 63
+    },
+    "PyRqpAsAAAAJ:wbdj-CoPYUoC": {
+      "title": "SuperFusion: A versatile image registration and fusion network with semantic awareness",
+      "year": "2022",
+      "citations": 520
+    }
+  }
 }
