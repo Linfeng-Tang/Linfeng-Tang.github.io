@@ -39,7 +39,7 @@ latest_posts:
     我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=zh-CN">马佳义教授</a>。
   </p>
   <p class="hero-summary">
-    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>。
+    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
     目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）。
@@ -54,8 +54,8 @@ latest_posts:
 
 <div class="home-metrics refined">
   <div class="metric-item">
-    <span class="metric-value">15+</span>
-    <span class="metric-label">高水平论文</span>
+    <span class="metric-value">17</span>
+    <span class="metric-label">篇一作论文</span>
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,311</span>
