@@ -227,7 +227,12 @@ body {
 .featured-item { border: 1px solid var(--global-divider-color); border-radius: 9px; background: color-mix(in srgb, var(--global-theme-color) 3%, var(--global-card-bg-color)); }
 .research-item { border-left: 3px solid #2563eb; }
 .featured-item { padding: 1.05rem 1.1rem; }
-.featured-item h3 { color: var(--global-theme-color); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.featured-item h3 {
+  color: var(--global-theme-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+}
 .pub-chip { border: 1px solid color-mix(in srgb, var(--global-theme-color) 22%, transparent); }
 
 .post .social { margin-top: 24px; padding: 20px 24px; }
