@@ -157,10 +157,7 @@ body.sticky-bottom-footer {
 }
 
 .featured-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
+  display: block;
   padding: 1rem 1.05rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
@@ -187,9 +184,10 @@ body.sticky-bottom-footer {
 .pub-meta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 0.45rem;
-  min-width: 145px;
+  margin-top: 0.85rem;
+  min-width: 0;
 }
 
 .pub-chip {
@@ -226,10 +224,6 @@ body.sticky-bottom-footer {
   .research-grid,
   .featured-publications {
     grid-template-columns: 1fr;
-  }
-
-  .featured-item {
-    flex-direction: column;
   }
 
   .pub-meta {

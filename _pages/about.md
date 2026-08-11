@@ -28,6 +28,10 @@ latest_posts:
 ---
 
 <div class="home-hero">
+  <div class="home-identity">
+    <h1>Linfeng Tang</h1>
+    <p><a href="https://robotics.whu.edu.cn/" target="_blank">Postdoctoral Researcher</a> at Wuhan University.</p>
+  </div>
   <p class="hero-kicker">Computer Vision | Image Fusion | Image Enhancement</p>
   <p class="hero-lead">
     I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en">Jiayi Ma</a>.
