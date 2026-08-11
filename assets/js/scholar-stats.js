@@ -1,7 +1,9 @@
 /* Refresh homepage Scholar statistics from the snapshot written by GitHub Actions. */
 (function () {
   "use strict";
-  var snapshotUrl = new URL("assets/json/scholar.json", document.baseURI);
+  // Always load the shared snapshot from the site root, including nested pages
+  // such as /publications/ where a document-relative URL would be incorrect.
+  var snapshotUrl = new URL("/assets/json/scholar.json", window.location.origin);
   fetch(snapshotUrl, { cache: "no-store" })
     .then(function (response) { return response.ok ? response.json() : null; })
     .then(function (data) {
