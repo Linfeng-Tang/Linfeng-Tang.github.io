@@ -2,7 +2,10 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    - cron: "0 2 * * *" # Daily, 10:00 China Standard Time
+    # Three staggered attempts per day (10:00, 18:00, and 02:00 China time).
+    # Google Scholar may temporarily rate-limit cloud runners, so a later
+    # attempt can refresh the snapshot without human intervention.
+    - cron: "0 2,10,18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -48,18 +51,22 @@ jobs:
         shell: bash
         run: |
           set +e
-          echo "🚀 Running citation update script (single attempt)..."
-          start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
-          status=$?
-          end_time=$(date)
-          if [ $status -eq 0 ]; then
-            echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
-            echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
-            echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
-          fi
+          status=1
+          for attempt in 1 2; do
+            start_time=$(date)
+            echo "🚀 Citation update attempt $attempt/2..."
+            timeout 180 python bin/update_scholar_citations.py
+            status=$?
+            end_time=$(date)
+            if [ $status -eq 0 ]; then
+              echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
+              echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
+              break
+            fi
+            echo "⚠️ Attempt $attempt failed with exit code $status."
+            if [ $attempt -lt 2 ]; then sleep 45; fi
+          done
+          echo "status=$status" >> $GITHUB_OUTPUT
           set -e
 
       - name: Save new Scholar data hash
@@ -100,3 +107,9 @@ jobs:
             git commit -m "Update Google Scholar citations"
             git push
           )
+
+      - name: Mark failed refresh attempts
+        if: steps.run_citation_update.outputs.status != '0'
+        run: |
+          echo "Google Scholar did not return a usable response after two attempts." >&2
+          exit 1
