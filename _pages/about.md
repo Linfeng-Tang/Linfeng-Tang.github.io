@@ -53,19 +53,19 @@ latest_posts:
 <div class="home-metrics refined">
   <div class="metric-item">
     <span class="metric-value">17</span>
-    <span class="metric-label">first-author papers</span>
+    <span class="metric-label">First-Author Papers</span>
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar Citations · h-index 22</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
-    <span class="metric-label">best paper awards</span>
+    <span class="metric-label">Best Paper Awards</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">6 / 8</span>
-    <span class="metric-label">ESI Hot / Highly Cited papers</span>
+    <span class="metric-label">ESI Hot / Highly Cited Papers</span>
   </div>
 </div>
 

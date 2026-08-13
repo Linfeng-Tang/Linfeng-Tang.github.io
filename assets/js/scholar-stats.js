@@ -19,7 +19,7 @@
         papersByTitle[normalizeTitle(paper.title)] = paper.citations;
       });
       document.querySelectorAll("[data-scholar-citations]").forEach(function (element) { element.textContent = format(profile.citations); });
-      document.querySelectorAll("[data-scholar-summary]").forEach(function (element) { element.textContent = "Google Scholar citations · h-index " + profile.hindex; });
+      document.querySelectorAll("[data-scholar-summary]").forEach(function (element) { element.textContent = "Google Scholar Citations · h-index " + profile.hindex; });
       document.querySelectorAll("[data-scholar-paper]").forEach(function (element) {
         var citations = papersByTitle[normalizeTitle(element.dataset.scholarPaper)];
         if (Number.isFinite(Number(citations))) {
