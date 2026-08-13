@@ -6,7 +6,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:1yQoGdGgb4wC": {
-      "citations": 68,
+      "citations": 70,
       "title": "C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning",
       "year": "2025"
     },
@@ -16,12 +16,12 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:35r97b3x0nAC": {
-      "citations": 115,
+      "citations": 116,
       "title": "Deep learning-based image fusion: A survey",
       "year": "2023"
     },
     "PyRqpAsAAAAJ:5Ul4iDaHHb8C": {
-      "citations": 1214,
+      "citations": 1218,
       "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
       "year": "2022"
     },
@@ -36,12 +36,12 @@
       "year": "2022"
     },
     "PyRqpAsAAAAJ:Fu2w8maKXqMC": {
-      "citations": 32,
+      "citations": 33,
       "title": "Controlfusion: A controllable image fusion network with language-vision degradation prompts",
       "year": "2026"
     },
     "PyRqpAsAAAAJ:J-pR_7NvFogC": {
-      "citations": 574,
+      "citations": 577,
       "title": "DIVFusion: Darkness-free infrared and visible image fusion",
       "year": "2022"
     },
@@ -51,7 +51,7 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:JoZmwDi-zQgC": {
-      "citations": 58,
+      "citations": 60,
       "title": "Dispel darkness for better fusion: A controllable visual enhancer based on cross-modal conditional adversarial learning",
       "year": "2024"
     },
@@ -61,22 +61,22 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:NJ774b8OgUMC": {
-      "citations": 36,
+      "citations": 37,
       "title": "基于深度学习的图像融合方法综述",
       "year": "2024"
     },
     "PyRqpAsAAAAJ:PR6Y55bgFSsC": {
-      "citations": 72,
+      "citations": 73,
       "title": "Diff-Retinex++: Retinex-driven reinforced diffusion model for low-light image enhancement",
       "year": "2025"
     },
     "PyRqpAsAAAAJ:SdhP9T11ey4C": {
-      "citations": 92,
+      "citations": 93,
       "title": "DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior",
       "year": "2024"
     },
     "PyRqpAsAAAAJ:VOx2b1Wkg3QC": {
-      "citations": 1321,
+      "citations": 1326,
       "title": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
       "year": "2022"
     },
@@ -91,12 +91,12 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:XiVPGOgt02cC": {
-      "citations": 429,
+      "citations": 430,
       "title": "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene …",
       "year": "2023"
     },
     "PyRqpAsAAAAJ:Y5dfb0dijaUC": {
-      "citations": 327,
+      "citations": 329,
       "title": "Text-if: Leveraging semantic text guidance for degradation-aware and interactive image fusion",
       "year": "2024"
     },
@@ -121,17 +121,17 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:eJXPG6dFmWUC": {
-      "citations": 1650,
+      "citations": 1651,
       "title": "SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer",
       "year": "2022"
     },
     "PyRqpAsAAAAJ:evX43VCCuoAC": {
-      "citations": 14,
+      "citations": 16,
       "title": "VideoFusion: a spatio-temporal collaborative network for multi-modal video fusion",
       "year": "2026"
     },
     "PyRqpAsAAAAJ:geHnlv5EZngC": {
-      "citations": 699,
+      "citations": 700,
       "title": "STDFusionNet: An infrared and visible image fusion network based on salient target detection",
       "year": "2021"
     },
@@ -141,7 +141,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:t6usbXjVLHcC": {
-      "citations": 441,
+      "citations": 444,
       "title": "Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model",
       "year": "2023"
     },
@@ -151,7 +151,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:tkaPQYYpVKoC": {
-      "citations": 239,
+      "citations": 241,
       "title": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
       "year": "2024"
     },
@@ -161,12 +161,12 @@
       "year": "Unknown year"
     },
     "PyRqpAsAAAAJ:uLbwQdceFCQC": {
-      "citations": 63,
+      "citations": 64,
       "title": "Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion",
       "year": "2026"
     },
     "PyRqpAsAAAAJ:wbdj-CoPYUoC": {
-      "citations": 520,
+      "citations": 521,
       "title": "SuperFusion: A versatile image registration and fusion network with semantic awareness",
       "year": "2022"
     },
@@ -177,9 +177,9 @@
     }
   },
   "profile": {
-    "citations": 8311,
+    "citations": 8346,
     "hindex": 22,
     "i10index": 27,
-    "updated": "2026-08-11T07:00:49Z"
+    "updated": "2026-08-13T04:09:27Z"
   }
 }
