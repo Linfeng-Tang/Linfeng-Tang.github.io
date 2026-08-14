@@ -21,7 +21,7 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:5Ul4iDaHHb8C": {
-      "citations": 1218,
+      "citations": 1220,
       "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
       "year": "2022"
     },
@@ -41,12 +41,12 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:J-pR_7NvFogC": {
-      "citations": 577,
+      "citations": 578,
       "title": "DIVFusion: Darkness-free infrared and visible image fusion",
       "year": "2022"
     },
     "PyRqpAsAAAAJ:JQOojiI6XY0C": {
-      "citations": 8,
+      "citations": 9,
       "title": "Temcoco: Temporally consistent multi-modal video fusion with visual-semantic collaboration",
       "year": "2025"
     },
@@ -76,7 +76,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:VOx2b1Wkg3QC": {
-      "citations": 1326,
+      "citations": 1327,
       "title": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
       "year": "2022"
     },
@@ -86,22 +86,22 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:WA5NYHcadZ8C": {
-      "citations": 94,
+      "citations": 96,
       "title": "CAMF: An interpretable infrared and visible image fusion network based on class activation mapping",
       "year": "2023"
     },
     "PyRqpAsAAAAJ:XiVPGOgt02cC": {
-      "citations": 430,
+      "citations": 431,
       "title": "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene …",
       "year": "2023"
     },
     "PyRqpAsAAAAJ:Y5dfb0dijaUC": {
-      "citations": 329,
+      "citations": 331,
       "title": "Text-if: Leveraging semantic text guidance for degradation-aware and interactive image fusion",
       "year": "2024"
     },
     "PyRqpAsAAAAJ:ZuybSZzF8UAC": {
-      "citations": 12,
+      "citations": 13,
       "title": "Comatch: Dynamic covisibility-aware transformer for bilateral subpixel-level semi-dense image matching",
       "year": "2025"
     },
@@ -121,7 +121,7 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:eJXPG6dFmWUC": {
-      "citations": 1651,
+      "citations": 1656,
       "title": "SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer",
       "year": "2022"
     },
@@ -131,7 +131,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:geHnlv5EZngC": {
-      "citations": 700,
+      "citations": 701,
       "title": "STDFusionNet: An infrared and visible image fusion network based on salient target detection",
       "year": "2021"
     },
@@ -141,7 +141,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:t6usbXjVLHcC": {
-      "citations": 444,
+      "citations": 446,
       "title": "Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model",
       "year": "2023"
     },
@@ -151,7 +151,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:tkaPQYYpVKoC": {
-      "citations": 241,
+      "citations": 243,
       "title": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
       "year": "2024"
     },
@@ -166,7 +166,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:wbdj-CoPYUoC": {
-      "citations": 521,
+      "citations": 523,
       "title": "SuperFusion: A versatile image registration and fusion network with semantic awareness",
       "year": "2022"
     },
@@ -177,9 +177,9 @@
     }
   },
   "profile": {
-    "citations": 8346,
+    "citations": 8369,
     "hindex": 22,
     "i10index": 27,
-    "updated": "2026-08-13T18:59:43Z"
+    "updated": "2026-08-14T18:49:58Z"
   }
 }
