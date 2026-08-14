@@ -1,7 +1,13 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-13T03:33:16Z",
+  "syncedAt": "2026-08-14T03:29:44Z",
   "publications": [
+    {
+      "year": "2026",
+      "citation": "Lei Cao, Hao Zhang, Peng Zhang, Daiguo Zhou, and Jiayi Ma*. \"Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
     {
       "year": "2026",
       "citation": "Xunpeng Yi, Han Xu, Yibing Zhang, Hao Zhang, Linfeng Tang, and Jiayi Ma*. \"GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion\", IEEE Transactions on Pattern Analysis and Machine Intelligence, In Press.",
