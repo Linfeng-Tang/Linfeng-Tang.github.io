@@ -34,7 +34,7 @@ latest_posts:
   </div>
   <p class="hero-kicker">Computer Vision | Image Fusion | Image Enhancement</p>
   <p class="hero-lead">
-    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en">Jiayi Ma</a>.
+    I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://jiayi-ma.github.io/">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
