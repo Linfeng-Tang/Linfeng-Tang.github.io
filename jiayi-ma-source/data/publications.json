@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-25T02:31:12Z",
+  "syncedAt": "2026-08-26T02:39:07Z",
   "publications": [
     {
       "year": "2026",
@@ -1135,7 +1135,7 @@
     },
     {
       "year": "2024",
-      "citation": "Yuan Gao, Weizhong Zhang, Wenhan Luo, Lin Ma, Jin-Gang Yu, Gui-Song Xia, and Jiayi Ma. \"Free Lunches in Auxiliary Learning: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost\", in Proceedings of the International Conference on Learning Representations (ICLR), May 2024.",
+      "citation": "Yuan Gao, Weizhong Zhang, Wenhan Luo, Lin Ma, Jin-Gang Yu, Gui-Song Xia, and Jiayi Ma. \"Free Lunches in Auxiliary Learning: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost\", in Proceedings of the International Conference on Learning Representations (ICLR), pp. 9927-9942, May 2024.",
       "links": [],
       "paperChecked": true
     },
@@ -3528,6 +3528,5 @@
       "links": [],
       "paperChecked": true
     }
-  ],
-  "citationSyncedAt": "2026-08-25T02:31:12Z"
+  ]
 }
