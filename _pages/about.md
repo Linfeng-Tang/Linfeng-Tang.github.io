@@ -78,19 +78,19 @@ latest_posts:
   <article class="funding-card featured">
     <p class="funding-type">National Natural Science Foundation of China</p>
     <h3>Youth Science Fund</h3>
-    <p>Controllable and robust multimodal image fusion through cross-level vision-semantic collaboration.</p>
+    <p>Controllable and robust multimodal image fusion through cross-level vision-semantic collaboration</p>
     <time datetime="2026-08-26">Approved Aug. 26, 2026</time>
   </article>
   <article class="funding-card">
     <p class="funding-type">China Postdoctoral Science Foundation</p>
     <h3>National-funded Postdoctoral Researcher Program (Grade B)</h3>
-    <p>Robust fusion and trustworthy interpretation of multi-source heterogeneous remote-sensing imagery through perception-cognition collaboration.</p>
+    <p>Robust fusion and trustworthy interpretation of multi-source heterogeneous remote-sensing imagery through perception-cognition collaboration</p>
     <time datetime="2026-07-17">Approved Jul. 17, 2026</time>
   </article>
   <article class="funding-card">
     <p class="funding-type">China Postdoctoral Science Foundation</p>
     <h3>79th General Grant</h3>
-    <p>Collaborative perception theory and methods for multi-source image fusion in open-world scenarios.</p>
+    <p>Collaborative perception theory and methods for multi-source image fusion in open-world scenarios</p>
     <time datetime="2026-07-24">Approved Jul. 24, 2026</time>
   </article>
 </div>

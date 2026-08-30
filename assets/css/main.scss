@@ -306,7 +306,11 @@ body {
 .funding-card .funding-meta { margin-top: auto; padding-top: 0.9rem; color: var(--global-text-color); font-size: 0.8rem; font-weight: 600; }
 .funding-card time { display: block; margin-top: 0.5rem; color: var(--global-theme-color); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.78rem; font-weight: 600; }
 
-.project-bibliography { counter-reset: project-item; }
+.project-bibliography {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: project-item;
+}
 .project-bibliography > li {
   position: relative;
   counter-increment: project-item;
