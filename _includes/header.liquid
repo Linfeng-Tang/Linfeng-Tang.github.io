@@ -101,11 +101,7 @@
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 {% assign nav_title = p.title %}
                 {% if p.permalink == '/projects/' %}
-                  {% if page.permalink == '/zh/' %}
-                    {% assign nav_title = '科研项目' %}
-                  {% else %}
-                    {% assign nav_title = 'Projects' %}
-                  {% endif %}
+                  {% assign nav_title = 'Projects' %}
                 {% endif %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
