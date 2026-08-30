@@ -277,7 +277,6 @@ body {
 .funding-card {
   display: flex;
   flex-direction: column;
-  min-height: 218px;
   padding: 1.05rem 1.1rem;
   border: 1px solid var(--global-divider-color);
   border-left: 3px solid #2563eb;
@@ -302,6 +301,7 @@ body {
   font-weight: 700;
   line-height: 1.35;
 }
+.funding-card.compact-title h3 { font-size: 0.9rem; letter-spacing: -0.025em; }
 .funding-card p { margin: 0; color: var(--global-text-color-light); font-size: 0.91rem; line-height: 1.6; }
 .funding-card .funding-meta { margin-top: auto; padding-top: 0.9rem; color: var(--global-text-color); font-size: 0.8rem; font-weight: 600; }
 .funding-card time { display: block; margin-top: 0.5rem; color: var(--global-theme-color); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.78rem; font-weight: 600; }
