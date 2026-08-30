@@ -71,6 +71,32 @@ latest_posts:
 
 <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
 
+## Projects
+
+<div class="funding-grid">
+  <article class="funding-card featured">
+    <p class="funding-type">National Natural Science Foundation of China</p>
+    <h3>Youth Science Fund</h3>
+    <p>Controllable and robust multimodal image fusion through cross-level vision-semantic collaboration.</p>
+    <p class="funding-meta">Grant No. 62602480 · CNY 300,000 · Jan. 2027 – Dec. 2029</p>
+    <time datetime="2026-08-26">Approved Aug. 26, 2026</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">China Postdoctoral Science Foundation</p>
+    <h3>Postdoctoral Fellowship Program (Grade B)</h3>
+    <p>National-funded postdoctoral researcher support.</p>
+    <p class="funding-meta">Grant No. GZB20260061</p>
+    <time datetime="2026-07-17">Awarded Jul. 17, 2026</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">China Postdoctoral Science Foundation</p>
+    <h3>79th General Grant</h3>
+    <p>General funding support for postdoctoral research.</p>
+    <p class="funding-meta">Grant No. 2026M791669</p>
+    <time datetime="2026-07-24">Awarded Jul. 24, 2026</time>
+  </article>
+</div>
+
 ## Research Focus
 
 <div class="research-grid refined">

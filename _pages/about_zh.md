@@ -71,6 +71,32 @@ latest_posts:
   </div>
 </div>
 
+## 科研项目
+
+<div class="funding-grid">
+  <article class="funding-card featured">
+    <p class="funding-type">国家自然科学基金</p>
+    <h3>青年科学基金项目</h3>
+    <p>跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究。</p>
+    <p class="funding-meta">批准号：62602480 · 经费：30 万元 · 2027.01 – 2029.12</p>
+    <time datetime="2026-08-26">2026 年 8 月 26 日获批</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">中国博士后科学基金会</p>
+    <h3>国家资助博士后研究人员计划 B 档</h3>
+    <p>2026 年度国家资助博士后研究人员计划。</p>
+    <p class="funding-meta">资助编号：GZB20260061</p>
+    <time datetime="2026-07-17">2026 年 7 月 17 日获批</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">中国博士后科学基金会</p>
+    <h3>第 79 批面上资助</h3>
+    <p>中国博士后科学基金第 79 批面上资助。</p>
+    <p class="funding-meta">资助编号：2026M791669</p>
+    <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
+  </article>
+</div>
+
 ## 研究方向
 
 <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
