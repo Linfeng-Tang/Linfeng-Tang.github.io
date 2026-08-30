@@ -327,7 +327,9 @@ body {
   position: relative;
   counter-increment: project-item;
   margin-left: 2rem;
+  margin-bottom: 1.35rem;
 }
+.project-bibliography > li:last-child { margin-bottom: 0; }
 .project-bibliography > li::before {
   position: absolute;
   right: calc(100% + 0.65rem);
@@ -347,16 +349,16 @@ body {
 .project-bibliography .title {
   font-size: 1.15rem;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.52;
 }
 .project-bibliography .author {
-  margin-top: 0.38rem;
+  margin-top: 0.52rem;
   margin-left: 0.5rem;
   color: var(--global-text-color-light);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 .project-bibliography .periodical { margin-top: 0.15rem; color: var(--global-text-color-light); }
 
