@@ -77,7 +77,7 @@ latest_posts:
 <div class="funding-grid">
   <article class="funding-card featured">
     <p class="funding-type">National Natural Science Foundation of China</p>
-    <h3>Youth Science Fund</h3>
+    <h3>Youth Science Fund (Category C)</h3>
     <p>Controllable and robust multimodal image fusion through cross-level vision-semantic collaboration</p>
     <time datetime="2026-08-26">Approved Aug. 26, 2026</time>
   </article>

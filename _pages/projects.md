@@ -17,7 +17,7 @@ nav_order: 4
       </div>
       <div class="col-sm-10">
         <div class="title">跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究</div>
-        <div class="author">国家自然科学基金青年科学基金项目</div>
+        <div class="author">国家自然科学基金青年科学基金项目（C类）</div>
       </div>
     </div>
   </li>
