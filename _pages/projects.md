@@ -2,12 +2,12 @@
 layout: page
 title: 科研项目
 permalink: /projects/
-description: 主持的科研项目与人才计划资助。
+description: 主持的科研项目。
 nav: true
 nav_order: 4
 ---
 
-<p class="publication-note">主持的科研项目与人才计划资助。</p>
+<p class="publication-note">主持的科研项目。</p>
 
 <ol class="bibliography project-bibliography">
   <li>
