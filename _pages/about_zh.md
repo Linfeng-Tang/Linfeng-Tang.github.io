@@ -77,7 +77,7 @@ latest_posts:
 <div class="funding-grid">
   <article class="funding-card featured">
     <p class="funding-type">国家自然科学基金</p>
-    <h3>青年科学基金项目</h3>
+    <h3>青年科学基金项目（C类）</h3>
     <p>跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究</p>
     <time datetime="2026-08-26">2026 年 8 月 26 日获批</time>
   </article>
