@@ -85,14 +85,14 @@ latest_posts:
   <article class="funding-card">
     <p class="funding-type">中国博士后科学基金会</p>
     <h3>国家资助博士后研究人员计划 B 档</h3>
-    <p>2026 年度国家资助博士后研究人员计划。</p>
-    <p class="funding-meta">国家资助博士后研究人员计划</p>
+    <p>感知-认知协同的多源异构遥感影像鲁棒融合与可信解译方法研究。</p>
+    <p class="funding-meta">博士后人才计划资助</p>
     <time datetime="2026-07-17">2026 年 7 月 17 日获批</time>
   </article>
   <article class="funding-card">
     <p class="funding-type">中国博士后科学基金会</p>
     <h3>第 79 批面上资助</h3>
-    <p>中国博士后科学基金第 79 批面上资助。</p>
+    <p>面向开放场景的多源图像融合感知协同理论及方法研究。</p>
     <p class="funding-meta">博士后科研资助</p>
     <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
   </article>

@@ -306,40 +306,31 @@ body {
 .funding-card .funding-meta { margin-top: auto; padding-top: 0.9rem; color: var(--global-text-color); font-size: 0.8rem; font-weight: 600; }
 .funding-card time { display: block; margin-top: 0.5rem; color: var(--global-theme-color); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.78rem; font-weight: 600; }
 
-.project-list-intro { margin: 0 0 1rem; color: var(--global-text-color-light); }
-.project-list { margin: 0; padding-left: 2.2rem; }
-.project-list > li { margin: 0 0 0.9rem; padding: 0; }
-.project-list > li::marker {
+.project-bibliography { counter-reset: project-item; }
+.project-bibliography > li {
+  position: relative;
+  counter-increment: project-item;
+  margin-left: 2rem;
+}
+.project-bibliography > li::before {
+  position: absolute;
+  right: calc(100% + 0.65rem);
+  top: 0;
   color: var(--global-theme-color);
+  content: counter(project-item) ".";
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 700;
 }
-.project-list article {
-  padding: 1rem 1.15rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 9px;
-  background: var(--global-card-bg-color);
-  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.08);
-}
-.project-list-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-.project-list h2 {
-  margin: 0;
-  color: var(--global-theme-color);
+.project-bibliography .abbr abbr {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 1.02rem;
+  font-size: 0.76rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
 }
-.project-list h3 { margin: 0.58rem 0 0; color: var(--global-text-color); font-size: 1rem; font-weight: 650; line-height: 1.65; }
-.project-list p { margin: 0.5rem 0 0; color: var(--global-text-color-light); line-height: 1.65; }
-.project-list time {
-  flex: 0 0 auto;
-  color: var(--global-theme-color);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
+.project-bibliography .title { line-height: 1.55; }
+.project-bibliography .author { margin-top: 0.2rem; }
+.project-bibliography .periodical { margin-top: 0.15rem; color: var(--global-text-color-light); }
 
 .research-grid,
 .featured-publications { padding: 14px; gap: 12px; }
