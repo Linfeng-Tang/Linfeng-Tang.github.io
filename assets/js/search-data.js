@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-科研项目",
           title: "科研项目",
-          description: "主持的科研项目与人才计划资助。",
+          description: "主持的科研项目。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
