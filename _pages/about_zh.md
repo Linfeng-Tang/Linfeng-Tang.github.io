@@ -48,6 +48,7 @@ latest_posts:
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
     <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
     <a class="quick-link" href="/publications/">论文列表</a>
+    <a class="quick-link" href="/projects/">科研项目</a>
     <a class="quick-link" href="/services/">学术服务</a>
   </div>
 </div>
@@ -78,21 +79,21 @@ latest_posts:
     <p class="funding-type">国家自然科学基金</p>
     <h3>青年科学基金项目</h3>
     <p>跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究。</p>
-    <p class="funding-meta">批准号：62602480 · 经费：30 万元 · 2027.01 – 2029.12</p>
+    <p class="funding-meta">经费：30 万元 · 2027.01 – 2029.12</p>
     <time datetime="2026-08-26">2026 年 8 月 26 日获批</time>
   </article>
   <article class="funding-card">
     <p class="funding-type">中国博士后科学基金会</p>
     <h3>国家资助博士后研究人员计划 B 档</h3>
     <p>2026 年度国家资助博士后研究人员计划。</p>
-    <p class="funding-meta">资助编号：GZB20260061</p>
+    <p class="funding-meta">国家资助博士后研究人员计划</p>
     <time datetime="2026-07-17">2026 年 7 月 17 日获批</time>
   </article>
   <article class="funding-card">
     <p class="funding-type">中国博士后科学基金会</p>
     <h3>第 79 批面上资助</h3>
     <p>中国博士后科学基金第 79 批面上资助。</p>
-    <p class="funding-meta">资助编号：2026M791669</p>
+    <p class="funding-meta">博士后科研资助</p>
     <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
   </article>
 </div>

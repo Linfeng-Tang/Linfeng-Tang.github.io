@@ -4,4 +4,4 @@ date: 2026-08-26
 inline: true
 related_posts: false
 ---
-I was awarded an **NSFC Youth Science Fund** project (Grant No. **62602480**, CNY **300,000**, 2027–2029) on controllable and robust multimodal image fusion through cross-level vision-semantic collaboration.
+获批 **国家自然科学基金青年科学基金项目**：跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究（经费 30 万元，2027 年 1 月至 2029 年 12 月）。

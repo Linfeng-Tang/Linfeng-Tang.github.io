@@ -4,4 +4,4 @@ date: 2026-07-24
 inline: true
 related_posts: false
 ---
-I received the **79th General Grant** of the China Postdoctoral Science Foundation (Grant No. **2026M791669**).
+获 **中国博士后科学基金第 79 批面上资助**。

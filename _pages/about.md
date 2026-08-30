@@ -46,6 +46,7 @@ latest_posts:
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
     <a class="quick-link" href="https://github.com/Linfeng-Tang">GitHub</a>
     <a class="quick-link" href="/publications/">Publications</a>
+    <a class="quick-link" href="/projects/">Projects</a>
     <a class="quick-link" href="/services/">Services</a>
   </div>
 </div>
@@ -71,29 +72,29 @@ latest_posts:
 
 <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
 
-## Projects
+## 科研项目 / Projects
 
 <div class="funding-grid">
   <article class="funding-card featured">
-    <p class="funding-type">National Natural Science Foundation of China</p>
-    <h3>Youth Science Fund</h3>
-    <p>Controllable and robust multimodal image fusion through cross-level vision-semantic collaboration.</p>
-    <p class="funding-meta">Grant No. 62602480 · CNY 300,000 · Jan. 2027 – Dec. 2029</p>
-    <time datetime="2026-08-26">Approved Aug. 26, 2026</time>
+    <p class="funding-type">国家自然科学基金</p>
+    <h3>青年科学基金项目</h3>
+    <p>跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究。</p>
+    <p class="funding-meta">经费：30 万元 · 2027.01 – 2029.12</p>
+    <time datetime="2026-08-26">2026 年 8 月 26 日获批</time>
   </article>
   <article class="funding-card">
-    <p class="funding-type">China Postdoctoral Science Foundation</p>
-    <h3>Postdoctoral Fellowship Program (Grade B)</h3>
-    <p>National-funded postdoctoral researcher support.</p>
-    <p class="funding-meta">Grant No. GZB20260061</p>
-    <time datetime="2026-07-17">Awarded Jul. 17, 2026</time>
+    <p class="funding-type">中国博士后科学基金会</p>
+    <h3>国家资助博士后研究人员计划 B 档</h3>
+    <p>2026 年度国家资助博士后研究人员计划。</p>
+    <p class="funding-meta">国家资助博士后研究人员计划</p>
+    <time datetime="2026-07-17">2026 年 7 月 17 日获批</time>
   </article>
   <article class="funding-card">
-    <p class="funding-type">China Postdoctoral Science Foundation</p>
-    <h3>79th General Grant</h3>
-    <p>General funding support for postdoctoral research.</p>
-    <p class="funding-meta">Grant No. 2026M791669</p>
-    <time datetime="2026-07-24">Awarded Jul. 24, 2026</time>
+    <p class="funding-type">中国博士后科学基金会</p>
+    <h3>第 79 批面上资助</h3>
+    <p>中国博士后科学基金第 79 批面上资助。</p>
+    <p class="funding-meta">博士后科研资助</p>
+    <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
   </article>
 </div>
 
