@@ -81,9 +81,9 @@ latest_posts:
     <p>跨层次视觉-语义协同的可控鲁棒多模图像融合理论与方法研究</p>
     <time datetime="2026-08-26">2026 年 8 月 26 日获批</time>
   </article>
-  <article class="funding-card">
+  <article class="funding-card compact-title">
     <p class="funding-type">中国博士后科学基金会</p>
-    <h3>国家资助博士后研究人员计划 B 档</h3>
+    <h3>国家资助博士后研究人员计划B档</h3>
     <p>感知-认知协同的多源异构遥感影像鲁棒融合与可信解译方法研究</p>
     <time datetime="2026-07-17">2026 年 7 月 17 日获批</time>
   </article>
