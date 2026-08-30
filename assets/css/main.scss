@@ -310,9 +310,7 @@ body {
   line-height: 1.6;
 }
 .funding-card > p:not(.funding-type) {
-  text-align: justify;
-  text-align-last: left;
-  text-justify: inter-word;
+  text-align: left;
 }
 .funding-card .funding-type {
   margin-bottom: 0.65rem;
