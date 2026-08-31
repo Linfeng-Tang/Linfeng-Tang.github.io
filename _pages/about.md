@@ -72,6 +72,23 @@ latest_posts:
 
 <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
 
+## Research Focus
+
+<div class="research-grid refined">
+  <div class="research-item">
+    <h3>Multi-modal Fusion</h3>
+    <p>Infrared-visible image fusion, video fusion, controllable fusion, and registration-fusion joint modeling.</p>
+  </div>
+  <div class="research-item">
+    <h3>Enhancement and Restoration</h3>
+    <p>Low-light enhancement, degradation-aware restoration, and diffusion-based image recovery.</p>
+  </div>
+  <div class="research-item">
+    <h3>Task-driven Perception</h3>
+    <p>Semantic guidance, language-vision priors, and image fusion models designed for downstream high-level vision tasks.</p>
+  </div>
+</div>
+
 ## Projects
 
 <div class="funding-grid">
@@ -93,23 +110,6 @@ latest_posts:
     <p>Collaborative perception theory and methods for multi-source image fusion in open-world scenarios</p>
     <time datetime="2026-07-24">Approved Jul. 24, 2026</time>
   </article>
-</div>
-
-## Research Focus
-
-<div class="research-grid refined">
-  <div class="research-item">
-    <h3>Multi-modal Fusion</h3>
-    <p>Infrared-visible image fusion, video fusion, controllable fusion, and registration-fusion joint modeling.</p>
-  </div>
-  <div class="research-item">
-    <h3>Enhancement and Restoration</h3>
-    <p>Low-light enhancement, degradation-aware restoration, and diffusion-based image recovery.</p>
-  </div>
-  <div class="research-item">
-    <h3>Task-driven Perception</h3>
-    <p>Semantic guidance, language-vision priors, and image fusion models designed for downstream high-level vision tasks.</p>
-  </div>
 </div>
 
 ## Representative Works

@@ -72,6 +72,25 @@ latest_posts:
   </div>
 </div>
 
+## 研究方向
+
+<script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
+
+<div class="research-grid refined">
+  <div class="research-item">
+    <h3>多模图像融合</h3>
+    <p>红外-可见光图像融合、视频融合、可控融合，以及配准与融合联合建模。</p>
+  </div>
+  <div class="research-item">
+    <h3>图像增强与恢复</h3>
+    <p>低照度图像增强、退化感知恢复，以及基于扩散模型的图像恢复方法。</p>
+  </div>
+  <div class="research-item">
+    <h3>任务驱动感知</h3>
+    <p>语义引导、语言-视觉先验，以及面向检测、分割等高层视觉任务的图像融合模型。</p>
+  </div>
+</div>
+
 ## 科研项目
 
 <div class="funding-grid">
@@ -93,25 +112,6 @@ latest_posts:
     <p>面向开放场景的多源图像融合感知协同理论及方法研究</p>
     <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
   </article>
-</div>
-
-## 研究方向
-
-<script src="{{ '/assets/js/scholar-stats.js' | relative_url }}"></script>
-
-<div class="research-grid refined">
-  <div class="research-item">
-    <h3>多模图像融合</h3>
-    <p>红外-可见光图像融合、视频融合、可控融合，以及配准与融合联合建模。</p>
-  </div>
-  <div class="research-item">
-    <h3>图像增强与恢复</h3>
-    <p>低照度图像增强、退化感知恢复，以及基于扩散模型的图像恢复方法。</p>
-  </div>
-  <div class="research-item">
-    <h3>任务驱动感知</h3>
-    <p>语义引导、语言-视觉先验，以及面向检测、分割等高层视觉任务的图像融合模型。</p>
-  </div>
 </div>
 
 ## 代表性工作
