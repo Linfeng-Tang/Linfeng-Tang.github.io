@@ -1,7 +1,13 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-02T05:49:12Z",
+  "syncedAt": "2026-09-03T05:47:06Z",
   "publications": [
+    {
+      "year": "2026",
+      "citation": "Han Xu, Jiajun Chen, Xunpeng Yi, Peili Li, and Jiayi Ma*. \"IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion\", International Journal of Computer Vision, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
     {
       "year": "2026",
       "citation": "Lei Cao, Hao Zhang, Peng Zhang, Daiguo Zhou, and Jiayi Ma*. \"Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, In Press.",
@@ -1839,14 +1845,14 @@
       "citation": "Jiayi Ma, Linfeng Tang, Fan Fan, Jun Huang, Xiaoguang Mei, and Yong Ma. \"SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer\", IEEE/CAA Journal of Automatica Sinica, 9(7), pp. 1200-1217, Jul. 2022. (Hsue-shen Tsien Paper Award 2023, IEEE/CAA JAS Best Paper Award 2023)",
       "links": [],
       "paperChecked": true,
-      "citations": 1687
+      "citations": 1704
     },
     {
       "year": "2022",
       "citation": "Linfeng Tang, Jiteng Yuan, Hao Zhang, Xingyu Jiang, and Jiayi Ma*. \"PIAFusion: A progressive infrared and visible image fusion network based on illumination aware\", Information Fusion, 83-84, pp. 79-92, Jul. 2022.",
       "links": [],
       "paperChecked": true,
-      "citations": 1354
+      "citations": 1368
     },
     {
       "year": "2022",
@@ -1906,7 +1912,7 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521002542",
       "paperSource": "crossref",
-      "citations": 1235
+      "citations": 1249
     },
     {
       "year": "2022",
@@ -2138,7 +2144,7 @@
       "paper": "https://ieeexplore.ieee.org/document/9151265/",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 2670
+      "citations": 2690
     },
     {
       "year": "2021",
@@ -2151,7 +2157,7 @@
       "citation": "Hao Zhang, Han Xu, Xin Tian, Junjun Jiang, and Jiayi Ma*. \"Image fusion meets deep learning: A survey and perspective\", Information Fusion, 76, pp. 323-336, Dec. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 968
+      "citations": 971
     },
     {
       "year": "2021",
@@ -2191,7 +2197,7 @@
       "citation": "Hao Zhang and Jiayi Ma*. \"SDNet: A Versatile Squeeze-and-Decomposition Network for Real-Time Image Fusion\", International Journal of Computer Vision, 129(10), pp. 2761-2785, Oct. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 826
+      "citations": 833
     },
     {
       "year": "2021",
@@ -2232,7 +2238,7 @@
       "citation": "Xingyu Jiang, Jiayi Ma*, Guobao Xiao, Zhenfeng Shao, and Xiaojie Guo. \"A review of multimodal image matching: Methods and applications\", Information Fusion, 73, pp. 22-71, Sept. 2021 (Invited Paper).",
       "links": [],
       "paperChecked": true,
-      "citations": 638
+      "citations": 639
     },
     {
       "year": "2021",
@@ -2347,7 +2353,7 @@
       "citation": "Jiayi Ma, Linfeng Tang, Meilong Xu, Hao Zhang, and Guobao Xiao. \"STDFusionNet: An Infrared and Visible Image Fusion Network Based on Salient Target Detection\", IEEE Transactions on Instrumentation and Measurement, 70, pp. 5009513, May 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 706
+      "citations": 709
     },
     {
       "year": "2021",
@@ -2378,7 +2384,7 @@
       "citation": "Yonghua Zhang, Xiaojie Guo, Jiayi Ma, Wei Liu, and Jiawan Zhang. \"Beyond Brightening Low-light Images\", International Journal of Computer Vision, 129(4), pp. 1013-1037, Apr. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1228
+      "citations": 1233
     },
     {
       "year": "2021",
@@ -2462,14 +2468,14 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 901
+      "citations": 904
     },
     {
       "year": "2021",
       "citation": "Jiayi Ma, Xingyu Jiang, Aoxiang Fan, Junjun Jiang, and Junchi Yan. \"Image Matching from Handcrafted to Deep Features: A Survey\", International Journal of Computer Vision, 129(1), pp. 23-79, Jan. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1233
+      "citations": 1238
     },
     {
       "year": "2020",
@@ -2601,7 +2607,7 @@
       "citation": "Kui Jiang, Zhongyuan Wang, Peng Yi, Chen Chen, Baojin Huang, Yimin Luo, Jiayi Ma, and Junjun Jiang. \"Multi-Scale Progressive Fusion Network for Single Image Deraining\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8346-8355, Jun. 2020.",
       "links": [],
       "paperChecked": true,
-      "citations": 1135
+      "citations": 1138
     },
     {
       "year": "2020",
@@ -2627,7 +2633,7 @@
       "citation": "Jiayi Ma, Han Xu, Junjun Jiang, Xiaoguang Mei, and Xiao-Ping Zhang. \"DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion\", IEEE Transactions on Image Processing, 29, pp. 4980-4995, Mar. 2020 (IEEE SPS Best Paper Award 2025).",
       "links": [],
       "paperChecked": true,
-      "citations": 1535
+      "citations": 1542
     },
     {
       "year": "2020",
@@ -2643,7 +2649,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 766
+      "citations": 772
     },
     {
       "year": "2020",
@@ -2652,7 +2658,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 792
+      "citations": 796
     },
     {
       "year": "2020",
@@ -2773,7 +2779,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 2668
+      "citations": 2681
     },
     {
       "year": "2019",
@@ -2840,7 +2846,7 @@
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 717
+      "citations": 719
     },
     {
       "year": "2019",
@@ -2877,7 +2883,7 @@
       "citation": "Jiayi Ma, Yong Ma, and Chang Li. \"Infrared and visible image fusion methods and applications: A survey\", Information Fusion, 45, pp. 153-178, Jan. 2019 (Invited Paper).",
       "links": [],
       "paperChecked": true,
-      "citations": 2111
+      "citations": 2123
     },
     {
       "year": "2018",
@@ -3078,7 +3084,7 @@
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 717
+      "citations": 719
     },
     {
       "year": "2017",
@@ -3231,7 +3237,7 @@
       "codeSource": "original-publication-page",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 1309
+      "citations": 1312
     },
     {
       "year": "2016",
@@ -3436,7 +3442,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 649
+      "citations": 650
     },
     {
       "year": "2014",
@@ -3528,5 +3534,6 @@
       "links": [],
       "paperChecked": true
     }
-  ]
+  ],
+  "citationSyncedAt": "2026-09-03T05:47:09Z"
 }
