@@ -1,8 +1,8 @@
 metadata:
-  citations: 8606
+  citations: 8623
   hindex: 23
   i10index: 27
-  updated: '2026-09-01T20:31:34Z'
+  updated: '2026-09-04T06:55:32Z'
 papers:
   PyRqpAsAAAAJ:-_dYPAW6P2MC:
     citations: 0
@@ -21,7 +21,7 @@ papers:
     title: 'Deep learning-based image fusion: A survey'
     year: '2023'
   PyRqpAsAAAAJ:5Ul4iDaHHb8C:
-    citations: 1248
+    citations: 1251
     title: 'Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network'
     year: '2022'
   PyRqpAsAAAAJ:7T2F9Uy0os0C:
@@ -37,7 +37,7 @@ papers:
     title: 'Controlfusion: A controllable image fusion network with language-vision degradation prompts'
     year: '2026'
   PyRqpAsAAAAJ:J-pR_7NvFogC:
-    citations: 590
+    citations: 592
     title: 'DIVFusion: Darkness-free infrared and visible image fusion'
     year: '2022'
   PyRqpAsAAAAJ:JQOojiI6XY0C:
@@ -57,7 +57,7 @@ papers:
     title: 基于深度学习的图像融合方法综述
     year: '2024'
   PyRqpAsAAAAJ:PR6Y55bgFSsC:
-    citations: 79
+    citations: 80
     title: 'Diff-Retinex++: Retinex-driven reinforced diffusion model for low-light image enhancement'
     year: '2025'
   PyRqpAsAAAAJ:SdhP9T11ey4C:
@@ -65,7 +65,7 @@ papers:
     title: 'DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior'
     year: '2024'
   PyRqpAsAAAAJ:VOx2b1Wkg3QC:
-    citations: 1368
+    citations: 1369
     title: 'PIAFusion: A progressive infrared and visible image fusion network based on illumination aware'
     year: '2022'
   PyRqpAsAAAAJ:W5xh706n7nkC:
@@ -73,7 +73,7 @@ papers:
     title: 'CLTE: Infrared and visible image fusion through cross-domain learning and texture-contrast enhancement'
     year: '2025'
   PyRqpAsAAAAJ:WA5NYHcadZ8C:
-    citations: 98
+    citations: 99
     title: 'CAMF: An interpretable infrared and visible image fusion network based on class activation mapping'
     year: '2023'
   PyRqpAsAAAAJ:XiVPGOgt02cC:
@@ -81,7 +81,7 @@ papers:
     title: 'Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene …'
     year: '2023'
   PyRqpAsAAAAJ:Y5dfb0dijaUC:
-    citations: 348
+    citations: 349
     title: 'Text-if: Leveraging semantic text guidance for degradation-aware and interactive image fusion'
     year: '2024'
   PyRqpAsAAAAJ:ZuybSZzF8UAC:
@@ -89,7 +89,7 @@ papers:
     title: 'Comatch: Dynamic covisibility-aware transformer for bilateral subpixel-level semi-dense image matching'
     year: '2025'
   PyRqpAsAAAAJ:_Re3VWB3Y0AC:
-    citations: 0
+    citations: 1
     title: Human-machine collaboration in reshaping visual perception and cognition
     year: '2026'
   PyRqpAsAAAAJ:_Ybze24A_UAC:
@@ -101,7 +101,7 @@ papers:
     title: 'Deep learning reforms image matching: A survey and outlook'
     year: '2025'
   PyRqpAsAAAAJ:eJXPG6dFmWUC:
-    citations: 1704
+    citations: 1708
     title: 'SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer'
     year: '2022'
   PyRqpAsAAAAJ:evX43VCCuoAC:
@@ -133,7 +133,7 @@ papers:
     title: 'Diff-MEF: Cross-Modal Diffusion Framework With Text Prompts and Semantic Perception for Multi-Exposure Image Fusion'
     year: '2026'
   PyRqpAsAAAAJ:tkaPQYYpVKoC:
-    citations: 247
+    citations: 248
     title: 'Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior'
     year: '2024'
   PyRqpAsAAAAJ:tzM49s52ZIMC:
@@ -145,7 +145,7 @@ papers:
     title: 'Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion'
     year: '2026'
   PyRqpAsAAAAJ:wbdj-CoPYUoC:
-    citations: 535
+    citations: 537
     title: 'SuperFusion: A versatile image registration and fusion network with semantic awareness'
     year: '2022'
   PyRqpAsAAAAJ:ye4kPcJQO24C:
