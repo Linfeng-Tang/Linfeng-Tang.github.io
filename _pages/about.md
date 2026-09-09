@@ -40,7 +40,7 @@ latest_posts:
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
   </p>
   <p class="hero-summary esi-summary">
-    My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
+    During my graduate studies, I published <strong>17 first-author papers</strong>, including <strong>10 papers in SCI Q1 TOP journals</strong>, <strong>4 ESI Hot Papers</strong> (top 0.1%), and <strong>5 ESI Highly Cited Papers</strong> (top 1%), with <strong>2,122 Google Scholar citations</strong>.
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
@@ -57,16 +57,16 @@ latest_posts:
     <span class="metric-label">First-Author Papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar Citations · h-index 22</span>
+    <span class="metric-value">10</span>
+    <span class="metric-label">SCI Q1 TOP Journal Papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">2</span>
-    <span class="metric-label">Best Paper Awards</span>
-  </div>
-  <div class="metric-item">
-    <span class="metric-value">6 / 8</span>
+    <span class="metric-value">4 / 5</span>
     <span class="metric-label">ESI Hot / Highly Cited Papers</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">2,122</span>
+    <span class="metric-label">Google Scholar Citations</span>
   </div>
 </div>
 

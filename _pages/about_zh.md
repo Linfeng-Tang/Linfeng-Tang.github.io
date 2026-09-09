@@ -42,7 +42,7 @@ latest_posts:
     我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
-    目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）。
+    研究生期间以第一作者发表 <strong>17 篇论文</strong>，其中 <strong>SCI 一区 TOP 期刊论文 10 篇</strong>；包括 <strong>4 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>5 篇 ESI 高被引论文</strong>（前 1%），Google Scholar 总引用 <strong>2,122 次</strong>。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
@@ -59,16 +59,16 @@ latest_posts:
     <span class="metric-label">篇一作论文</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22</span>
+    <span class="metric-value">10</span>
+    <span class="metric-label">篇 SCI 一区 TOP 期刊论文</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">2</span>
-    <span class="metric-label">最佳论文奖</span>
-  </div>
-  <div class="metric-item">
-    <span class="metric-value">6 / 8</span>
+    <span class="metric-value">4 / 5</span>
     <span class="metric-label">ESI 热点 / 高被引论文</span>
+  </div>
+  <div class="metric-item">
+    <span class="metric-value">2,122</span>
+    <span class="metric-label">Google Scholar 引用</span>
   </div>
 </div>
 
