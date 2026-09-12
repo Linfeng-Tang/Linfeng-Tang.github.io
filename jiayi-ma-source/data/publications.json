@@ -1,7 +1,13 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-11T05:58:05Z",
+  "syncedAt": "2026-09-12T05:46:13Z",
   "publications": [
+    {
+      "year": "2026",
+      "citation": "Jun Chen, Run Mao, Xin Tian, Yijing Zheng, and Jiayi Ma*. \"TCSVT-28144-2026.R3 SGFusion: Semantic-Guided Modality Interaction for Infrared and Visible Image Fusion\", IEEE Transactions on Circuits and Systems for Video Technology, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
     {
       "year": "2026",
       "citation": "Han Xu, Jiajun Chen, Xunpeng Yi, Peili Li, and Jiayi Ma*. \"IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion\", International Journal of Computer Vision, In Press.",
@@ -58,9 +64,9 @@
       "year": "2026",
       "citation": "Tiandong Shi, Chengli Peng, Ji Qi, Jiayi Ma, and Ling Zhao. \"Dynamic frequency modulation for controllable text-driven image generation\", Pattern Recognition, 183, Part A, pp. 114880, Mar. 2027.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320326018443",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "paperChecked": true
     },
     {
       "year": "2026",
@@ -3542,6 +3548,5 @@
       "links": [],
       "paperChecked": true
     }
-  ],
-  "citationSyncedAt": "2026-09-11T05:58:07Z"
+  ]
 }
