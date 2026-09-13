@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-12T05:46:13Z",
+  "syncedAt": "2026-09-13T06:08:31Z",
   "publications": [
     {
       "year": "2026",
@@ -73,6 +73,14 @@
       "citation": "Xinyu Xiang, Qinglong Yan, Shengxiang Li, Linfeng Tang, Zizhuo Li, Hao Zhang*, and Jiayi Ma*. \"From single-modal to multi-modal: A survey and perspective on adversarial attacks in multi-modal visual systems\", Information Fusion, 138, pp. 104718, Feb. 2027.",
       "links": [],
       "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Jun Long, Yining Xie, Kaiwen Zhang, Haochen Qi, Ming Hao, and Jiayi Ma. \"Retinal vascular biomarker concept learning with multimodal fusion for cardiovascular disease detection\", Engineering Applications of Artificial Intelligence, 183, pp. 116158, Nov. 2026.",
+      "links": [],
+      "paperChecked": true,
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0952197626024425",
+      "paperSource": "crossref"
     },
     {
       "year": "2026",
