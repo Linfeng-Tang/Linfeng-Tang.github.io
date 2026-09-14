@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-13T06:08:31Z",
+  "syncedAt": "2026-09-14T06:16:31Z",
   "publications": [
     {
       "year": "2026",
@@ -78,9 +78,9 @@
       "year": "2026",
       "citation": "Jun Long, Yining Xie, Kaiwen Zhang, Haochen Qi, Ming Hao, and Jiayi Ma. \"Retinal vascular biomarker concept learning with multimodal fusion for cardiovascular disease detection\", Engineering Applications of Artificial Intelligence, 183, pp. 116158, Nov. 2026.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0952197626024425",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "paperChecked": true
     },
     {
       "year": "2026",
