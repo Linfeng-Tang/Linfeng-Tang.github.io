@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-16T06:00:50Z",
+  "syncedAt": "2026-09-17T06:08:17Z",
   "publications": [
     {
       "year": "2026",
@@ -1123,7 +1123,7 @@
     },
     {
       "year": "2024",
-      "citation": "Hao Zhang, Linfeng Tang, Xinyu Xiang, Xuhui Zuo, and Jiayi Ma*. \"Dispel Darkness for Better Fusion: A Controllable Visual Enhancer based on Cross-modal Conditional Adversarial Learning\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 26487-26496, Jun. 2024.",
+      "citation": "Hao Zhang, Linfeng Tang, Xinyu Xiang, Xuhui Zuo, and Jiayi Ma*. \"Dispel Darkness for Better Fusion: A Controllable Visual Enhancer based on Cross-modal Conditional Adversarial Learning\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 26477-26486, Jun. 2024.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10656318/",
       "paperSource": "crossref"
@@ -1137,13 +1137,13 @@
     },
     {
       "year": "2024",
-      "citation": "Hao Zhang, Xuhui Zuo, Jie Jiang, Chunchao Guo, and Jiayi Ma*. \"MRFS: Mutually Reinforcing Image Fusion and Segmentation\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 26974-26983, Jun. 2024.",
+      "citation": "Hao Zhang, Xuhui Zuo, Jie Jiang, Chunchao Guo, and Jiayi Ma*. \"MRFS: Mutually Reinforcing Image Fusion and Segmentation\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 26964-26973, Jun. 2024.",
       "links": [],
       "paperChecked": true
     },
     {
       "year": "2024",
-      "citation": "Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*. \"Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 27026-27035, Jun. 2024.",
+      "citation": "Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, Jiayi Ma*. \"Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 27016-27025, Jun. 2024.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10656870/",
       "paperSource": "crossref",
