@@ -32,15 +32,15 @@ latest_posts:
     <h1>Linfeng Tang</h1>
     <p><a href="https://robotics.whu.edu.cn/" target="_blank">Postdoctoral Researcher</a> at Wuhan University.</p>
   </div>
-  <p class="hero-kicker">Computer Vision | Image Fusion | Image Enhancement</p>
+  <p class="hero-kicker">Information Fusion | Image Enhancement | Visual-Semantic Understanding</p>
   <p class="hero-lead">
     I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://jiayi-ma.github.io/">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
-    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on multi-modal image fusion, video fusion, low-light enhancement, restoration, and semantics-aware perception. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on <strong>Information Fusion</strong>, <strong>Image Enhancement</strong>, and <strong>Visual-Semantic Understanding</strong>. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS <strong>Best Paper Award</strong>, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
   </p>
   <p class="hero-summary esi-summary">
-    My publication record includes <strong>6 ESI Hot Papers</strong> (top 0.1%) and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
+    As first author, I have published <strong>17 papers</strong>, including <strong>6 CCF-A papers</strong>, <strong>6 ESI Hot Papers</strong> (top 0.1%), and <strong>8 ESI Highly Cited Papers</strong> (top 1%).
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
@@ -57,8 +57,8 @@ latest_posts:
     <span class="metric-label">First-Author Papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar Citations · h-index 22</span>
+    <span class="metric-value" data-scholar-citations>8,822</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar Citations · h-index 23</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
@@ -76,16 +76,16 @@ latest_posts:
 
 <div class="research-grid refined">
   <div class="research-item">
-    <h3>Multi-modal Fusion</h3>
-    <p>Infrared-visible image fusion, video fusion, controllable fusion, and registration-fusion joint modeling.</p>
+    <h3>Information Fusion</h3>
+    <p>Infrared-visible image fusion, multi-modal video fusion, controllable fusion, and registration-fusion joint modeling.</p>
   </div>
   <div class="research-item">
-    <h3>Enhancement and Restoration</h3>
+    <h3>Image Enhancement</h3>
     <p>Low-light enhancement, degradation-aware restoration, and diffusion-based image recovery.</p>
   </div>
   <div class="research-item">
-    <h3>Task-driven Perception</h3>
-    <p>Semantic guidance, language-vision priors, and image fusion models designed for downstream high-level vision tasks.</p>
+    <h3>Visual-Semantic Understanding</h3>
+    <p>Visual-semantic learning, language-vision priors, and image fusion models designed for downstream high-level vision tasks.</p>
   </div>
 </div>
 
