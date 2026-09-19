@@ -34,15 +34,15 @@ latest_posts:
     <h1>唐霖峰</h1>
     <p><a href="https://robotics.whu.edu.cn/" target="_blank">武汉大学博士后</a></p>
   </div>
-  <p class="hero-kicker">计算机视觉 | 图像融合 | 图像增强</p>
+  <p class="hero-kicker">信息融合 | 图像增强 | 视觉-语义理解</p>
   <p class="hero-lead">
     我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://jiayi-ma.github.io/">马佳义教授</a>。
   </p>
   <p class="hero-summary">
-    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。我的研究方向主要包括多模态图像融合、视频融合、低照度图像增强、图像恢复，以及语义感知建模。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
+    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。研究方向聚焦<strong>信息融合</strong>、<strong>图像增强</strong>与<strong>视觉-语义理解</strong>。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS <strong>最佳论文奖</strong>，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
-    目前共有 <strong>6 篇 ESI 热点论文</strong>（前 0.1%）和 <strong>8 篇 ESI 高被引论文</strong>（前 1%）。
+    以第一作者发表<strong>论文 17 篇</strong>，其中包括 <strong>CCF A 类论文 6 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 8 篇</strong>（前 1%）。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
@@ -59,8 +59,8 @@ latest_posts:
     <span class="metric-label">篇一作论文</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value" data-scholar-citations>8,311</span>
-    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 22</span>
+    <span class="metric-value" data-scholar-citations>8,822</span>
+    <span class="metric-label" data-scholar-summary>Google Scholar citations · h-index 23</span>
   </div>
   <div class="metric-item">
     <span class="metric-value">2</span>
@@ -78,16 +78,16 @@ latest_posts:
 
 <div class="research-grid refined">
   <div class="research-item">
-    <h3>多模图像融合</h3>
-    <p>红外-可见光图像融合、视频融合、可控融合，以及配准与融合联合建模。</p>
+    <h3>信息融合</h3>
+    <p>红外-可见光图像融合、多模态视频融合、可控融合，以及配准与融合联合建模。</p>
   </div>
   <div class="research-item">
-    <h3>图像增强与恢复</h3>
+    <h3>图像增强</h3>
     <p>低照度图像增强、退化感知恢复，以及基于扩散模型的图像恢复方法。</p>
   </div>
   <div class="research-item">
-    <h3>任务驱动感知</h3>
-    <p>语义引导、语言-视觉先验，以及面向检测、分割等高层视觉任务的图像融合模型。</p>
+    <h3>视觉-语义理解</h3>
+    <p>视觉-语义学习、语言-视觉先验，以及面向检测、分割等高层视觉任务的图像融合模型。</p>
   </div>
 </div>
 
