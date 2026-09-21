@@ -1,16 +1,10 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-20T06:14:48Z",
+  "syncedAt": "2026-09-21T06:19:16Z",
   "publications": [
     {
       "year": "2026",
       "citation": "Jun Chen, Run Mao, Xin Tian, Yijing Zheng, and Jiayi Ma*. \"TCSVT-28144-2026.R3 SGFusion: Semantic-Guided Modality Interaction for Infrared and Visible Image Fusion\", IEEE Transactions on Circuits and Systems for Video Technology, In Press.",
-      "links": [],
-      "paperChecked": true
-    },
-    {
-      "year": "2026",
-      "citation": "Han Xu, Jiajun Chen, Xunpeng Yi, Peili Li, and Jiayi Ma*. \"IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion\", International Journal of Computer Vision, In Press.",
       "links": [],
       "paperChecked": true
     },
@@ -95,6 +89,12 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320326005352",
       "paperSource": "crossref"
+    },
+    {
+      "year": "2026",
+      "citation": "Han Xu, Jiajun Chen, Xunpeng Yi, Peili Li, and Jiayi Ma*. \"IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion\", International Journal of Computer Vision, 134(10), pp. 442: 1-24, Oct. 2026.",
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2026",
