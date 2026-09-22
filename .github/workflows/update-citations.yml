@@ -2,10 +2,8 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    # Three staggered attempts per day (10:00, 18:00, and 02:00 China time).
-    # Google Scholar may temporarily rate-limit cloud runners, so a later
-    # attempt can refresh the snapshot without human intervention.
-    - cron: "0 2,10,18 * * *"
+    # Every six hours, staggered to avoid the busiest scheduler window.
+    - cron: "18 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -50,24 +48,9 @@ jobs:
         id: run_citation_update
         shell: bash
         run: |
-          set +e
-          status=1
-          for attempt in 1 2; do
-            start_time=$(date)
-            echo "🚀 Citation update attempt $attempt/2..."
-            timeout 180 python bin/update_scholar_citations.py
-            status=$?
-            end_time=$(date)
-            if [ $status -eq 0 ]; then
-              echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
-              echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
-              break
-            fi
-            echo "⚠️ Attempt $attempt failed with exit code $status."
-            if [ $attempt -lt 2 ]; then sleep 45; fi
-          done
-          echo "status=$status" >> $GITHUB_OUTPUT
-          set -e
+          # One lightweight request. A rejected request preserves the prior
+          # snapshot and exits cleanly, avoiding repeated traffic from one IP.
+          timeout 60 python bin/update_scholar_citations.py
 
       - name: Save new Scholar data hash
         id: after
@@ -107,9 +90,3 @@ jobs:
             git commit -m "Update Google Scholar citations"
             git push
           )
-
-      - name: Mark failed refresh attempts
-        if: steps.run_citation_update.outputs.status != '0'
-        run: |
-          echo "Google Scholar did not return a usable response after two attempts." >&2
-          exit 1
