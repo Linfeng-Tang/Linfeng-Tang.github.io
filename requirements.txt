@@ -1,3 +1,2 @@
 nbconvert
 pyyaml
-scholarly
