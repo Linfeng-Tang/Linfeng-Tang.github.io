@@ -57,7 +57,7 @@ latest_posts:
     <span class="metric-label">First-Author Papers</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value" data-scholar-citations>8,822</span>
+    <span class="metric-value" data-scholar-citations>8,871</span>
     <span class="metric-label" data-scholar-summary>Google Scholar Citations · h-index 23</span>
   </div>
   <div class="metric-item">
@@ -122,7 +122,7 @@ latest_posts:
       <p class="featured-summary">Unifies multiple unsupervised image-fusion tasks through masked diffusion modeling.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion">Google Scholar &middot; 63 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:uLbwQdceFCQC" data-scholar-paper="Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion">Google Scholar &middot; 78 citations</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
@@ -132,7 +132,7 @@ latest_posts:
       <p>International Journal of Computer Vision (IJCV), 2025</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning">Google Scholar &middot; 68 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:1yQoGdGgb4wC" data-scholar-paper="C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning">Google Scholar &middot; 78 citations</span>
       <span class="pub-chip subtle">IJCV</span>
     </div>
   </div>
@@ -161,7 +161,7 @@ latest_posts:
       <p class="featured-summary">Models cross-domain long-range dependencies with a Swin Transformer for general image fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer">Google Scholar &middot; 1,650 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:eJXPG6dFmWUC" data-scholar-paper="SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer">Google Scholar &middot; 1,754 citations</span>
       <span class="pub-chip subtle">🏅 Hsue-shen Tsien Paper Award 2023</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
@@ -174,7 +174,7 @@ latest_posts:
       <p class="featured-summary">Introduces semantic awareness and high-level task feedback into real-time infrared-visible fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network">Google Scholar &middot; 1,214 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:5Ul4iDaHHb8C" data-scholar-paper="Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network">Google Scholar &middot; 1,286 citations</span>
       <span class="pub-chip subtle">🏅 Information Fusion Best Paper Award 2024</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
@@ -187,7 +187,7 @@ latest_posts:
       <p class="featured-summary">Progressively fuses infrared and visible information according to illumination conditions.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="PIAFusion: A progressive infrared and visible image fusion network based on illumination aware">Google Scholar &middot; 1,321 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:VOx2b1Wkg3QC" data-scholar-paper="PIAFusion: A progressive infrared and visible image fusion network based on illumination aware">Google Scholar &middot; 1,411 citations</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
@@ -199,7 +199,7 @@ latest_posts:
       <p class="featured-summary">Jointly addresses image registration and semantics-aware fusion for spatially misaligned inputs.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="SuperFusion: A versatile image registration and fusion network with semantic awareness">Google Scholar &middot; 520 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:wbdj-CoPYUoC" data-scholar-paper="SuperFusion: A versatile image registration and fusion network with semantic awareness">Google Scholar &middot; 547 citations</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
@@ -211,7 +211,7 @@ latest_posts:
       <p class="featured-summary">Suppresses dark regions and improves detail visibility in low-light infrared-visible fusion.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="DIVFusion: Darkness-free infrared and visible image fusion">Google Scholar &middot; 574 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:J-pR_7NvFogC" data-scholar-paper="DIVFusion: Darkness-free infrared and visible image fusion">Google Scholar &middot; 600 citations</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
@@ -223,7 +223,7 @@ latest_posts:
       <p class="featured-summary">Connects low-level fusion quality with high-level tasks through semantic injection and scene fidelity.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity">Google Scholar &middot; 429 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:XiVPGOgt02cC" data-scholar-paper="Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity">Google Scholar &middot; 460 citations</span>
       <span class="pub-chip subtle">🔥 ESI Hot Paper</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
@@ -235,7 +235,7 @@ latest_posts:
       <p class="featured-summary">Uses salient-target detection to preserve critical thermal targets and structural information.</p>
     </div>
     <div class="pub-meta">
-      <span class="pub-chip" data-scholar-paper="STDFusionNet: An infrared and visible image fusion network based on salient target detection">Google Scholar &middot; 699 citations</span>
+      <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:geHnlv5EZngC" data-scholar-paper="STDFusionNet: An infrared and visible image fusion network based on salient target detection">Google Scholar &middot; 715 citations</span>
       <span class="pub-chip subtle">🏆 ESI Highly Cited Paper</span>
     </div>
   </div>
