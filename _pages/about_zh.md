@@ -42,7 +42,7 @@ latest_posts:
     我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。研究方向聚焦<strong>信息融合</strong>、<strong>图像增强</strong>与<strong>视觉-语义理解</strong>。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS <strong>最佳论文奖</strong>，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
-    以第一作者发表<strong>论文 17 篇</strong>，其中包括 <strong>CCF A 类论文 6 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 8 篇</strong>（前 1%）。
+    以第一作者发表<strong>论文 17 篇</strong>，其中包括 <strong>CCF A 类论文 6 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 9 篇</strong>（前 1%）。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
@@ -67,7 +67,7 @@ latest_posts:
     <span class="metric-label">最佳论文奖</span>
   </div>
   <div class="metric-item">
-    <span class="metric-value">6 / 8</span>
+    <span class="metric-value">6 / 9</span>
     <span class="metric-label">ESI 热点 / 高被引论文</span>
   </div>
 </div>
@@ -94,6 +94,13 @@ latest_posts:
 ## 科研项目
 
 <div class="funding-grid">
+  <article class="funding-card">
+    <p class="funding-type">省级科研资助</p>
+    <h3>省级青年基金</h3>
+    <p>生成式多源图像自适应融合与可信感知一体化方法研究</p>
+    <p class="funding-meta">经费：20 万元</p>
+    <time datetime="2026-09-21">2026 年 9 月 21 日获批</time>
+  </article>
   <article class="funding-card featured">
     <p class="funding-type">国家自然科学基金</p>
     <h3>青年科学基金项目（C类）</h3>
@@ -136,6 +143,7 @@ latest_posts:
     <div class="pub-meta">
       <span class="pub-chip" data-scholar-id="PyRqpAsAAAAJ:1yQoGdGgb4wC" data-scholar-paper="C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning" data-scholar-unit="引用">Google Scholar &middot; 78 引用</span>
       <span class="pub-chip subtle">IJCV</span>
+      <span class="pub-chip subtle">🏆 ESI 高被引论文</span>
     </div>
   </div>
   <div class="featured-item">
