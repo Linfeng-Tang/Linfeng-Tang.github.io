@@ -92,13 +92,6 @@ latest_posts:
 ## Projects
 
 <div class="funding-grid">
-  <article class="funding-card">
-    <p class="funding-type">Provincial Research Funding</p>
-    <h3>Provincial Youth Science Fund</h3>
-    <p>Generative methods for integrated adaptive multi-source image fusion and trustworthy perception</p>
-    <p class="funding-meta">Funding: CNY 200,000</p>
-    <time datetime="2026-09-21">Approved Sep. 21, 2026</time>
-  </article>
   <article class="funding-card featured">
     <p class="funding-type">National Natural Science Foundation of China</p>
     <h3>Youth Science Fund (Category C)</h3>
@@ -116,6 +109,12 @@ latest_posts:
     <h3>79th General Grant</h3>
     <p>Collaborative perception theory and methods for multi-source image fusion in open-world scenarios</p>
     <time datetime="2026-07-24">Approved Jul. 24, 2026</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">Provincial Research Funding</p>
+    <h3>Provincial Youth Science Fund</h3>
+    <p>Generative methods for integrated adaptive multi-source image fusion and trustworthy perception</p>
+    <time datetime="2026-09-21">Approved Sep. 21, 2026</time>
   </article>
 </div>
 
