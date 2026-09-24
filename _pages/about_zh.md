@@ -94,13 +94,6 @@ latest_posts:
 ## 科研项目
 
 <div class="funding-grid">
-  <article class="funding-card">
-    <p class="funding-type">省级科研资助</p>
-    <h3>省级青年基金</h3>
-    <p>生成式多源图像自适应融合与可信感知一体化方法研究</p>
-    <p class="funding-meta">经费：20 万元</p>
-    <time datetime="2026-09-21">2026 年 9 月 21 日获批</time>
-  </article>
   <article class="funding-card featured">
     <p class="funding-type">国家自然科学基金</p>
     <h3>青年科学基金项目（C类）</h3>
@@ -118,6 +111,12 @@ latest_posts:
     <h3>第 79 批面上资助</h3>
     <p>面向开放场景的多源图像融合感知协同理论及方法研究</p>
     <time datetime="2026-07-24">2026 年 7 月 24 日获批</time>
+  </article>
+  <article class="funding-card">
+    <p class="funding-type">省级科研资助</p>
+    <h3>省级青年基金</h3>
+    <p>生成式多源图像自适应融合与可信感知一体化方法研究</p>
+    <time datetime="2026-09-21">2026 年 9 月 21 日获批</time>
   </article>
 </div>
 

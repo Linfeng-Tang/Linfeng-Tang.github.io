@@ -13,18 +13,6 @@ nav_order: 4
   <li>
     <div class="row">
       <div class="col-sm-2 abbr">
-        <abbr class="badge rounded w-100">2026.09.21</abbr>
-      </div>
-      <div class="col-sm-10">
-        <div class="author">省级青年基金</div>
-        <div class="title">生成式多源图像自适应融合与可信感知一体化方法研究</div>
-        <div class="periodical">资助经费：20 万元</div>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="row">
-      <div class="col-sm-2 abbr">
         <abbr class="badge rounded w-100">2026.08.26</abbr>
       </div>
       <div class="col-sm-10">
@@ -52,6 +40,17 @@ nav_order: 4
       <div class="col-sm-10">
         <div class="author">国家资助博士后研究人员计划 B 档</div>
         <div class="title">感知-认知协同的多源异构遥感影像鲁棒融合与可信解译方法研究</div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="row">
+      <div class="col-sm-2 abbr">
+        <abbr class="badge rounded w-100">2026.09.21</abbr>
+      </div>
+      <div class="col-sm-10">
+        <div class="author">省级青年基金</div>
+        <div class="title">生成式多源图像自适应融合与可信感知一体化方法研究</div>
       </div>
     </div>
   </li>
