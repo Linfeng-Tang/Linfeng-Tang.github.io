@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-09-24T06:10:01Z",
+  "syncedAt": "2026-09-25T06:09:19Z",
   "publications": [
     {
       "year": "2026",
@@ -56,6 +56,14 @@
     },
     {
       "year": "2026",
+      "citation": "Jie Hua, Yaxuan Hu, Jianfeng Ding, Yuhong Yang, Jun Chang, Jiayi Ma, and Zhongyuan Wang. \"TP-Link: linked audio-visual twin pyramid for harsh visual object detection\", Information Fusion, 139, Part A, pp. 104804, Mar. 2027.",
+      "links": [],
+      "paperChecked": true,
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253526006809",
+      "paperSource": "crossref"
+    },
+    {
+      "year": "2026",
       "citation": "Tiandong Shi, Chengli Peng, Ji Qi, Jiayi Ma, and Ling Zhao. \"Dynamic frequency modulation for controllable text-driven image generation\", Pattern Recognition, 183, Part A, pp. 114880, Mar. 2027.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320326018443",
@@ -65,6 +73,42 @@
     {
       "year": "2026",
       "citation": "Xinyu Xiang, Qinglong Yan, Shengxiang Li, Linfeng Tang, Zizhuo Li, Hao Zhang*, and Jiayi Ma*. \"From single-modal to multi-modal: A survey and perspective on adversarial attacks in multi-modal visual systems\", Information Fusion, 138, pp. 104718, Feb. 2027.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Jiajun Chen, Han Xu, Yunfei Huang, Zhuoya Zhang, Guangcan Liu, and Jiayi Ma. \"V2VFusion: Text-Controlled Video-to-Video Diffusion for Degradation-Aware Video Fusion\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Gengque Fan, Han Xu, Junxi Li, Hao Zhang, Guangcan Liu, and Jiayi Ma. \"PIU-CR: Physics-Informed Deep Unfolding Network with SAR-Optical Image Fusion for Cloud Removal\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Han Xu, Yunfei Deng, Jiayi Ma, and Guangcan Liu. \"MODULE: A Mutual-Promoting Deep Unfolding Framework Towards Degradation-Robust Multi-modal Image Fusion\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Meiqi Gong, Hao Zhang, and Jiayi Ma*. \"MemoryFusion: Cross-Temporal Memory Learning for Multimodal Video Fusion\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Hao Zhang, Douyu Wu, Han Xu, Linfeng Tang, Qiwen Jin, and Jiayi Ma*. \"G2Fusion: Geometric-to-Generative Image Fusion via Registration-Restoration Evolution\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Linfeng Tang, Hu Tong, Zizhuo Li, Hao Zhang, Han Xu, Zhenfeng Shao, and Jiayi Ma*. \"CoVisIT: Cross-modal Prior Guided Diffusion Model for Visible-to-Infrared Image Translation\", in Advances in Neural Information Processing Systems (NeurIPS), Dec. 2026.",
       "links": [],
       "paperChecked": true
     },
