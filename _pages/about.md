@@ -40,7 +40,7 @@ latest_posts:
     I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on <strong>Information Fusion</strong>, <strong>Image Enhancement</strong>, and <strong>Visual-Semantic Understanding</strong>. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS <strong>Best Paper Award</strong>, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
   </p>
   <p class="hero-summary esi-summary">
-    As first author, I have published <strong>17 papers</strong>, including <strong>6 CCF-A papers</strong>, <strong>6 ESI Hot Papers</strong> (top 0.1%), and <strong>9 ESI Highly Cited Papers</strong> (top 1%).
+    As first author, I have <strong>18 published or accepted papers</strong>, including <strong>7 CCF-A papers</strong>, <strong>6 ESI Hot Papers</strong> (top 0.1%), and <strong>9 ESI Highly Cited Papers</strong> (top 1%).
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>
@@ -53,8 +53,8 @@ latest_posts:
 
 <div class="home-metrics refined">
   <div class="metric-item">
-    <span class="metric-value">17</span>
-    <span class="metric-label">First-Author Papers</span>
+    <span class="metric-value">18</span>
+    <span class="metric-label">First-Author Papers (Published / Accepted)</span>
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,871</span>
