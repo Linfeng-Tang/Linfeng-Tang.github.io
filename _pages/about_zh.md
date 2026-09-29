@@ -42,7 +42,7 @@ latest_posts:
     我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。研究方向聚焦<strong>信息融合</strong>、<strong>图像增强</strong>与<strong>视觉-语义理解</strong>。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS <strong>最佳论文奖</strong>，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
-    以第一作者发表或录用<strong>论文 18 篇</strong>，其中包括 <strong>CCF A 类论文 7 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 9 篇</strong>（前 1%）。
+    以第一作者发表<strong>论文 18 篇</strong>，其中包括 <strong>CCF A 类论文 7 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 9 篇</strong>（前 1%）。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
@@ -56,7 +56,7 @@ latest_posts:
 <div class="home-metrics refined">
   <div class="metric-item">
     <span class="metric-value">18</span>
-    <span class="metric-label">篇一作论文（发表 / 录用）</span>
+    <span class="metric-label">篇一作论文</span>
   </div>
   <div class="metric-item">
     <span class="metric-value" data-scholar-citations>8,871</span>
