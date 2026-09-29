@@ -450,7 +450,7 @@ ninja.data = [{
           title: '获批 省级青年基金：生成式多源图像自适应融合与可信感知一体化方法研究。',
           description: "",
           section: "News",},{id: "news-论文-covisit-cross-modal-prior-guided-diffusion-model-for-visible-to-infrared-image-translation-被-neurips-2026-正式接收-ccf-a-类-项目仓库-代码待发布",
-          title: '论文 CoVisIT: Cross-modal Prior Guided Diffusion Model for Visible-to-Infrared Image Translation 被 NeurIPS...',
+          title: '论文 CoVisIT: Cross-Modal Prior Guided Diffusion Model for Visible-to-Infrared Image Translation 被 NeurIPS...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
