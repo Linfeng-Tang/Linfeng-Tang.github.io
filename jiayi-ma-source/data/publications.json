@@ -1,12 +1,14 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-01T07:10:39Z",
+  "syncedAt": "2026-10-02T06:59:37Z",
   "publications": [
     {
       "year": "2026",
-      "citation": "Jun Chen, Run Mao, Xin Tian, Yijing Zheng, and Jiayi Ma*. \"TCSVT-28144-2026.R3 SGFusion: Semantic-Guided Modality Interaction for Infrared and Visible Image Fusion\", IEEE Transactions on Circuits and Systems for Video Technology, In Press.",
+      "citation": "Jun Chen, Run Mao, Xin Tian, Yijing Zheng, and Jiayi Ma*. \"SGFusion: Semantic-Guided Modality Interaction for Infrared and Visible Image Fusion\", IEEE Transactions on Circuits and Systems for Video Technology, In Press.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/11693942/",
+      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -1911,7 +1913,7 @@
       "citation": "Jiayi Ma, Linfeng Tang, Fan Fan, Jun Huang, Xiaoguang Mei, and Yong Ma. \"SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer\", IEEE/CAA Journal of Automatica Sinica, 9(7), pp. 1200-1217, Jul. 2022. (Hsue-shen Tsien Paper Award 2023, IEEE/CAA JAS Best Paper Award 2023)",
       "links": [],
       "paperChecked": true,
-      "citations": 1770
+      "citations": 1775
     },
     {
       "year": "2022",
@@ -2450,7 +2452,7 @@
       "citation": "Yonghua Zhang, Xiaojie Guo, Jiayi Ma, Wei Liu, and Jiawan Zhang. \"Beyond Brightening Low-light Images\", International Journal of Computer Vision, 129(4), pp. 1013-1037, Apr. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1250
+      "citations": 1252
     },
     {
       "year": "2021",
@@ -2541,7 +2543,7 @@
       "citation": "Jiayi Ma, Xingyu Jiang, Aoxiang Fan, Junjun Jiang, and Junchi Yan. \"Image Matching from Handcrafted to Deep Features: A Survey\", International Journal of Computer Vision, 129(1), pp. 23-79, Jan. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1258
+      "citations": 1261
     },
     {
       "year": "2020",
@@ -2699,7 +2701,7 @@
       "citation": "Jiayi Ma, Han Xu, Junjun Jiang, Xiaoguang Mei, and Xiao-Ping Zhang. \"DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion\", IEEE Transactions on Image Processing, 29, pp. 4980-4995, Mar. 2020 (IEEE SPS Best Paper Award 2025).",
       "links": [],
       "paperChecked": true,
-      "citations": 1559
+      "citations": 1560
     },
     {
       "year": "2020",
@@ -2715,7 +2717,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 790
+      "citations": 791
     },
     {
       "year": "2020",
@@ -2845,7 +2847,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 2737
+      "citations": 2738
     },
     {
       "year": "2019",
@@ -2949,7 +2951,7 @@
       "citation": "Jiayi Ma, Yong Ma, and Chang Li. \"Infrared and visible image fusion methods and applications: A survey\", Information Fusion, 45, pp. 153-178, Jan. 2019 (Invited Paper).",
       "links": [],
       "paperChecked": true,
-      "citations": 2162
+      "citations": 2163
     },
     {
       "year": "2018",
@@ -3303,7 +3305,7 @@
       "codeSource": "original-publication-page",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 1320
+      "citations": 1321
     },
     {
       "year": "2016",
@@ -3600,5 +3602,6 @@
       "links": [],
       "paperChecked": true
     }
-  ]
+  ],
+  "citationSyncedAt": "2026-10-02T06:59:40Z"
 }
