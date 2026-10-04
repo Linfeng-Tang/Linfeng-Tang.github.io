@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-03T06:31:41Z",
+  "syncedAt": "2026-10-04T06:49:28Z",
   "publications": [
     {
       "year": "2026",
@@ -1913,14 +1913,14 @@
       "citation": "Jiayi Ma, Linfeng Tang, Fan Fan, Jun Huang, Xiaoguang Mei, and Yong Ma. \"SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer\", IEEE/CAA Journal of Automatica Sinica, 9(7), pp. 1200-1217, Jul. 2022. (Hsue-shen Tsien Paper Award 2023, IEEE/CAA JAS Best Paper Award 2023)",
       "links": [],
       "paperChecked": true,
-      "citations": 1778
+      "citations": 1788
     },
     {
       "year": "2022",
       "citation": "Linfeng Tang, Jiteng Yuan, Hao Zhang, Xingyu Jiang, and Jiayi Ma*. \"PIAFusion: A progressive infrared and visible image fusion network based on illumination aware\", Information Fusion, 83-84, pp. 79-92, Jul. 2022.",
       "links": [],
       "paperChecked": true,
-      "citations": 1432
+      "citations": 1434
     },
     {
       "year": "2022",
@@ -1980,7 +1980,7 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521002542",
       "paperSource": "crossref",
-      "citations": 1300
+      "citations": 1301
     },
     {
       "year": "2022",
@@ -2212,7 +2212,7 @@
       "paper": "https://ieeexplore.ieee.org/document/9151265/",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 2772
+      "citations": 2774
     },
     {
       "year": "2021",
@@ -2225,7 +2225,7 @@
       "citation": "Hao Zhang, Han Xu, Xin Tian, Junjun Jiang, and Jiayi Ma*. \"Image fusion meets deep learning: A survey and perspective\", Information Fusion, 76, pp. 323-336, Dec. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 999
+      "citations": 1000
     },
     {
       "year": "2021",
@@ -2452,7 +2452,7 @@
       "citation": "Yonghua Zhang, Xiaojie Guo, Jiayi Ma, Wei Liu, and Jiawan Zhang. \"Beyond Brightening Low-light Images\", International Journal of Computer Vision, 129(4), pp. 1013-1037, Apr. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1255
+      "citations": 1257
     },
     {
       "year": "2021",
@@ -2675,7 +2675,7 @@
       "citation": "Kui Jiang, Zhongyuan Wang, Peng Yi, Chen Chen, Baojin Huang, Yimin Luo, Jiayi Ma, and Junjun Jiang. \"Multi-Scale Progressive Fusion Network for Single Image Deraining\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8346-8355, Jun. 2020.",
       "links": [],
       "paperChecked": true,
-      "citations": 1149
+      "citations": 1150
     },
     {
       "year": "2020",
@@ -2701,7 +2701,7 @@
       "citation": "Jiayi Ma, Han Xu, Junjun Jiang, Xiaoguang Mei, and Xiao-Ping Zhang. \"DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion\", IEEE Transactions on Image Processing, 29, pp. 4980-4995, Mar. 2020 (IEEE SPS Best Paper Award 2025).",
       "links": [],
       "paperChecked": true,
-      "citations": 1563
+      "citations": 1564
     },
     {
       "year": "2020",
@@ -2717,7 +2717,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 793
+      "citations": 796
     },
     {
       "year": "2020",
@@ -2847,7 +2847,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 2743
+      "citations": 2747
     },
     {
       "year": "2019",
@@ -3603,5 +3603,5 @@
       "paperChecked": true
     }
   ],
-  "citationSyncedAt": "2026-10-03T06:31:42Z"
+  "citationSyncedAt": "2026-10-04T06:49:30Z"
 }
