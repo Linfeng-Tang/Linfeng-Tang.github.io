@@ -161,7 +161,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:tkaPQYYpVKoC": {
-      "citations": 272,
+      "citations": 273,
       "title": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
       "year": "2024"
     },
@@ -187,9 +187,9 @@
     }
   },
   "profile": {
-    "citations": 9079,
+    "citations": 9080,
     "hindex": 23,
     "i10index": 28,
-    "updated": "2026-10-07T13:30:20Z"
+    "updated": "2026-10-07T23:08:16Z"
   }
 }
