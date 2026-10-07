@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-06T07:33:29Z",
+  "syncedAt": "2026-10-07T07:13:29Z",
   "publications": [
     {
       "year": "2026",
@@ -41,13 +41,6 @@
       "citation": "Jie Hua, Zhongyuan Wang, Xin Tian, Jinsheng Xiao, Gang Wu, Tao Lu, and Jiayi Ma. \"Robust Information Feature Pyramid Network for Low-Visible Object Detection\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
-    },
-    {
-      "year": "2026",
-      "citation": "Borui Li, Yong Ma, Fan Fan, Xiaoguang Mei, and Jiayi Ma. \"Dual Prompt Learning for Unsupervised Degradation-Resistant Image Fusion\", IEEE Transactions on Multimedia, In Press.",
-      "links": [],
-      "paper": "https://ieeexplore.ieee.org/document/11552024/",
-      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -134,6 +127,13 @@
       "citation": "Jun Chen, Wei Yu, Zhuo Cheng, Xin Tian, and Jiayi Ma. \"TOFusion: Text-guided and Object-aware Infrared and Visible Image Fusion\", Pattern Recognition, 179, Part A, pp. 113569, Nov. 2026.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320326005352",
+      "paperSource": "crossref"
+    },
+    {
+      "year": "2026",
+      "citation": "Borui Li, Yong Ma, Fan Fan, Xiaoguang Mei, and Jiayi Ma. \"Dual Prompt Learning for Unsupervised Degradation-Resistant Image Fusion\", IEEE Transactions on Multimedia, 28, pp. 8798-8809, Oct. 2026.",
+      "links": [],
+      "paper": "https://ieeexplore.ieee.org/document/11552024/",
       "paperSource": "crossref"
     },
     {
