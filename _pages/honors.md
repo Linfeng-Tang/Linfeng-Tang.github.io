@@ -9,7 +9,7 @@ nav_order: 2
 
 ### International & National Awards
 
-* **World's Top 2% Scientists**, Stanford University/Elsevier, **2026** (Single-Year Scientific Impact).
+* **World's Top 2% Scientists**, Stanford University/Elsevier, **2026**.
 * [**World's Top 2% Scientists**](https://topresearcherslist.com/Home/Profile/1164209), Stanford University/Elsevier, 2025.
 * **中国图象图形学报2020-2024优秀论文**, *中国图象图形学报*, 2025.
 * [**Best Paper Award**](https://www.sciencedirect.com/journal/information-fusion/about/awards/2024-inffus-best-paper-best-survey-and-best-editor-award), *Information Fusion* (Elsevier), 2024. (**First-author**, **1/1194**, The only one in 2024)
