@@ -37,10 +37,10 @@ latest_posts:
     I am <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en"><strong>Linfeng Tang</strong></a> (唐霖峰), a Postdoctoral Researcher at Wuhan University, advised by Prof. <a href="https://jiayi-ma.github.io/">Jiayi Ma</a>.
   </p>
   <p class="hero-summary">
-    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on <strong>Information Fusion</strong>, <strong>Image Enhancement</strong>, and <strong>Visual-Semantic Understanding</strong>. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in 2025 and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS <strong>Best Paper Award</strong>, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
+    I received my Ph.D. from the Electronic Information School, Wuhan University, in December 2025, and my B.E. from Central South University in 2020. My research focuses on <strong>Information Fusion</strong>, <strong>Image Enhancement</strong>, and <strong>Visual-Semantic Understanding</strong>. I was named to <strong>Stanford University's World's Top 2% Scientists list</strong> in <strong>2025 and 2026</strong> (single-year scientific impact) and received two Best Paper Awards: the <strong>Hsue-shen Tsien Paper Award</strong> (IEEE/CAA JAS <strong>Best Paper Award</strong>, 2023) and the <strong>Information Fusion Best Paper Award</strong> (2024).
   </p>
   <p class="hero-summary esi-summary">
-    As first author, I have published <strong>18 papers</strong>, including <strong>7 CCF-A papers</strong>, <strong>6 ESI Hot Papers</strong> (top 0.1%), and <strong>9 ESI Highly Cited Papers</strong> (top 1%).
+    As first author, I have published <strong>18 papers</strong>, including <strong>8 CCF-A papers</strong>, <strong>6 ESI Hot Papers</strong> (top 0.1%), and <strong>9 ESI Highly Cited Papers</strong> (top 1%).
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=en">Google Scholar</a>

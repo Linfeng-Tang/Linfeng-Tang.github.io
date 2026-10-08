@@ -39,10 +39,10 @@ latest_posts:
     我是 <a href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN"><strong>唐霖峰</strong></a>，现为武汉大学机器人学院博士后，合作导师为 <a href="https://jiayi-ma.github.io/">马佳义教授</a>。
   </p>
   <p class="hero-summary">
-    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。研究方向聚焦<strong>信息融合</strong>、<strong>图像增强</strong>与<strong>视觉-语义理解</strong>。2025 年入选 <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>，并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS <strong>最佳论文奖</strong>，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
+    我于 2025 年 12 月获武汉大学电子信息学院博士学位，于 2020 年获中南大学学士学位。研究方向聚焦<strong>信息融合</strong>、<strong>图像增强</strong>与<strong>视觉-语义理解</strong>。<strong>2025、2026 年连续入选</strong> <strong>斯坦福大学发布的全球前 2% 顶尖科学家榜单</strong>（年度科学影响力），并获得两项最佳论文奖：<strong>钱学森论文奖</strong>（IEEE/CAA JAS <strong>最佳论文奖</strong>，2023）和 <strong>Information Fusion 最佳论文奖</strong>（2024）。
   </p>
   <p class="hero-summary esi-summary">
-    以第一作者发表<strong>论文 18 篇</strong>，其中包括 <strong>CCF A 类论文 7 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 9 篇</strong>（前 1%）。
+    以第一作者发表<strong>论文 18 篇</strong>，其中包括 <strong>CCF A 类论文 8 篇</strong>、<strong>ESI 热点论文 6 篇</strong>（前 0.1%）和 <strong>ESI 高被引论文 9 篇</strong>（前 1%）。
   </p>
   <div class="quick-links">
     <a class="quick-link" href="https://scholar.google.com/citations?user=PyRqpAsAAAAJ&hl=zh-CN">谷歌学术</a>
