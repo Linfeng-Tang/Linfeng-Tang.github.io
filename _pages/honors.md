@@ -22,6 +22,7 @@ nav_order: 2
 
 ### Academic Recognition
 
+* **Top Reviewer**, *NeurIPS*, 2026.
 * **Outstanding Reviewer**, *Image and Vision Computing*, 2025.
 * **Outstanding Reviewer**, *Information Fusion*, 2024.
 * **优秀报告成果**, *中国图象图形学报学术论坛*, 2023.

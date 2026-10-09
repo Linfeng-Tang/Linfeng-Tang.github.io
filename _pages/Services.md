@@ -11,6 +11,7 @@ nav_order: 5
 
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**)
 * International Journal of Computer Vision (**IJCV**)
+* ACM Computing Surveys (**ACM CSUR**)
 * IEEE Transactions on Image Processing (**IEEE TIP**)
 * IEEE Transactions on Neural Networks and Learning Systems (**IEEE TNNLS**)
 * IEEE Transactions on Multimedia (**IEEE TMM**)
@@ -25,14 +26,17 @@ nav_order: 5
 * IEEE/CAA Journal of Automatica Sinica (**IEEE/CAA JAS**)
 * Information Fusion (**InfFus**, Outstanding Reviewer)
 * Pattern Recognition (**PR**)
+* Knowledge-Based Systems (**KBS**)
 * Neural Networks
 * Energy
+* Defence Technology
 * Image and Vision Computing (**IVC**, Outstanding Reviewer)
 
 ### Conference Reviewer
 
 * IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**)
-* Advances in Neural Information Processing Systems (**NeurIPS**)
+* Advances in Neural Information Processing Systems (**NeurIPS**, Top Reviewer, 2026)
+* International Conference on Learning Representations (**ICLR**, 2027)
 * European Conference on Computer Vision (**ECCV**)
 * Association for the Advancement of Artificial Intelligence (**AAAI**)
 * International Joint Conference on Artificial Intelligence (**IJCAI**)
