@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-09T07:22:56Z",
+  "syncedAt": "2026-10-10T07:05:42Z",
   "publications": [
     {
       "year": "2026",
@@ -39,6 +39,14 @@
       "citation": "Liwei Wang, Yanduo Zhang, Huabing Zhou, Tao Lu, Fang Liu, Zhigang Tu, and Jiayi Ma. \"BP-DSGG: Balanced Predicate-aware Dynamic Scene Graph Generation\", IEEE Transactions on Multimedia, In Press.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11538286/",
+      "paperSource": "crossref"
+    },
+    {
+      "year": "2026",
+      "citation": "Jianfeng Ding, Jie Hua, Yaxuan Hu, Yuhong Yang, Zhongyuan Wang, and Jiayi Ma*. \"LOGA: A multimodal benchmark and audio-visual fusion baseline for long-form mobile game highlight localization\", Information Fusion, 139, Part A, pp. 104837, Mar. 2027.",
+      "links": [],
+      "paperChecked": true,
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S156625352600713X",
       "paperSource": "crossref"
     },
     {
