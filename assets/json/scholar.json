@@ -21,7 +21,7 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:5Ul4iDaHHb8C": {
-      "citations": 1315,
+      "citations": 1316,
       "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
       "year": "2022"
     },
@@ -36,7 +36,7 @@
       "year": "2022"
     },
     "PyRqpAsAAAAJ:Fu2w8maKXqMC": {
-      "citations": 44,
+      "citations": 45,
       "title": "Controlfusion: A controllable image fusion network with language-vision degradation prompts",
       "year": "2026"
     },
@@ -96,7 +96,7 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:Y5dfb0dijaUC": {
-      "citations": 388,
+      "citations": 389,
       "title": "Text-if: Leveraging semantic text guidance for degradation-aware and interactive image fusion",
       "year": "2024"
     },
@@ -121,7 +121,7 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:eJXPG6dFmWUC": {
-      "citations": 1799,
+      "citations": 1800,
       "title": "SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer",
       "year": "2022"
     },
@@ -136,7 +136,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:geHnlv5EZngC": {
-      "citations": 722,
+      "citations": 723,
       "title": "STDFusionNet: An infrared and visible image fusion network based on salient target detection",
       "year": "2021"
     },
@@ -151,7 +151,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:t6usbXjVLHcC": {
-      "citations": 479,
+      "citations": 480,
       "title": "Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model",
       "year": "2023"
     },
@@ -171,7 +171,7 @@
       "year": "Unknown year"
     },
     "PyRqpAsAAAAJ:uLbwQdceFCQC": {
-      "citations": 91,
+      "citations": 92,
       "title": "Mask-DiFuser: A masked diffusion model for unified unsupervised image fusion",
       "year": "2026"
     },
@@ -187,9 +187,9 @@
     }
   },
   "profile": {
-    "citations": 9151,
+    "citations": 9158,
     "hindex": 23,
     "i10index": 28,
-    "updated": "2026-10-14T11:58:49Z"
+    "updated": "2026-10-15T04:46:21Z"
   }
 }
