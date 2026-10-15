@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-14T06:07:45Z",
+  "syncedAt": "2026-10-15T05:54:00Z",
   "publications": [
     {
       "year": "2026",
@@ -115,7 +115,7 @@
     },
     {
       "year": "2026",
-      "citation": "Xunpeng Yi, Han Xu, Yibing Zhang, Hao Zhang, Linfeng Tang, and Jiayi Ma*. \"GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 48(11), pp. Nov. 2026.",
+      "citation": "Xunpeng Yi, Han Xu, Yibing Zhang, Hao Zhang, Linfeng Tang, and Jiayi Ma*. \"GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 48(11), pp. 15440-15456, Nov. 2026.",
       "links": [],
       "paperChecked": true,
       "code": "https://github.com/XunpengYi/GText-IF",
@@ -1927,7 +1927,7 @@
       "citation": "Jiayi Ma, Linfeng Tang, Fan Fan, Jun Huang, Xiaoguang Mei, and Yong Ma. \"SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer\", IEEE/CAA Journal of Automatica Sinica, 9(7), pp. 1200-1217, Jul. 2022. (Hsue-shen Tsien Paper Award 2023, IEEE/CAA JAS Best Paper Award 2023)",
       "links": [],
       "paperChecked": true,
-      "citations": 1799
+      "citations": 1800
     },
     {
       "year": "2022",
@@ -1994,7 +1994,7 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521002542",
       "paperSource": "crossref",
-      "citations": 1315
+      "citations": 1316
     },
     {
       "year": "2022",
@@ -2226,7 +2226,7 @@
       "paper": "https://ieeexplore.ieee.org/document/9151265/",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 2791
+      "citations": 2792
     },
     {
       "year": "2021",
@@ -2239,7 +2239,7 @@
       "citation": "Hao Zhang, Han Xu, Xin Tian, Junjun Jiang, and Jiayi Ma*. \"Image fusion meets deep learning: A survey and perspective\", Information Fusion, 76, pp. 323-336, Dec. 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 1004
+      "citations": 1005
     },
     {
       "year": "2021",
@@ -2320,7 +2320,7 @@
       "citation": "Xingyu Jiang, Jiayi Ma*, Guobao Xiao, Zhenfeng Shao, and Xiaojie Guo. \"A review of multimodal image matching: Methods and applications\", Information Fusion, 73, pp. 22-71, Sept. 2021 (Invited Paper).",
       "links": [],
       "paperChecked": true,
-      "citations": 656
+      "citations": 657
     },
     {
       "year": "2021",
@@ -2435,7 +2435,7 @@
       "citation": "Jiayi Ma, Linfeng Tang, Meilong Xu, Hao Zhang, and Guobao Xiao. \"STDFusionNet: An Infrared and Visible Image Fusion Network Based on Salient Target Detection\", IEEE Transactions on Instrumentation and Measurement, 70, pp. 5009513, May 2021.",
       "links": [],
       "paperChecked": true,
-      "citations": 722
+      "citations": 723
     },
     {
       "year": "2021",
@@ -2689,7 +2689,7 @@
       "citation": "Kui Jiang, Zhongyuan Wang, Peng Yi, Chen Chen, Baojin Huang, Yimin Luo, Jiayi Ma, and Junjun Jiang. \"Multi-Scale Progressive Fusion Network for Single Image Deraining\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8346-8355, Jun. 2020.",
       "links": [],
       "paperChecked": true,
-      "citations": 1160
+      "citations": 1161
     },
     {
       "year": "2020",
@@ -2928,7 +2928,7 @@
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 723
+      "citations": 722
     },
     {
       "year": "2019",
@@ -3166,7 +3166,7 @@
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 723
+      "citations": 722
     },
     {
       "year": "2017",
@@ -3319,7 +3319,7 @@
       "codeSource": "original-publication-page",
       "paperSource": "crossref",
       "paperChecked": true,
-      "citations": 1326
+      "citations": 1327
     },
     {
       "year": "2016",
@@ -3524,7 +3524,7 @@
       "code": "https://github.com/jiayi-ma?tab=repositories",
       "codeSource": "original-publication-page",
       "paperChecked": true,
-      "citations": 654
+      "citations": 655
     },
     {
       "year": "2014",
@@ -3617,5 +3617,5 @@
       "paperChecked": true
     }
   ],
-  "citationSyncedAt": "2026-10-14T06:07:46Z"
+  "citationSyncedAt": "2026-10-15T05:54:00Z"
 }
