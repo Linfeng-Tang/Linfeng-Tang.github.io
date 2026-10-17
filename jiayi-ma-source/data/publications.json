@@ -1,7 +1,13 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-16T05:51:08Z",
+  "syncedAt": "2026-10-17T05:35:24Z",
   "publications": [
+    {
+      "year": "2026",
+      "citation": "Qiming Xiong, Yong Ma, Qing Ma, Xiaoguang Mei, Hao Zhang, and Jiayi Ma. \"BiRFusion: Bidirectional Restoration-Fusion Learning for Robust Infrared-Visible Image Fusion\", IEEE/CAA Journal of Automatica Sinica, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
     {
       "year": "2026",
       "citation": "Yifan Lu, Jiajun Le, Zizhuo Li, Hao Zhang, and Jiayi Ma*. \"TOPSAC for Fast and Accurate Geometric Estimation\", IEEE Transactions on Image Processing, In Press.",
@@ -3616,6 +3622,5 @@
       "links": [],
       "paperChecked": true
     }
-  ],
-  "citationSyncedAt": "2026-10-16T05:51:08Z"
+  ]
 }
