@@ -119,7 +119,7 @@ latest_posts:
   <article class="funding-card">
     <p class="funding-type">Hubei Provincial Funding</p>
     <h3>Hubei Postdoctoral Talent Introduction Program</h3>
-    <time datetime="2026">Selected in 2026</time>
+    <time datetime="2026-10-20">Selected Oct. 20, 2026</time>
   </article>
 </div>
 

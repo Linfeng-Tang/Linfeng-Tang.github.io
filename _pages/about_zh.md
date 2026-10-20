@@ -121,7 +121,7 @@ latest_posts:
   <article class="funding-card">
     <p class="funding-type">省级项目资助</p>
     <h3>湖北省博士后尖端人才引进项目</h3>
-    <time datetime="2026">2026 年入选</time>
+    <time datetime="2026-10-20">2026 年 10 月 20 日入选</time>
   </article>
 </div>
 

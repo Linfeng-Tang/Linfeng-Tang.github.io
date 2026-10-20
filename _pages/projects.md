@@ -57,7 +57,7 @@ nav_order: 4
   <li>
     <div class="row">
       <div class="col-sm-2 abbr">
-        <abbr class="badge rounded w-100">2026</abbr>
+        <abbr class="badge rounded w-100">2026.10.20</abbr>
       </div>
       <div class="col-sm-10">
         <div class="author">湖北省博士后尖端人才引进项目</div>
