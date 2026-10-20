@@ -116,6 +116,11 @@ latest_posts:
     <p>Generative methods for integrated adaptive multi-source image fusion and trustworthy perception</p>
     <time datetime="2026-09-21">Approved Sep. 21, 2026</time>
   </article>
+  <article class="funding-card">
+    <p class="funding-type">Hubei Provincial Funding</p>
+    <h3>Hubei Postdoctoral Talent Introduction Program</h3>
+    <time datetime="2026">Selected in 2026</time>
+  </article>
 </div>
 
 ## Representative Works

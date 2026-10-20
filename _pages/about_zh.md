@@ -118,6 +118,11 @@ latest_posts:
     <p>生成式多源图像自适应融合与可信感知一体化方法研究</p>
     <time datetime="2026-09-21">2026 年 9 月 21 日获批</time>
   </article>
+  <article class="funding-card">
+    <p class="funding-type">省级项目资助</p>
+    <h3>湖北省博士后尖端人才引进项目</h3>
+    <time datetime="2026">2026 年入选</time>
+  </article>
 </div>
 
 ## 代表性工作

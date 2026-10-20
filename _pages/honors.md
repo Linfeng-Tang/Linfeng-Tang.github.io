@@ -22,7 +22,6 @@ nav_order: 2
 
 ### Academic Recognition
 
-* **湖北省博士后尖端人才引进项目**, 2026.
 * **Top Reviewer**, *NeurIPS*, 2026.
 * **Outstanding Reviewer**, *Image and Vision Computing*, 2025.
 * **Outstanding Reviewer**, *Information Fusion*, 2024.
