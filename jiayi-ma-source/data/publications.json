@@ -1,14 +1,14 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-10-28T06:50:56Z",
+  "syncedAt": "2026-10-29T07:03:07Z",
   "publications": [
     {
       "year": "2026",
       "citation": "Chuishun Kong, Jiayi Ma*, Fan Fan, Xiaoguang Mei, and Yong Ma. \"Jacobian-Based Identifiability Diagnostics for Multispectral CDOM Retrieval in Optically Complex Inland Waters\", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, In Press.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://ieeexplore.ieee.org/document/11745875/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "paperChecked": true
     },
     {
       "year": "2026",
@@ -89,9 +89,9 @@
       "year": "2026",
       "citation": "Zhizheng Zhang, Ruixuan Jiang, Pengcheng Wei, Zijuan Li, Jindou Zhang, Rui Cao, Meng Yang, Zhenfeng Shao, Jiayi Ma, and Deren Li. \"GeoSAM: Geometry-guided semantic alignment and saliency-aware state space model for generalizable cross-modal image matching\", ISPRS Journal of Photogrammetry and Remote Sensing, 243, Part 1, pp. 729-748, Jan. 2027.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0924271626005320",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "paperChecked": true
     },
     {
       "year": "2026",
