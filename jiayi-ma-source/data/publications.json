@@ -1,15 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-11-13T07:55:26Z",
+  "syncedAt": "2026-11-14T07:35:49Z",
   "publications": [
-    {
-      "year": "2026",
-      "citation": "Chuishun Kong, Jiayi Ma*, Fan Fan, Xiaoguang Mei, and Yong Ma. \"Jacobian-Based Identifiability Diagnostics for Multispectral CDOM Retrieval in Optically Complex Inland Waters\", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, In Press.",
-      "links": [],
-      "paper": "https://ieeexplore.ieee.org/document/11745875/",
-      "paperSource": "crossref",
-      "paperChecked": true
-    },
     {
       "year": "2026",
       "citation": "Qiming Xiong, Yong Ma, Qing Ma, Xiaoguang Mei, Hao Zhang, and Jiayi Ma. \"BiRFusion: Bidirectional Restoration-Fusion Learning for Robust Infrared-Visible Image Fusion\", IEEE/CAA Journal of Automatica Sinica, In Press.",
@@ -47,13 +39,6 @@
       "citation": "Jie Hua, Zhongyuan Wang, Xin Tian, Jinsheng Xiao, Gang Wu, Tao Lu, and Jiayi Ma. \"Robust Information Feature Pyramid Network for Low-Visible Object Detection\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
-    },
-    {
-      "year": "2026",
-      "citation": "Liwei Wang, Yanduo Zhang, Huabing Zhou, Tao Lu, Fang Liu, Zhigang Tu, and Jiayi Ma. \"BP-DSGG: Balanced Predicate-aware Dynamic Scene Graph Generation\", IEEE Transactions on Multimedia, In Press.",
-      "links": [],
-      "paper": "https://ieeexplore.ieee.org/document/11538286/",
-      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -136,6 +121,21 @@
       "paperChecked": true,
       "code": "https://github.com/XunpengYi/GText-IF",
       "codeSource": "github-discovery"
+    },
+    {
+      "year": "2026",
+      "citation": "Chuishun Kong, Jiayi Ma*, Fan Fan, Xiaoguang Mei, and Yong Ma. \"Jacobian-Based Identifiability Diagnostics for Multispectral CDOM Retrieval in Optically Complex Inland Waters\", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 19, pp. 36455-36470, Nov. 2026.",
+      "links": [],
+      "paper": "https://ieeexplore.ieee.org/document/11745875/",
+      "paperSource": "crossref",
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Liwei Wang, Yanduo Zhang, Huabing Zhou, Tao Lu, Fang Liu, Zhigang Tu, and Jiayi Ma. \"BP-DSGG: Balanced Predicate-aware Dynamic Scene Graph Generation\", IEEE Transactions on Multimedia, 28, pp. 15031-15042, Nov. 2026.",
+      "links": [],
+      "paper": "https://ieeexplore.ieee.org/document/11538286/",
+      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -3638,6 +3638,5 @@
       "links": [],
       "paperChecked": true
     }
-  ],
-  "citationSyncedAt": "2026-11-13T07:55:27Z"
+  ]
 }
