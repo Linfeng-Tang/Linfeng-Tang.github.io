@@ -1,7 +1,7 @@
 {
   "papers": {
     "PyRqpAsAAAAJ:-_dYPAW6P2MC": {
-      "citations": 2,
+      "citations": 3,
       "title": "AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images",
       "year": "2026"
     },
@@ -21,7 +21,7 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:5Ul4iDaHHb8C": {
-      "citations": 1367,
+      "citations": 1369,
       "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
       "year": "2022"
     },
@@ -41,7 +41,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:J-pR_7NvFogC": {
-      "citations": 652,
+      "citations": 654,
       "title": "DIVFusion: Darkness-free infrared and visible image fusion",
       "year": "2022"
     },
@@ -76,7 +76,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:VOx2b1Wkg3QC": {
-      "citations": 1518,
+      "citations": 1519,
       "title": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
       "year": "2022"
     },
@@ -91,17 +91,17 @@
       "year": "2023"
     },
     "PyRqpAsAAAAJ:XiVPGOgt02cC": {
-      "citations": 497,
+      "citations": 498,
       "title": "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene …",
       "year": "2023"
     },
     "PyRqpAsAAAAJ:Y5dfb0dijaUC": {
-      "citations": 417,
+      "citations": 418,
       "title": "Text-if: Leveraging semantic text guidance for degradation-aware and interactive image fusion",
       "year": "2024"
     },
     "PyRqpAsAAAAJ:ZuybSZzF8UAC": {
-      "citations": 19,
+      "citations": 20,
       "title": "Comatch: Dynamic covisibility-aware transformer for bilateral subpixel-level semi-dense image matching",
       "year": "2025"
     },
@@ -111,7 +111,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:_Ybze24A_UAC": {
-      "citations": 3,
+      "citations": 4,
       "title": "ArgMatch: Adaptive Refinement Gathering for Efficient Dense Matching",
       "year": "2025"
     },
@@ -121,7 +121,7 @@
       "year": "2025"
     },
     "PyRqpAsAAAAJ:eJXPG6dFmWUC": {
-      "citations": 1862,
+      "citations": 1865,
       "title": "SwinFusion: Cross-domain long-range learning for general image fusion via swin transformer",
       "year": "2022"
     },
@@ -136,7 +136,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:geHnlv5EZngC": {
-      "citations": 738,
+      "citations": 739,
       "title": "STDFusionNet: An infrared and visible image fusion network based on salient target detection",
       "year": "2021"
     },
@@ -151,7 +151,7 @@
       "year": "2024"
     },
     "PyRqpAsAAAAJ:t6usbXjVLHcC": {
-      "citations": 504,
+      "citations": 505,
       "title": "Diff-retinex: Rethinking low-light image enhancement with a generative diffusion model",
       "year": "2023"
     },
@@ -176,7 +176,7 @@
       "year": "2026"
     },
     "PyRqpAsAAAAJ:wbdj-CoPYUoC": {
-      "citations": 593,
+      "citations": 594,
       "title": "SuperFusion: A versatile image registration and fusion network with semantic awareness",
       "year": "2022"
     },
@@ -187,9 +187,9 @@
     }
   },
   "profile": {
-    "citations": 9608,
+    "citations": 9624,
     "hindex": 24,
     "i10index": 28,
-    "updated": "2026-11-12T07:18:00Z"
+    "updated": "2026-11-14T18:10:12Z"
   }
 }
