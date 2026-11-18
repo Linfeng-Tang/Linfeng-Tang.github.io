@@ -122,7 +122,12 @@
   .btn-ghost { background: var(--surface); color: var(--text); border-color: var(--line); }
   .btn-ghost:hover { border-color: var(--muted); }
   .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
-  .btn .ico { font-size: 16.5px; line-height: 1; }
+  .btn .ico { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; line-height: 1; }
+  .btn .ico svg { width: 16px; height: 16px; display: block; }
+  .btn .ico.emoji { font-size: 14px; }
+  .btn .ico-fill svg { width: 15px; height: 15px; }
+  .hero .actions { gap: 9px; }
+  .hero .actions .btn { height: 38px; padding: 0 15px; font-size: 13.5px; border-radius: 10px; box-shadow: var(--shadow-sm); }
   .btn-sm { height: 34px; padding: 0 13px; font-size: 13px; border-radius: 9px; }
 
   /* ---------- hero ---------- */
@@ -512,15 +517,17 @@
       </div>
       <div class="actions">
         <a class="btn btn-ghost" data-link="paper" href="#" target="_blank" rel="noopener">
-          <span class="ico" aria-hidden="true">📄</span>Paper
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 12.5h6M9 16.5h4"/></svg></span>Paper
         </a>
-        <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener">
-          <span class="ico" aria-hidden="true">🤗</span>Demo
+        <a class="btn btn-ghost" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener">
+          <span class="ico emoji" aria-hidden="true">🤗</span>Hugging Face Demo
         </a>
         <a class="btn btn-ghost" data-link="code" href="https://github.com/Linfeng-Tang/GenRF" target="_blank" rel="noopener">
-          <span class="ico" aria-hidden="true">💻</span>Code
+          <span class="ico ico-fill" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></span>Code
         </a>
-        <a class="btn btn-ghost" href="#bibtex"><span class="ico" aria-hidden="true">📚</span>BibTeX</a>
+        <a class="btn btn-ghost" href="#bibtex">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>BibTeX
+        </a>
       </div>
     </div>
   </div>
@@ -1221,8 +1228,8 @@
           <p>Upload an unregistered pair &mdash; infrared&ndash;visible, multi-exposure or multi-focus. GenRF returns one fused image in the coordinate frame of the visible image.</p>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🤗</span>Open in Hugging Face</a>
-          <a class="btn btn-ghost" href="#bibtex"><span class="ico" aria-hidden="true">📚</span>Cite</a>
+          <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener"><span class="ico emoji" aria-hidden="true">🤗</span>Open in Hugging Face</a>
+          <a class="btn btn-ghost" href="#bibtex"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>Cite</a>
         </div>
       </div>
       <p class="hint">Runs on a ZeroGPU Space, so live inference may queue at peak hours. Inputs of different sizes are adjusted automatically.</p>
