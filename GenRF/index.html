@@ -627,25 +627,24 @@
         <div class="kicker">Contributions</div>
         <ol class="contrib-list">
           <li>
-            <b>A registration-free formulation.</b>
-            <p>Fusion of misaligned, degraded captures with partially overlapping fields of view is posed as a single
-            conditional generation problem. Cross-attention aggregates complementary content wherever it appears
-            (Fig.&nbsp;2b), and generative priors supply what one sensor never observed. No deformation field is
-            estimated, and no restoration stage precedes fusion.</p>
+            <b>A generative reformulation.</b>
+            <p>We revisit misaligned and degraded multi-modal image fusion under a generative paradigm, where
+            cross-attention retrieves complementary information beyond pixelwise correspondence and generative priors
+            support degradation recovery and missing-content inference.</p>
           </li>
           <li>
-            <b>A generative fusion model.</b>
-            <p>GenRF adapts a pretrained FLUX backbone with LoRA on the attention projections and feed-forward layers,
-            conditioned on infrared and visible latents through a shared image stream. Global shifts, local elastic
-            displacements and per-modality degradations are simulated online (Fig.&nbsp;2a, c, d), so training sees the
-            offsets of real captures rather than pre-aligned benchmark pairs.</p>
+            <b>A registration-free framework.</b>
+            <p>We propose GenRF, a generative registration-free framework that adapts pretrained FLUX via LoRA to
+            directly fuse real-world captures without separate registration or restoration. Geometric perturbations
+            help cross-attention adapt to misalignment, while degradation modeling harnesses pretrained generative
+            priors for restoration.</p>
           </li>
           <li>
-            <b>One model, three fusion tasks.</b>
-            <p>A single set of weights fuses unregistered infrared&ndash;visible captures with no preprocessing and
-            improves downstream perception under misalignment. The same weights carry over to misaligned multi-exposure
-            and multi-focus fusion without task-specific fine-tuning, so what is learned is not tied to one modality
-            pair.</p>
+            <b>Broad evidence and generality.</b>
+            <p>Extensive experiments on real captures and four public benchmarks demonstrate superior fusion quality,
+            geometric consistency, and degradation suppression, with benefits for downstream perception.
+            <em>Extended results on misaligned multi-exposure and multi-focus fusion without fine-tuning confirm the
+            generalizability of GenRF.</em></p>
           </li>
         </ol>
       </div>
