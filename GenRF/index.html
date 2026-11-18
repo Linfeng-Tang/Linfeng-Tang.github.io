@@ -197,6 +197,31 @@
     text-transform: uppercase; color: var(--accent); margin-right: 8px;
   }
 
+  /* ---------- contributions ---------- */
+  .contrib { margin-top: 38px; }
+  .contrib .kicker { margin-bottom: 16px; }
+  .contrib-list {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;
+    margin: 0; padding: 0; list-style: none; counter-reset: contrib;
+  }
+  .contrib-list li {
+    counter-increment: contrib; border-top: 2px solid var(--line); padding-top: 14px;
+  }
+  .contrib-list li::before {
+    content: counter(contrib, decimal-leading-zero);
+    display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .1em;
+    color: var(--accent); margin-bottom: 7px;
+  }
+  .contrib-list b {
+    display: block; font-size: 15.5px; font-weight: 650; letter-spacing: -.012em;
+    color: var(--text); line-height: 1.35; margin-bottom: 7px;
+  }
+  .contrib-list p { margin: 0; font-size: 14px; line-height: 1.68; color: var(--muted); }
+  @media (max-width: 860px) {
+    .contrib { margin-top: 30px; }
+    .contrib-list { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  }
+
   /* ---------- sections ---------- */
   section { padding: 64px 0; }
   .section-head { display: flex; flex-wrap: wrap; align-items: end; gap: 14px 28px; margin-bottom: 26px; }
@@ -597,6 +622,33 @@
           (c) Global transformations and local elastic displacements are sampled online during training, and (d) degradations are constructed per modality.
         </figcaption>
       </figure>
+
+      <div class="contrib reveal">
+        <div class="kicker">Contributions</div>
+        <ol class="contrib-list">
+          <li>
+            <b>A registration-free formulation.</b>
+            <p>Fusion of misaligned, degraded captures with partially overlapping fields of view is posed as a single
+            conditional generation problem. Cross-attention aggregates complementary content wherever it appears, and
+            generative priors supply what one sensor never observed. No deformation field is estimated, and no
+            restoration stage precedes fusion.</p>
+          </li>
+          <li>
+            <b>A generative fusion model.</b>
+            <p>GenRF adapts a pretrained FLUX backbone with LoRA on the attention projections and feed-forward layers,
+            conditioned on infrared and visible latents through a shared image stream. Global shifts, local elastic
+            displacements and per-modality degradations are simulated online, so training sees the offsets of real
+            captures rather than pre-aligned benchmark pairs.</p>
+          </li>
+          <li>
+            <b>One model, three fusion tasks.</b>
+            <p>A single set of weights fuses unregistered infrared&ndash;visible captures with no preprocessing and
+            improves downstream perception under misalignment. The same weights carry over to misaligned multi-exposure
+            and multi-focus fusion without task-specific fine-tuning, so what is learned is not tied to one modality
+            pair.</p>
+          </li>
+        </ol>
+      </div>
     </div>
   </section>
 
