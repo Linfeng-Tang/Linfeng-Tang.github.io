@@ -122,6 +122,7 @@
   .btn-ghost { background: var(--surface); color: var(--text); border-color: var(--line); }
   .btn-ghost:hover { border-color: var(--muted); }
   .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+  .btn .ico { font-size: 16.5px; line-height: 1; }
   .btn-sm { height: 34px; padding: 0 13px; font-size: 13px; border-radius: 9px; }
 
   /* ---------- hero ---------- */
@@ -295,6 +296,7 @@
     .section-head p,
     .figure figcaption,
     .compare-side figcaption,
+    .cta p,
     .hint,
     .abstract-body { text-align: justify; hyphens: auto; }
   }
@@ -352,26 +354,21 @@
   details.more .table-wrap { border: 0; border-top: 1px solid var(--line-soft); border-radius: 0; }
 
   /* demo */
-  .demo-card {
-    display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-    gap: 26px; align-items: center; padding: 14px; border-radius: 22px;
-    border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow-sm);
+  .cta {
+    position: relative; overflow: hidden; border-radius: 22px; border: 1px solid var(--line);
+    background:
+      radial-gradient(120% 140% at 8% 0%, rgba(37, 99, 235, .16), transparent 55%),
+      radial-gradient(120% 140% at 92% 100%, rgba(234, 88, 12, .18), transparent 55%),
+      var(--surface);
+    padding: 38px 34px; display: flex; flex-wrap: wrap; align-items: center; gap: 22px 34px;
   }
-  .demo-shot {
-    display: block; overflow: hidden; border-radius: 14px;
-    border: 1px solid var(--line); background: var(--surface-soft);
-    transition: box-shadow .25s ease, transform .25s ease;
-  }
-  .demo-shot img { display: block; width: 100%; height: auto; }
-  .demo-shot:hover { box-shadow: 0 20px 44px -26px rgba(13, 17, 23, .48); transform: translateY(-1px); }
-  .demo-copy { padding: 6px 16px 6px 0; }
-  .demo-copy h2 { font-size: clamp(21px, 2.2vw, 27px); }
-  .demo-copy p { margin: 12px 0 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
-  .demo-copy .demo-note { margin-top: 10px; font-size: 13.5px; }
-  .demo-copy .actions { margin-top: 20px; }
+  .cta h2 { margin: 0 0 8px; font-size: clamp(22px, 2.6vw, 28px); }
+  .cta p { margin: 0; color: var(--muted); font-size: 14.5px; max-width: 52ch; }
+  .cta .actions { margin: 0 0 0 auto; }
+  .cta-wide { flex: 1 1 380px; }
   @media (max-width: 900px) {
-    .demo-card { grid-template-columns: minmax(0, 1fr); gap: 6px; padding: 12px 12px 18px; }
-    .demo-copy { padding: 10px 6px 0; }
+    .cta { padding: 28px 22px; }
+    .cta .actions { margin-left: 0; }
   }
 
   /* bibtex */
@@ -515,18 +512,15 @@
       </div>
       <div class="actions">
         <a class="btn btn-ghost" data-link="paper" href="#" target="_blank" rel="noopener">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-          Paper
+          <span class="ico" aria-hidden="true">📄</span>Paper
         </a>
         <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
-          Demo
+          <span class="ico" aria-hidden="true">🤗</span>Demo
         </a>
-        <a class="btn btn-ghost" data-link="code" href="#" target="_blank" rel="noopener">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg>
-          Code
+        <a class="btn btn-ghost" data-link="code" href="https://github.com/Linfeng-Tang/GenRF" target="_blank" rel="noopener">
+          <span class="ico" aria-hidden="true">💻</span>Code
         </a>
-        <a class="btn btn-ghost" href="#bibtex">BibTeX</a>
+        <a class="btn btn-ghost" href="#bibtex"><span class="ico" aria-hidden="true">📚</span>BibTeX</a>
       </div>
     </div>
   </div>
@@ -1124,7 +1118,7 @@
         <div class="strip"><img loading="lazy" src="assets/mff-3.webp" alt="Near-focus and far-focus capture, with the GenRF fused result"></div>
       </div>
 
-      <p class="hint" style="margin-top:16px">Multi-exposure and multi-focus captures are misaligned as well; the same weights are used, with no task-specific fine-tuning. DVTOD captures additionally contain temporal misalignment, and the UAV pair differs in scale as well as in offset. Black or grey borders inside a tile are padding from the original capture.</p>
+      <p class="hint" style="margin-top:16px">Multi-exposure and multi-focus captures are misaligned as well; the same weights are used, with no task-specific fine-tuning.</p>
     </div>
   </section>
 
@@ -1220,20 +1214,18 @@
   <!-- ================= DEMO ================= -->
   <section id="demo" class="band">
     <div class="wrap">
-      <div class="demo-card reveal">
-        <a class="demo-shot" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener" aria-label="Open the GenRF demo on Hugging Face">
-          <img loading="lazy" src="assets/demo-ui.webp" width="1400" height="855" alt="GenRF demo interface: an infrared and a visible source panel, the fused result, and a Run Fusion button">
-        </a>
-        <div class="demo-copy">
-          <div class="kicker">Demo</div>
+      <div class="cta reveal">
+        <div class="cta-wide">
+          <div class="kicker">Live demo</div>
           <h2>Try it on your own captures</h2>
           <p>Upload an unregistered pair &mdash; infrared&ndash;visible, multi-exposure or multi-focus. GenRF returns one fused image in the coordinate frame of the visible image.</p>
-          <p class="demo-note">Runs on a ZeroGPU Space, so live inference may queue at peak hours. Inputs of different sizes are adjusted automatically.</p>
-          <div class="actions">
-            <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener">Open in Hugging Face</a>
-          </div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" data-link="demo" href="https://huggingface.co/spaces/Linfeng-Tang/GenRF" target="_blank" rel="noopener"><span class="ico" aria-hidden="true">🤗</span>Open in Hugging Face</a>
+          <a class="btn btn-ghost" href="#bibtex"><span class="ico" aria-hidden="true">📚</span>Cite</a>
         </div>
       </div>
+      <p class="hint">Runs on a ZeroGPU Space, so live inference may queue at peak hours. Inputs of different sizes are adjusted automatically.</p>
     </div>
   </section>
 
@@ -1297,27 +1289,17 @@
 </dialog>
 
 <script>
-  // ---- link placeholders: fill these in when the paper and code go public ----
+  // ---- outbound links ----
   const LINKS = {
-    paper: "",   // e.g. "https://arxiv.org/abs/2611.00000"
+    // The arXiv entry is not up yet, so Paper points at the repository for now.
+    paper: "https://github.com/Linfeng-Tang/GenRF",   // TODO: swap for https://arxiv.org/abs/XXXX.XXXXX
     code:  "https://github.com/Linfeng-Tang/GenRF",
     demo:  "https://huggingface.co/spaces/Linfeng-Tang/GenRF"
   };
-  // Targets that exist but are still private stay disabled; drop the key once it is public.
-  const PENDING = new Set(["paper", "code"]);
   document.querySelectorAll("[data-link]").forEach(a => {
-    const key = a.dataset.link;
-    const url = LINKS[key];
-    if (url && !PENDING.has(key)) { a.href = url; }
-    else {
-      a.removeAttribute("href");
-      a.setAttribute("aria-disabled", "true");
-      a.title = key === "paper" ? "arXiv link coming soon" : "Code release coming soon";
-      const tag = document.createElement("span");
-      tag.textContent = "soon";
-      tag.style.cssText = "font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.7;border:1px solid currentColor;border-radius:5px;padding:0 4px;";
-      a.appendChild(tag);
-    }
+    const url = LINKS[a.dataset.link];
+    if (!url) { a.removeAttribute("href"); a.setAttribute("aria-disabled", "true"); return; }
+    a.href = url;
   });
 
   // ---- theme ----
