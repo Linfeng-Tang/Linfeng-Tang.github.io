@@ -629,16 +629,16 @@
           <li>
             <b>A registration-free formulation.</b>
             <p>Fusion of misaligned, degraded captures with partially overlapping fields of view is posed as a single
-            conditional generation problem. Cross-attention aggregates complementary content wherever it appears, and
-            generative priors supply what one sensor never observed. No deformation field is estimated, and no
-            restoration stage precedes fusion.</p>
+            conditional generation problem. Cross-attention aggregates complementary content wherever it appears
+            (Fig.&nbsp;2b), and generative priors supply what one sensor never observed. No deformation field is
+            estimated, and no restoration stage precedes fusion.</p>
           </li>
           <li>
             <b>A generative fusion model.</b>
             <p>GenRF adapts a pretrained FLUX backbone with LoRA on the attention projections and feed-forward layers,
             conditioned on infrared and visible latents through a shared image stream. Global shifts, local elastic
-            displacements and per-modality degradations are simulated online, so training sees the offsets of real
-            captures rather than pre-aligned benchmark pairs.</p>
+            displacements and per-modality degradations are simulated online (Fig.&nbsp;2a, c, d), so training sees the
+            offsets of real captures rather than pre-aligned benchmark pairs.</p>
           </li>
           <li>
             <b>One model, three fusion tasks.</b>
