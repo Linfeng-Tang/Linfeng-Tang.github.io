@@ -1,7 +1,19 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-11-20T08:31:41Z",
+  "syncedAt": "2026-11-21T08:15:50Z",
   "publications": [
+    {
+      "year": "2026",
+      "citation": "Liling Yang, Ning Chen, Jun Yue, Yidan Liu, Jiayi Ma, Pedram Ghamisi, Antonio Plaza, and Leyuan Fang, \"Survey of Multimodal Geospatial Foundation Models: Techniques, Applications, and Challenges\", IEEE Geoscience and Remote Sensing Magazine, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Meng Yang, Jun Chen, Fan Fan, and Jiayi Ma. \"Coarse-to-Fine Multimodal Image Registration Flow Network Based on Knowledge Distillation\", IEEE Transactions on Image Processing, In Press.",
+      "links": [],
+      "paperChecked": true
+    },
     {
       "year": "2026",
       "citation": "Qiming Xiong, Yong Ma, Qing Ma, Xiaoguang Mei, Hao Zhang, and Jiayi Ma. \"BiRFusion: Bidirectional Restoration-Fusion Learning for Robust Infrared-Visible Image Fusion\", IEEE/CAA Journal of Automatica Sinica, In Press.",
