@@ -1,27 +1,27 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-11-25T09:50:40Z",
+  "syncedAt": "2026-11-26T09:30:19Z",
   "publications": [
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Liling Yang, Ning Chen, Jun Yue, Yidan Liu, Jiayi Ma, Pedram Ghamisi, Antonio Plaza, and Leyuan Fang, \"Survey of Multimodal Geospatial Foundation Models: Techniques, Applications, and Challenges\", IEEE Geoscience and Remote Sensing Magazine, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Meng Yang, Jun Chen, Fan Fan, and Jiayi Ma. \"Coarse-to-Fine Multimodal Image Registration Flow Network Based on Knowledge Distillation\", IEEE Transactions on Image Processing, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Qiming Xiong, Yong Ma, Qing Ma, Xiaoguang Mei, Hao Zhang, and Jiayi Ma. \"BiRFusion: Bidirectional Restoration-Fusion Learning for Robust Infrared-Visible Image Fusion\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Jun Chen, Run Mao, Xin Tian, Yijing Zheng, and Jiayi Ma*. \"SGFusion: Semantic-Guided Modality Interaction for Infrared and Visible Image Fusion\", IEEE Transactions on Circuits and Systems for Video Technology, In Press.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11693942/",
@@ -29,31 +29,25 @@
       "paperChecked": true
     },
     {
-      "year": "2026",
-      "citation": "Lei Cao, Hao Zhang, Peng Zhang, Daiguo Zhou, and Jiayi Ma*. \"Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, In Press.",
-      "links": [],
-      "paperChecked": true
-    },
-    {
-      "year": "2026",
+      "year": "2027",
       "citation": "Chunrui Liu, Junjun Jiang, Gang Wu, Kui Jiang, Xianming Liu, and Jiayi Ma. \"Delving Into Light-Weight Single Image Super-Resolution: A Data Perspective\", Machine Intelligence Research, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Zizhuo Li, Songchu Deng, Linfeng Tang, and Jiayi Ma. \"Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Jie Hua, Zhongyuan Wang, Xin Tian, Jinsheng Xiao, Gang Wu, Tao Lu, and Jiayi Ma. \"Robust Information Feature Pyramid Network for Low-Visible Object Detection\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Jianfeng Ding, Jie Hua, Yaxuan Hu, Yuhong Yang, Zhongyuan Wang, and Jiayi Ma*. \"LOGA: A multimodal benchmark and audio-visual fusion baseline for long-form mobile game highlight localization\", Information Fusion, 139, Part A, pp. 104837, Mar. 2027.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S156625352600713X",
@@ -61,7 +55,7 @@
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Jie Hua, Yaxuan Hu, Jianfeng Ding, Yuhong Yang, Jun Chang, Jiayi Ma, and Zhongyuan Wang. \"TP-Link: linked audio-visual twin pyramid for harsh visual object detection\", Information Fusion, 139, Part A, pp. 104804, Mar. 2027.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253526006809",
@@ -69,7 +63,7 @@
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Tiandong Shi, Chengli Peng, Ji Qi, Jiayi Ma, and Ling Zhao. \"Dynamic frequency modulation for controllable text-driven image generation\", Pattern Recognition, 183, Part A, pp. 114880, Mar. 2027.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320326018443",
@@ -77,17 +71,23 @@
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Xinyu Xiang, Qinglong Yan, Shengxiang Li, Linfeng Tang, Zizhuo Li, Hao Zhang*, and Jiayi Ma*. \"From single-modal to multi-modal: A survey and perspective on adversarial attacks in multi-modal visual systems\", Information Fusion, 138, pp. 104718, Feb. 2027.",
       "links": [],
       "paperChecked": true
     },
     {
-      "year": "2026",
+      "year": "2027",
       "citation": "Zhizheng Zhang, Ruixuan Jiang, Pengcheng Wei, Zijuan Li, Jindou Zhang, Rui Cao, Meng Yang, Zhenfeng Shao, Jiayi Ma, and Deren Li. \"GeoSAM: Geometry-guided semantic alignment and saliency-aware state space model for generalizable cross-modal image matching\", ISPRS Journal of Photogrammetry and Remote Sensing, 243, Part 1, pp. 729-748, Jan. 2027.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0924271626005320",
       "paperSource": "crossref",
+      "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Lei Cao, Hao Zhang, Peng Zhang, Daiguo Zhou, and Jiayi Ma*. \"Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 48(12), pp. 16600-16617, Dec. 2026.",
+      "links": [],
       "paperChecked": true
     },
     {
